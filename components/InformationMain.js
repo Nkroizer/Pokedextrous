@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, TouchableOpacity, Image } from 'react-native';
+import { View, TouchableOpacity, Image, StyleSheet, Text } from 'react-native';
 import Pokemon from './Pokemon';
 import KantoImage from "../assets/img/pokemon/bulbasaur.png";
 import JhotoImage from "../assets/img/pokemon/chikorita.png";
@@ -46,7 +46,7 @@ const otherPokemonList = require('../savedData/otherPokemon.json');
 function InformationScreen({ navigation }) {
     return (
         <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Kanto', {
@@ -56,9 +56,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Kanto
-                    </span>
+                    </Text>
 
                     <Image source={KantoImage}
                         style={{
@@ -66,9 +66,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Jhoto', {
@@ -78,9 +78,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Jhoto
-                    </span>
+                    </Text>
 
                     <Image source={JhotoImage}
                         style={{
@@ -88,9 +88,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Hoenn', {
@@ -100,9 +100,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Hoenn
-                    </span>
+                    </Text>
 
                     <Image source={HoennImage}
                         style={{
@@ -110,9 +110,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Sinnoh', {
@@ -122,9 +122,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Sinnoh
-                    </span>
+                    </Text>
 
                     <Image source={SinnohImage}
                         style={{
@@ -132,9 +132,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Unova', {
@@ -144,9 +144,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Unova
-                    </span>
+                    </Text>
 
                     <Image source={UnovaImage}
                         style={{
@@ -154,9 +154,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Kalos', {
@@ -166,9 +166,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Kalos
-                    </span>
+                    </Text>
 
                     <Image source={KalosImage}
                         style={{
@@ -176,9 +176,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Alola', {
@@ -188,9 +188,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Alola
-                    </span>
+                    </Text>
 
                     <Image source={AlolaImage}
                         style={{
@@ -198,9 +198,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Galar', {
@@ -210,9 +210,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Galar
-                    </span>
+                    </Text>
 
                     <Image source={GalarImage}
                         style={{
@@ -220,9 +220,9 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
 
-            <div style={pokedexKantoButton}>
+            <View style={styles.pokedexKantoButton}>
                 <TouchableOpacity
                     onPress={() => {
                         navigation.navigate('Other', {
@@ -232,9 +232,9 @@ function InformationScreen({ navigation }) {
                         });
                     }}>
 
-                    <span style={pokedexTitleText}>
+                    <Text style={styles.pokedexTitleText}>
                         Other
-                    </span>
+                    </Text>
 
                     <Image source={OtherImage}
                         style={{
@@ -242,28 +242,28 @@ function InformationScreen({ navigation }) {
                             height: 100,
                         }} />
                 </TouchableOpacity>
-            </div>
+            </View>
         </View>
     );
 };
 
-const pokedexKantoButton = {
-    background: '#fe0066',
-    borderRadius: '5px',
-    border: '1px solid black',
-    boxShadow: '2px 2px 7px 0px',
-    margin: '10px',
-    textAlign: 'center',
-    textTransform: 'uppercase',
-    width: '90%'
-}
+const styles = StyleSheet.create({
+    pokedexKantoButton: {
+        backgroundColor: '#fe0066',
+        borderRadius: 5,
+        borderColor: 'black',
+        margin: 10,
+        textAlign: 'center',
+        textTransform: 'uppercase',
+        width: '90%'
+    },
 
-const pokedexTitleText = {
-    color: 'white',
-    fontFamily: '"Flexo-Demi", arial, sans-serif',
-    marginTop: '5px',
-    fontWeight: '700',
-    fontSize: '25px'
-}
+    pokedexTitleText: {
+        color: 'white',
+        marginTop: 5,
+        fontWeight: '700',
+        fontSize: 25
+    }
+});
 
 export default InformationScreen;

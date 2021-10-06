@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TouchableOpacity, Image } from 'react-native';
+import { View, TouchableOpacity, Image, StyleSheet } from 'react-native';
 
 import grassTile from "../assets/Game/grassTile.png";
 import fieldTile from "../assets/Game/fieldTile.png";
@@ -288,282 +288,282 @@ const GameScreen = () => {
 
     return (
         <View>
-            <div style={GameTable}>
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[0][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[1][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[2][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[3][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[4][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[5][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[6][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-
-                <div style={GameRow}>
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][0].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][1].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][2].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][3].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][4].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][5].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][6].displayImage} alt="Logo" />
-                    </div>
-
-                    <div style={GameCell}>
-                        <img style={GameCellImage} src={boardRefresh[7][7].displayImage} alt="Logo" />
-                    </div>
-                </div>
-            </div>
-
-            <div style={GamePad}>
-                <div style={GamePadRow}>
+            <View style={styles.GameTable}>
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[0][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[1][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[2][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[3][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[4][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[5][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[6][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+
+                <View style={styles.GameRow}>
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][0].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][1].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][2].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][3].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][4].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][5].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][6].displayImage} alt="Logo" />
+                    </View>
+
+                    <View style={styles.GameCell}>
+                        <Image style={styles.GameCellImage} source={boardRefresh[7][7].displayImage} alt="Logo" />
+                    </View>
+                </View>
+            </View>
+
+            <View style={styles.GamePad}>
+                <View style={styles.GamePadRow}>
                     <TouchableOpacity
                         onPress={() => {
                             movePlayer(-1, 0)
@@ -572,13 +572,13 @@ const GameScreen = () => {
                         <Image source={upArrow}
                             style={{
                                 resizeMode: "contain",
-                                height: '40px',
-                                width: '40px'
+                                height: 40,
+                                width: 40
                             }} />
                     </TouchableOpacity>
-                </div>
+                </View>
 
-                <div style={GamePadRow}>
+                <View style={styles.GamePadRow}>
                     <TouchableOpacity
                         onPress={() => {
                             movePlayer(0, -1)
@@ -587,16 +587,16 @@ const GameScreen = () => {
                         <Image source={leftArrow}
                             style={{
                                 resizeMode: "contain",
-                                height: '40px',
-                                width: '40px'
+                                height: 40,
+                                width: 40
                             }} />
                     </TouchableOpacity>
 
                     <Image source={padCenter}
                         style={{
                             resizeMode: "contain",
-                            height: '40px',
-                            width: '40px',
+                            height: 40,
+                            width: 40,
                         }} />
 
                     <TouchableOpacity
@@ -607,13 +607,13 @@ const GameScreen = () => {
                         <Image source={rightArrow}
                             style={{
                                 resizeMode: "contain",
-                                height: '40px',
-                                width: '40px'
+                                height: 40,
+                                width: 40
                             }} />
                     </TouchableOpacity>
-                </div>
+                </View>
 
-                <div style={GamePadRow}>
+                <View style={styles.GamePadRow}>
                     <TouchableOpacity
                         onPress={() => {
                             movePlayer(1, 0)
@@ -622,48 +622,51 @@ const GameScreen = () => {
                         <Image source={downArrow}
                             style={{
                                 resizeMode: "contain",
-                                height: '40px',
-                                width: '40px'
+                                height: 40,
+                                width: 40
                             }} />
                     </TouchableOpacity>
-                </div>
-
-            </div>
+                </View>
+            </View>
         </View>
     )
 };
 
-const GameTable = {
-    marginRight: 'auto',
-    marginLeft: 'auto',
-    marginTop: '20px',
-    marginVottom: '20px'
-}
+const styles = StyleSheet.create({
+    GameTable: {
+        marginTop: 20,
+        marginBottom: 20
+    },
 
-const GameRow = {
-    display: 'flex'
-}
+    GameRow: {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+    },
 
-const GameCell = {
-    width: '50px',
-    height: '50px',
-    background: 'rgb(90, 162, 132)',
-    padding: '1px'
-}
 
-const GameCellImage = {
-    height: '47px',
-    width: '45px',
-}
+    GameCell: {
+        height: 50,
+        backgroundColor: 'rgb(90, 162, 132)',
+        padding: 1
+    },
 
-const GamePad = {
-    margin: '10px'
-}
+    GameCellImage: {
+        height: 47,
+    },
 
-const GamePadRow = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
-}
+    GamePad: {
+        margin: 10
+    },
+
+    GamePadRow: {
+        display: 'flex',
+        flexDirection: "row",
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+});
+
 
 export default GameScreen;

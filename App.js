@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InformationScreen from './components/InformationMain';
@@ -12,45 +12,45 @@ import PokemonDetails from './components/PokemonDetails';
 function HomeScreen({ navigation }) {
   return (
     <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-      <div style={mainScreenButton}>
+      <View style={styles.mainScreenButton}>
         <TouchableOpacity onPress={() => navigation.navigate('Information')}>
 
-          <Text style={mainScreenButtonText}>
+          <Text style={styles.mainScreenButtonText}>
             Information
           </Text>
 
         </TouchableOpacity>
-      </div>
+      </View>
 
-      <div style={mainScreenButton}>
+      <View style={styles.mainScreenButton}>
         <TouchableOpacity onPress={() => navigation.navigate('CollectionHelper')}>
 
-          <Text style={mainScreenButtonText}>
+          <Text style={styles.mainScreenButtonText}>
             Collection
           </Text>
 
         </TouchableOpacity>
-      </div>
+      </View>
 
-      <div style={mainScreenButton}>
+      <View style={styles.mainScreenButton}>
         <TouchableOpacity onPress={() => navigation.navigate('PokemonGame')}>
 
-          <Text style={mainScreenButtonText}>
+          <Text style={styles.mainScreenButtonText}>
             Game
           </Text>
 
         </TouchableOpacity>
-      </div>
+      </View>
 
-      <div style={mainScreenButton}>
+      <View style={styles.mainScreenButton}>
         <TouchableOpacity onPress={() => navigation.navigate('PokemonAwards')}>
 
-          <Text style={mainScreenButtonText}>
+          <Text style={styles.mainScreenButtonText}>
             Awards
           </Text>
 
         </TouchableOpacity>
-      </div>
+      </View>
     </View>
   );
 }
@@ -61,7 +61,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen}/>
+        <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Information" component={InformationScreen} />
         <Stack.Screen name="CollectionHelper" component={CollectionScreen} />
         <Stack.Screen name="PokemonGame" component={GameScreen} />
@@ -81,21 +81,21 @@ export default function App() {
   );
 };
 
-const mainScreenButton = {
-  background: '#fe0066',
-  borderRadius: '5px',
-  border: '1px solid black',
-  boxShadow: '2px 2px 7px 0px',
-  margin: '10px',
-  textAlign: 'center',
-  textTransform: 'uppercase',
-  width: '90%'
-}
+const styles = StyleSheet.create({
+  mainScreenButton: {
+    backgroundColor: '#fe0066',
+    borderRadius: 5,
+    borderColor: 'black',
+    margin: 10,
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    width: '90%'
+  },
 
-const mainScreenButtonText = {
-  color: 'white',
-  fontFamily: '"Flexo-Demi", arial, sans-serif',
-  margin: '5px',
-  fontWeight: '700',
-  fontSize: '20px'
-}
+  mainScreenButtonText: {
+    color: 'white',
+    margin: 5,
+    fontWeight: '700',
+    fontSize: 20
+  }
+});

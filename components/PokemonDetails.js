@@ -1,4 +1,5 @@
 import React from 'react';
+import { View, TouchableOpacity, Image, StyleSheet, Text } from 'react-native';
 
 export function getPokemonHeight(height) {
     return height*10 + "cm";
@@ -16,104 +17,104 @@ const PokemonDetails = ({ route, navigation }) => {
     const { pokemonData } = route.params;
 
     return (
-        <div>
-            <div style={kantoPokedexBody}>
-                <div style={pokemonImageWrpper}>
-                    <div style={pokemonImageRedDotWrapper}>
-                        <div style={pokemonImageRedDot}></div>
-                        <div style={pokemonImageRedDot}></div>
-                    </div>
+        <View>
+            <View style={styles.kantoPokedexBody}>
+                <View style={styles.pokemonImageWrpper}>
+                    <View style={styles.pokemonImageRedDotWrapper}>
+                        <View style={styles.pokemonImageRedDot}></View>
+                        <View style={styles.pokemonImageRedDot}></View>
+                    </View>
 
-                    <div style={pokemonPokedexImageWrapper}>
-                        <div style={pokemonPokedexImageborder}>
-                            <img style={pokemonPokedexImage} src={pokemonData.sprites.other['official-artwork'].front_default} alt="Logo" />
-                        </div>
-                    </div>
+                    <View style={styles.pokemonPokedexImageWrapper}>
+                        <View style={styles.pokemonPokedexImageborder}>
+                            <Image style={styles.pokemonPokedexImage} source={pokemonData.sprites.other['official-artwork'].front_default} alt="Logo" />
+                        </View>
+                    </View>
 
-                    <div style={pokedexCircleRed}></div>
-                </div>
+                    <View style={styles.pokedexCircleRed}></View>
+                </View>
 
-                <div style={pokedexInformationBoxWrapper}>
+                <Text style={styles.pokedexInformationBoxWrapper}>
                     Name: {capitalizeFirstLetter(pokemonData.species.name)}
-                    <br />
+                    {"\n"}
                     Height: {getPokemonHeight(pokemonData.height)}
-                    <br />
+                    {"\n"}
                     Weight: {getPokemonWeight(pokemonData.weight)}
-                    <br />
-                </div>
-            </div>
-        </div>
+                    {"\n"}
+                </Text>
+            </View>
+        </View>
     )
 };
 
-const pokedexCircleRed = {
-    backgroundColor: 'rgb(253, 0, 0)',
-    borderRadius: '50%',
-    border: '2px solid black',
-    height: '20px',
-    margin: '6px',
-    width: '20px',
-}
-
-const kantoPokedexBody = {
-    backgroundColor: '#fe0066',
-    border: '2px solid black',
-    paddingBottom: '40px',
-    paddingLeft: '20px',
-    paddingRight: '20px',
-    paddingTop: '40px',
-}
-
-const pokemonImageWrpper = {
-    backgroundColor: 'white',
-    borderRadius: '0 0 0 10px',
-    border: '2px solid black',
-    padding: '10px',
-}
-
-const pokemonImageRedDotWrapper = {
-    alignItems: 'center',
-    display: 'flex',
-    justifyContent: 'center',
-}
-
-const pokemonImageRedDot = {
-    backgroundColor: 'rgb(253, 0, 0)',
-    borderRadius: '50%',
-    border: '1px solid black',
-    height: '6px',
-    margin: '6px',
-    width: '6px',
-}
-
-const pokemonPokedexImageWrapper = {
-    alignItems: 'center',
-    display: 'flex',
-    justifyContent: 'center',
-}
-
-const pokemonPokedexImageborder = {
-    background: 'rgb(153, 203, 152)',
-    borderRadius: '5px',
-    border: '2px solid black',
-}
-
-const pokemonPokedexImage = {
-    borderRadius: '5px',
-    height: '90px',
-    padding: '20px',
-    width: '90px',
-}
-
-const pokedexInformationBoxWrapper = {
-    background: 'rgb(157, 157, 157)',
-    borderRadius: '5px',
-    border: '2px solid black',
-    fontFamily: 'cursive',
-    fontWeight: '800',
-    marginTop: '10px',
-    padding: '20px',
-}
-
+const styles = StyleSheet.create({
+    pokedexCircleRed: {
+        backgroundColor: 'rgb(253, 0, 0)',
+        borderColor: 'black',
+        height: 20,
+        margin: 6,
+        width: 20,
+    },
+    
+    kantoPokedexBody: {
+        backgroundColor: '#fe0066',
+        borderColor: 'black',
+        paddingBottom: 40,
+        paddingLeft: 20,
+        paddingRight: 20,
+        paddingTop: 40,
+    },
+    
+    pokemonImageWrpper: {
+        backgroundColor: 'white',
+        borderColor: 'black',
+        padding: 10,
+    },
+    
+    pokemonImageRedDotWrapper: {
+        display: 'flex',
+        flexDirection: "row",
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    
+    pokemonImageRedDot: {
+        backgroundColor: 'rgb(253, 0, 0)',
+        borderColor: 'black',
+        height: 6,
+        margin: 6,
+        width: 6,
+    },
+    
+    pokemonPokedexImageWrapper: {
+        display: 'flex',
+        flexDirection: "row",
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    
+    pokemonPokedexImageborder: {
+        backgroundColor: 'rgb(153, 203, 152)',
+        borderRadius: 5,
+        borderColor: 'black',
+    },
+    
+    pokemonPokedexImage: {
+        borderRadius: 5,
+        height: 90,
+        padding: 20,
+        width: 90,
+    },
+    
+    pokedexInformationBoxWrapper: {
+        backgroundColor: 'rgb(157, 157, 157)',
+        borderRadius: 5,
+        borderColor: 'black',
+        fontFamily: 'cursive',
+        fontWeight: '800',
+        marginTop: 10,
+        padding: 20,
+    }
+});
 
 export default PokemonDetails;

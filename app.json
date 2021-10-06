@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.kroizer21.Pokedextrous"
     },
     "web": {
       "favicon": "./assets/favicon.png"
