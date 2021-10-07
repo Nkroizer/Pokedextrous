@@ -1,6 +1,19 @@
 import React from 'react';
 import { View, TouchableOpacity, Image, StyleSheet, Text } from 'react-native';
 import { capitalizeFirstLetter } from './PokemonDetails';
+import { allImages } from './RegularPokemonSprites';
+
+import defaultImage from "../assets/img/pokemon/unknown-pokemon.png"
+
+export function getPokeImage(sprite) {
+  const found = allImages.find(element => element.name == sprite);
+
+  if (found) {
+    return found.image;
+  }
+
+  return defaultImage;
+};
 
 export function getPokeId(pokeId) {
   var prefix = "#";
@@ -15,56 +28,56 @@ export function getPokeId(pokeId) {
 
 export function getTypeBakgroundColor(poketype) {
   switch (poketype) {
-    case "grass": {
-      return { backgroundColor: "#9bcc50" }
+    case "Grass": {
+      return { backgroundColor: "#9bcc50", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "poison": {
-      return { backgroundColor: "#b97fc9", color: "#fff" }
+    case "Poison": {
+      return { backgroundColor: "#b97fc9", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "fire": {
-      return { backgroundColor: "#fd7d24", color: "#fff" }
+    case "Fire": {
+      return { backgroundColor: "#fd7d24", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "electric": {
-      return { backgroundColor: "#eed535" }
+    case "Electric": {
+      return { backgroundColor: "#eed535", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "steel": {
-      return { backgroundColor: "#9eb7b8" }
+    case "Steel": {
+      return { backgroundColor: "#9eb7b8", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "water": {
-      return { backgroundColor: "#4592c4", color: "#fff" }
+    case "Water": {
+      return { backgroundColor: "#4592c4", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "flying": {
-      return { backgroundColor: "#3dc7ef", background: "linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%)" }
+    case "Flying": {
+      return { backgroundColor: "#3dc7ef", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "dragon": {
-      return { backgroundColor: "#53a4cf", background: "linear-gradient(180deg, #53a4cf 50%, #f16e57 50%)", color: "#fff" }
+    case "Dragon": {
+      return { backgroundColor: "#53a4cf", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "ground": {
-      return { backgroundColor: "#f7de3f", background: "linear-gradient(180deg, #f7de3f 50%, #ab9842 50%)" }
+    case "Ground": {
+      return { backgroundColor: "#f7de3f", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "fairy": {
-      return { backgroundColor: "#fdb9e9" }
+    case "Fairy": {
+      return { backgroundColor: "#fdb9e9", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "fighting": {
-      return { backgroundColor: "#d56723", color: "#fff" }
+    case "Fighting": {
+      return { backgroundColor: "#d56723", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "psychic": {
-      return { backgroundColor: "#f366b9", color: "#fff" }
+    case "Psychic": {
+      return { backgroundColor: "#f366b9", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "ghost": {
-      return { backgroundColor: "#7b62a3", color: "#fff" }
+    case "Ghost": {
+      return { backgroundColor: "#7b62a3", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "rock": {
-      return { backgroundColor: "#a38c21", color: "#fff" }
+    case "Rock": {
+      return { backgroundColor: "#a38c21", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "bug": {
-      return { backgroundColor: "#729f3f", color: "#fff" }
+    case "Bug": {
+      return { backgroundColor: "#729f3f", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
-    case "dark": {
-      return { backgroundColor: "#707070", color: "#fff" }
+    case "Dark": {
+      return { backgroundColor: "#707070", color: "#fff", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
     default: {
-      return { backgroundColor: "#a4acaf" }
+      return { backgroundColor: "#a4acaf", borderRadius: 5, margin: 2, maxWidth: 110, textAlign: 'center', padding: 4 }
     }
   }
 };
@@ -74,11 +87,11 @@ const Pokemon = (props) => {
     <>
       <View style={styles.pokemonCube}>
         <View style={styles.pokemonImageWrapper}>
-          <Image style={styles.pokemonImage} source={props.pokeData.item.sprites.other['official-artwork'].front_default} alt="Logo" />
+          <Image style={styles.pokemonImage} source={getPokeImage(props.pokeData.item.sprite)} alt="Logo" />
         </View>
 
         <Text style={styles.pokemonId}>
-          {getPokeId(props.pokeData.item.id)}
+          {getPokeId(props.pokeData.item.num)}
         </Text>
 
         <Text style={styles.pokemonText}>
@@ -86,13 +99,13 @@ const Pokemon = (props) => {
         </Text>
 
         <View>
-          <Text style={{ ...styles.pokemonAbility, ...getTypeBakgroundColor(props.pokeData.item.types[0].type.name) }}>
-            {props.pokeData.item.types[0].type.name}
+          <Text style={{ ...styles.pokemonAbility, ...getTypeBakgroundColor(props.pokeData.item.types[0]) }}>
+            {props.pokeData.item.types[0]}
           </Text>
 
           {props.pokeData.item.types[1] ?
-            <Text style={{ ...styles.pokemonAbility, ...getTypeBakgroundColor(props.pokeData.item.types[1].type.name) }}>
-              {props.pokeData.item.types[1].type.name}
+            <Text style={{ ...styles.pokemonAbility, ...getTypeBakgroundColor(props.pokeData.item.types[1]) }}>
+              {props.pokeData.item.types[1]}
             </Text> : null
           }
         </View>
@@ -105,39 +118,41 @@ const Pokemon = (props) => {
 const styles = StyleSheet.create({
   pokemonCube: {
     borderColor: 'blue',
-    margin: 5,
-    padding: 5,
+    borderWidth: 2,
+    borderRadius: 5,
+    margin: 10,
+    padding: 15,
   },
 
   pokemonImageWrapper: {
     backgroundColor: '#f2f2f2',
     borderRadius: 5,
-    paddingTop: '100%',
-    position: 'relative',
-    width: '100%',
+    borderWidth: 2,
+    borderColor: 'red',
+    height: 50,
+    width: 50,
   },
 
   pokemonImage: {
-    position: 'absolute',
-    top: 0,
-    width: '100%',
+    height: 40,
+    width: 40,
   },
 
   pokemonText: {
     color: '#313131',
     marginBottom: 5,
     textTransform: 'none',
+    fontWeight: 'bold'
   },
 
   pokemonId: {
     color: '#919191',
     paddingTop: 2,
+    fontWeight: 'bold'
   },
 
   pokemonAbility: {
     lineHeight: 18,
-    maxWidth: 110,
-    textAlign: 'center',
     textTransform: 'none',
     width: '38.4375%',
   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import { TransitionSpecs, HeaderStyleInterpolators } from '@react-navigation/stack';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InformationScreen from './components/InformationMain';
 import GameScreen from './components/GameMain';
@@ -8,6 +9,15 @@ import AwardScreen from './components/AwardMain';
 import CollectionScreen from './components/CollectionMain';
 import RegionPokedex from './components/RegionPokedex';
 import PokemonDetails from './components/PokemonDetails';
+import PokemonCatch from './components/PokemonCatch'
+
+const ReactNative = require('react-native');
+try {
+  ReactNative.I18nManager.allowRTL(false);
+} catch (e) {
+  console.log(e);
+}
+
 
 function HomeScreen({ navigation }) {
   return (
@@ -36,7 +46,7 @@ function HomeScreen({ navigation }) {
         <TouchableOpacity onPress={() => navigation.navigate('PokemonGame')}>
 
           <Text style={styles.mainScreenButtonText}>
-            Game
+            Mini Game
           </Text>
 
         </TouchableOpacity>
@@ -55,6 +65,15 @@ function HomeScreen({ navigation }) {
   );
 }
 
+const MyTransition = {
+  gestureDirection: 'horizontal',
+  transitionSpec: {
+    open: TransitionSpecs.TransitionIOSSpec,
+    close: TransitionSpecs.TransitionIOSSpec,
+  },
+  headerStyleInterpolator: HeaderStyleInterpolators.forFade,
+}
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -64,7 +83,19 @@ export default function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Information" component={InformationScreen} />
         <Stack.Screen name="CollectionHelper" component={CollectionScreen} />
-        <Stack.Screen name="PokemonGame" component={GameScreen} />
+        <Stack.Screen
+          name="PokemonGame"
+          component={GameScreen}
+          options={{
+            title: 'Pokemon Mini Game'
+          }} />
+        <Stack.Screen
+          name="PokemonCatch"
+          component={PokemonCatch}
+          options={{
+            title: 'Pokemon Catch Mini Game',
+            ...MyTransition,
+          }} />
         <Stack.Screen name="PokemonAwards" component={AwardScreen} />
         <Stack.Screen name="Kanto" component={RegionPokedex} />
         <Stack.Screen name="Jhoto" component={RegionPokedex} />
@@ -86,6 +117,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fe0066',
     borderRadius: 5,
     borderColor: 'black',
+    borderWidth: 2,
     margin: 10,
     textAlign: 'center',
     textTransform: 'uppercase',

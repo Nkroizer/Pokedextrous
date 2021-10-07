@@ -47,7 +47,7 @@ const RegionPokedex = ({ route, navigation }) => {
                 data={filteredDataSource}
                 ItemSeparatorComponent={FlatListItemSeparator}
                 renderItem={item => renderItem(item, navigation)}
-                keyExtractor={item => item.id.toString()}
+                keyExtractor={item => item.key}
             />
         </View>
     )

@@ -6,7 +6,7 @@ export function getPokemonHeight(height) {
 };
 
 export function getPokemonWeight(weight) {
-    return weight/10 + "kg";
+    return weight + "kg";
 };
 
 export function capitalizeFirstLetter(string) {
@@ -27,7 +27,7 @@ const PokemonDetails = ({ route, navigation }) => {
 
                     <View style={styles.pokemonPokedexImageWrapper}>
                         <View style={styles.pokemonPokedexImageborder}>
-                            <Image style={styles.pokemonPokedexImage} source={pokemonData.sprites.other['official-artwork'].front_default} alt="Logo" />
+                            {/* <Image style={styles.pokemonPokedexImage} source={pokemonData.sprites.other['official-artwork'].front_default} alt="Logo" /> */}
                         </View>
                     </View>
 
@@ -35,11 +35,11 @@ const PokemonDetails = ({ route, navigation }) => {
                 </View>
 
                 <Text style={styles.pokedexInformationBoxWrapper}>
-                    Name: {capitalizeFirstLetter(pokemonData.species.name)}
+                    Name: {capitalizeFirstLetter(pokemonData.name)}
                     {"\n"}
-                    Height: {getPokemonHeight(pokemonData.height)}
+                    Height: {getPokemonHeight(pokemonData.heightm)}
                     {"\n"}
-                    Weight: {getPokemonWeight(pokemonData.weight)}
+                    Weight: {getPokemonWeight(pokemonData.weightkg)}
                     {"\n"}
                 </Text>
             </View>
@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
     pokedexCircleRed: {
         backgroundColor: 'rgb(253, 0, 0)',
         borderColor: 'black',
+        borderWidth: 2,
         height: 20,
         margin: 6,
         width: 20,
@@ -59,6 +60,7 @@ const styles = StyleSheet.create({
     kantoPokedexBody: {
         backgroundColor: '#fe0066',
         borderColor: 'black',
+        borderWidth: 2,
         paddingBottom: 40,
         paddingLeft: 20,
         paddingRight: 20,
@@ -68,6 +70,7 @@ const styles = StyleSheet.create({
     pokemonImageWrpper: {
         backgroundColor: 'white',
         borderColor: 'black',
+        borderWidth: 2,
         padding: 10,
     },
     
@@ -75,12 +78,14 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: "row",
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        width: 'auto'
     },
     
     pokemonImageRedDot: {
         backgroundColor: 'rgb(253, 0, 0)',
         borderColor: 'black',
+        borderWidth: 2,
         height: 6,
         margin: 6,
         width: 6,
@@ -97,6 +102,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgb(153, 203, 152)',
         borderRadius: 5,
         borderColor: 'black',
+        borderWidth: 2,
     },
     
     pokemonPokedexImage: {
@@ -110,6 +116,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgb(157, 157, 157)',
         borderRadius: 5,
         borderColor: 'black',
+        borderWidth: 2,
         fontFamily: 'cursive',
         fontWeight: '800',
         marginTop: 10,

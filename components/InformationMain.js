@@ -33,7 +33,7 @@ function FlatListSeparator() {
     );
 };
 
-const kantoPokemonList = require('../savedData/kantoPokemon.json');
+const kantoPokemonList = require('../savedData/pokemon.json');
 const jhotoPokemonList = require('../savedData/jhotoPokemon.json');
 const hoennPokemonList = require('../savedData/hoennPokemon.json');
 const sinnohPokemonList = require('../savedData/sinnohPokemon.json');
@@ -45,204 +45,213 @@ const otherPokemonList = require('../savedData/otherPokemon.json');
 
 function InformationScreen({ navigation }) {
     return (
-        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Kanto', {
-                            pokemonData: kantoPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+        <View>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Kanto', {
+                        pokemonData: kantoPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Kanto
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Kanto
+                </Text>
 
-                    <Image source={KantoImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={KantoImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Jhoto', {
-                            pokemonData: jhotoPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Jhoto', {
+                        pokemonData: jhotoPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Jhoto
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Jhoto
+                </Text>
 
-                    <Image source={JhotoImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={JhotoImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Hoenn', {
-                            pokemonData: hoennPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Hoenn', {
+                        pokemonData: hoennPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Hoenn
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Hoenn
+                </Text>
 
-                    <Image source={HoennImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={HoennImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Sinnoh', {
-                            pokemonData: sinnohPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Sinnoh', {
+                        pokemonData: sinnohPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Sinnoh
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Sinnoh
+                </Text>
 
-                    <Image source={SinnohImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={SinnohImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Unova', {
-                            pokemonData: unovaPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Unova', {
+                        pokemonData: unovaPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Unova
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Unova
+                </Text>
 
-                    <Image source={UnovaImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={UnovaImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Kalos', {
-                            pokemonData: kalosPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Kalos', {
+                        pokemonData: kalosPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Kalos
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Kalos
+                </Text>
 
-                    <Image source={KalosImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={KalosImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Alola', {
-                            pokemonData: alolaPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Alola', {
+                        pokemonData: alolaPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Alola
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Alola
+                </Text>
 
-                    <Image source={AlolaImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={AlolaImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Galar', {
-                            pokemonData: galarPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Galar', {
+                        pokemonData: galarPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Galar
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Galar
+                </Text>
 
-                    <Image source={GalarImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={GalarImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
 
-            <View style={styles.pokedexKantoButton}>
-                <TouchableOpacity
-                    onPress={() => {
-                        navigation.navigate('Other', {
-                            pokemonData: otherPokemonList,
-                            renderItem: renderItem,
-                            FlatListItemSeparator: FlatListSeparator,
-                        });
-                    }}>
+            <TouchableOpacity
+                style={styles.pokedexKantoButton}
+                onPress={() => {
+                    navigation.navigate('Other', {
+                        pokemonData: otherPokemonList,
+                        renderItem: renderItem,
+                        FlatListItemSeparator: FlatListSeparator,
+                    });
+                }}>
 
-                    <Text style={styles.pokedexTitleText}>
-                        Other
-                    </Text>
+                <Text style={styles.pokedexTitleText}>
+                    Other
+                </Text>
 
-                    <Image source={OtherImage}
-                        style={{
-                            resizeMode: "contain",
-                            height: 100,
-                        }} />
-                </TouchableOpacity>
-            </View>
+                <Image source={OtherImage}
+                    style={{
+                        resizeMode: "contain",
+                        height: 100,
+                        width: 100,
+                        marginBottom: 42
+                    }} />
+            </TouchableOpacity>
         </View>
     );
 };
@@ -252,17 +261,22 @@ const styles = StyleSheet.create({
         backgroundColor: '#fe0066',
         borderRadius: 5,
         borderColor: 'black',
+        borderWidth: 2,
         margin: 10,
         textAlign: 'center',
         textTransform: 'uppercase',
-        width: '90%'
+        display: 'flex',
+        flexDirection: "row",
+        alignItems: 'center',
+        justifyContent: 'center'
     },
 
     pokedexTitleText: {
         color: 'white',
         marginTop: 5,
         fontWeight: '700',
-        fontSize: 25
+        fontSize: 25,
+        margin: 5
     }
 });
 
