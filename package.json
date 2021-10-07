@@ -4,7 +4,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "postinstall": "rndebugger-open"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.9",
@@ -28,7 +29,8 @@
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
+    "@babel/core": "~7.9.0",
+    "react-native-debugger-open": "^0.3.25"
   },
   "private": true,
   "name": "Pokedextrous",

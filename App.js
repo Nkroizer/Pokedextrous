@@ -10,12 +10,32 @@ import CollectionScreen from './components/CollectionMain';
 import RegionPokedex from './components/RegionPokedex';
 import PokemonDetails from './components/PokemonDetails';
 import PokemonCatch from './components/PokemonCatch'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const ReactNative = require('react-native');
 try {
   ReactNative.I18nManager.allowRTL(false);
 } catch (e) {
   console.log(e);
+}
+
+const storeData = async (value) => {
+  try {
+    const jsonValue = JSON.stringify(value)
+    await AsyncStorage.setItem('@testy', jsonValue)
+  } catch (e) {
+    // saving error
+  }
+}
+
+const getData = async () => {
+  try {
+    const jsonValue = await AsyncStorage.getItem('@testy')
+    console.log(JSON.parse(jsonValue))
+    return jsonValue != null ? JSON.parse(jsonValue) : null;
+  } catch(e) {
+    // error reading value
+  }
 }
 
 
@@ -77,6 +97,11 @@ const MyTransition = {
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+  var tes = {x: 0, y:5};
+  var x = getData();
+  if (!x) {
+    storeData(tes)
+  }
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">

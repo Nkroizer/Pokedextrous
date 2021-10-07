@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, TouchableOpacity, Image, StyleSheet, Text } from 'react-native';
+import { getPokeImage } from './Pokemon';
 
 export function getPokemonHeight(height) {
     return height*10 + "cm";
@@ -27,7 +28,7 @@ const PokemonDetails = ({ route, navigation }) => {
 
                     <View style={styles.pokemonPokedexImageWrapper}>
                         <View style={styles.pokemonPokedexImageborder}>
-                            {/* <Image style={styles.pokemonPokedexImage} source={pokemonData.sprites.other['official-artwork'].front_default} alt="Logo" /> */}
+                            <Image style={styles.pokemonPokedexImage} source={getPokeImage(pokemonData.sprite)} alt="Logo" />
                         </View>
                     </View>
 
@@ -72,6 +73,7 @@ const styles = StyleSheet.create({
         borderColor: 'black',
         borderWidth: 2,
         padding: 10,
+        borderRadius: 5,
     },
     
     pokemonImageRedDotWrapper: {
@@ -79,7 +81,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: 'center',
         justifyContent: 'center',
-        width: 'auto'
+        width: 'auto',
     },
     
     pokemonImageRedDot: {
@@ -89,6 +91,7 @@ const styles = StyleSheet.create({
         height: 6,
         margin: 6,
         width: 6,
+        borderRadius: 50,
     },
     
     pokemonPokedexImageWrapper: {
@@ -117,7 +120,7 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         borderColor: 'black',
         borderWidth: 2,
-        fontFamily: 'cursive',
+        fontFamily: 'monospace',
         fontWeight: '800',
         marginTop: 10,
         padding: 20,

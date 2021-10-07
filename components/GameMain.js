@@ -685,7 +685,7 @@ const styles = StyleSheet.create({
   },
 
   GameCellImage: {
-    height: 47,
+    height: 50,
   },
 
   GamePad: {
