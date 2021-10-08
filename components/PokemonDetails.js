@@ -1,6 +1,15 @@
 import React from 'react';
 import { View, TouchableOpacity, Image, StyleSheet, Text } from 'react-native';
-import { getPokeImage } from './Pokemon';
+
+function getPokeImage(sprite) {
+    const found = allImages.find(element => element.name == sprite);
+  
+    if (found) {
+      return found.image;
+    }
+  
+    return defaultImage;
+  };
 
 export function getPokemonHeight(height) {
     return height*10 + "cm";
