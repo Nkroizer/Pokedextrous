@@ -1,17 +1,12 @@
-import abomasnowmega from "../assets/img/pokemon/shiny/abomasnow-mega.png"
 import abomasnow from "../assets/img/pokemon/shiny/abomasnow.png"
 import abra from "../assets/img/pokemon/shiny/abra.png"
-import absolmega from "../assets/img/pokemon/shiny/absol-mega.png"
 import absol from "../assets/img/pokemon/shiny/absol.png"
 import accelgor from "../assets/img/pokemon/shiny/accelgor.png"
 import aegislashblade from "../assets/img/pokemon/shiny/aegislash-blade.png"
 import aegislash from "../assets/img/pokemon/shiny/aegislash.png"
-import aerodactylmega from "../assets/img/pokemon/shiny/aerodactyl-mega.png"
 import aerodactyl from "../assets/img/pokemon/shiny/aerodactyl.png"
-import aggronmega from "../assets/img/pokemon/shiny/aggron-mega.png"
 import aggron from "../assets/img/pokemon/shiny/aggron.png"
 import aipom from "../assets/img/pokemon/shiny/aipom.png"
-import alakazammega from "../assets/img/pokemon/shiny/alakazam-mega.png"
 import alakazam from "../assets/img/pokemon/shiny/alakazam.png"
 import alcremiecaramelswirlberry from "../assets/img/pokemon/shiny/alcremie-caramel-swirl-berry.png"
 import alcremiecaramelswirlclover from "../assets/img/pokemon/shiny/alcremie-caramel-swirl-clover.png"
@@ -21,7 +16,6 @@ import alcremiecaramelswirlplain from "../assets/img/pokemon/shiny/alcremie-cara
 import alcremiecaramelswirlribbon from "../assets/img/pokemon/shiny/alcremie-caramel-swirl-ribbon.png"
 import alcremiecaramelswirlstar from "../assets/img/pokemon/shiny/alcremie-caramel-swirl-star.png"
 import alcremiecaramelswirlstrawberry from "../assets/img/pokemon/shiny/alcremie-caramel-swirl-strawberry.png"
-import alcremiegmax from "../assets/img/pokemon/shiny/alcremie-gmax.png"
 import alcremielemoncreamberry from "../assets/img/pokemon/shiny/alcremie-lemon-cream-berry.png"
 import alcremielemoncreamclover from "../assets/img/pokemon/shiny/alcremie-lemon-cream-clover.png"
 import alcremielemoncreamflower from "../assets/img/pokemon/shiny/alcremie-lemon-cream-flower.png"
@@ -88,38 +82,17 @@ import alcremievanillacreamstar from "../assets/img/pokemon/shiny/alcremie-vanil
 import alcremievanillacreamstrawberry from "../assets/img/pokemon/shiny/alcremie-vanilla-cream-strawberry.png"
 import alcremie from "../assets/img/pokemon/shiny/alcremie.png"
 import alomomola from "../assets/img/pokemon/shiny/alomomola.png"
-import altariamega from "../assets/img/pokemon/shiny/altaria-mega.png"
 import altaria from "../assets/img/pokemon/shiny/altaria.png"
 import amaura from "../assets/img/pokemon/shiny/amaura.png"
 import ambipom from "../assets/img/pokemon/shiny/ambipom.png"
 import amoonguss from "../assets/img/pokemon/shiny/amoonguss.png"
-import ampharosmega from "../assets/img/pokemon/shiny/ampharos-mega.png"
 import ampharos from "../assets/img/pokemon/shiny/ampharos.png"
 import anorith from "../assets/img/pokemon/shiny/anorith.png"
-import appletungmax from "../assets/img/pokemon/shiny/appletun-gmax.png"
 import appletun from "../assets/img/pokemon/shiny/appletun.png"
 import applin from "../assets/img/pokemon/shiny/applin.png"
 import araquanid from "../assets/img/pokemon/shiny/araquanid.png"
 import arbok from "../assets/img/pokemon/shiny/arbok.png"
 import arcanine from "../assets/img/pokemon/shiny/arcanine.png"
-import arceusbug from "../assets/img/pokemon/shiny/arceus-bug.png"
-import arceusdark from "../assets/img/pokemon/shiny/arceus-dark.png"
-import arceusdragon from "../assets/img/pokemon/shiny/arceus-dragon.png"
-import arceuselectric from "../assets/img/pokemon/shiny/arceus-electric.png"
-import arceusfairy from "../assets/img/pokemon/shiny/arceus-fairy.png"
-import arceusfighting from "../assets/img/pokemon/shiny/arceus-fighting.png"
-import arceusfire from "../assets/img/pokemon/shiny/arceus-fire.png"
-import arceusflying from "../assets/img/pokemon/shiny/arceus-flying.png"
-import arceusghost from "../assets/img/pokemon/shiny/arceus-ghost.png"
-import arceusgrass from "../assets/img/pokemon/shiny/arceus-grass.png"
-import arceusground from "../assets/img/pokemon/shiny/arceus-ground.png"
-import arceusice from "../assets/img/pokemon/shiny/arceus-ice.png"
-import arceuspoison from "../assets/img/pokemon/shiny/arceus-poison.png"
-import arceuspsychic from "../assets/img/pokemon/shiny/arceus-psychic.png"
-import arceusrock from "../assets/img/pokemon/shiny/arceus-rock.png"
-import arceussteel from "../assets/img/pokemon/shiny/arceus-steel.png"
-import arceuswater from "../assets/img/pokemon/shiny/arceus-water.png"
-import arceus from "../assets/img/pokemon/shiny/arceus.png"
 import archen from "../assets/img/pokemon/shiny/archen.png"
 import archeops from "../assets/img/pokemon/shiny/archeops.png"
 import arctovish from "../assets/img/pokemon/shiny/arctovish.png"
@@ -129,19 +102,14 @@ import armaldo from "../assets/img/pokemon/shiny/armaldo.png"
 import aromatisse from "../assets/img/pokemon/shiny/aromatisse.png"
 import aron from "../assets/img/pokemon/shiny/aron.png"
 import arrokuda from "../assets/img/pokemon/shiny/arrokuda.png"
-import articunogalar from "../assets/img/pokemon/shiny/articuno-galar.png"
-import articuno from "../assets/img/pokemon/shiny/articuno.png"
-import audinomega from "../assets/img/pokemon/shiny/audino-mega.png"
 import audino from "../assets/img/pokemon/shiny/audino.png"
 import aurorus from "../assets/img/pokemon/shiny/aurorus.png"
 import avalugg from "../assets/img/pokemon/shiny/avalugg.png"
 import axew from "../assets/img/pokemon/shiny/axew.png"
-import azelf from "../assets/img/pokemon/shiny/azelf.png"
 import azumarill from "../assets/img/pokemon/shiny/azumarill.png"
 import azurill from "../assets/img/pokemon/shiny/azurill.png"
 import bagon from "../assets/img/pokemon/shiny/bagon.png"
 import baltoy from "../assets/img/pokemon/shiny/baltoy.png"
-import banettemega from "../assets/img/pokemon/shiny/banette-mega.png"
 import banette from "../assets/img/pokemon/shiny/banette.png"
 import barbaracle from "../assets/img/pokemon/shiny/barbaracle.png"
 import barboach from "../assets/img/pokemon/shiny/barboach.png"
@@ -152,7 +120,6 @@ import bastiodon from "../assets/img/pokemon/shiny/bastiodon.png"
 import bayleef from "../assets/img/pokemon/shiny/bayleef.png"
 import beartic from "../assets/img/pokemon/shiny/beartic.png"
 import beautifly from "../assets/img/pokemon/shiny/beautifly.png"
-import beedrillmega from "../assets/img/pokemon/shiny/beedrill-mega.png"
 import beedrill from "../assets/img/pokemon/shiny/beedrill.png"
 import beheeyem from "../assets/img/pokemon/shiny/beheeyem.png"
 import beldum from "../assets/img/pokemon/shiny/beldum.png"
@@ -164,11 +131,7 @@ import bibarel from "../assets/img/pokemon/shiny/bibarel.png"
 import bidoof from "../assets/img/pokemon/shiny/bidoof.png"
 import binacle from "../assets/img/pokemon/shiny/binacle.png"
 import bisharp from "../assets/img/pokemon/shiny/bisharp.png"
-import blacephalon from "../assets/img/pokemon/shiny/blacephalon.png"
-import blastoisegmax from "../assets/img/pokemon/shiny/blastoise-gmax.png"
-import blastoisemega from "../assets/img/pokemon/shiny/blastoise-mega.png"
 import blastoise from "../assets/img/pokemon/shiny/blastoise.png"
-import blazikenmega from "../assets/img/pokemon/shiny/blaziken-mega.png"
 import blaziken from "../assets/img/pokemon/shiny/blaziken.png"
 import blipbug from "../assets/img/pokemon/shiny/blipbug.png"
 import blissey from "../assets/img/pokemon/shiny/blissey.png"
@@ -193,15 +156,9 @@ import bunnelby from "../assets/img/pokemon/shiny/bunnelby.png"
 import burmysandy from "../assets/img/pokemon/shiny/burmy-sandy.png"
 import burmytrash from "../assets/img/pokemon/shiny/burmy-trash.png"
 import burmy from "../assets/img/pokemon/shiny/burmy.png"
-import butterfreegmax from "../assets/img/pokemon/shiny/butterfree-gmax.png"
 import butterfree from "../assets/img/pokemon/shiny/butterfree.png"
-import buzzwole from "../assets/img/pokemon/shiny/buzzwole.png"
 import cacnea from "../assets/img/pokemon/shiny/cacnea.png"
 import cacturne from "../assets/img/pokemon/shiny/cacturne.png"
-import calyrexice from "../assets/img/pokemon/shiny/calyrex-ice.png"
-import calyrexshadow from "../assets/img/pokemon/shiny/calyrex-shadow.png"
-import calyrex from "../assets/img/pokemon/shiny/calyrex.png"
-import cameruptmega from "../assets/img/pokemon/shiny/camerupt-mega.png"
 import camerupt from "../assets/img/pokemon/shiny/camerupt.png"
 import carbink from "../assets/img/pokemon/shiny/carbink.png"
 import carkol from "../assets/img/pokemon/shiny/carkol.png"
@@ -214,15 +171,10 @@ import castformsnowy from "../assets/img/pokemon/shiny/castform-snowy.png"
 import castformsunny from "../assets/img/pokemon/shiny/castform-sunny.png"
 import castform from "../assets/img/pokemon/shiny/castform.png"
 import caterpie from "../assets/img/pokemon/shiny/caterpie.png"
-import celebi from "../assets/img/pokemon/shiny/celebi.png"
 import celesteela from "../assets/img/pokemon/shiny/celesteela.png"
-import centiskorchgmax from "../assets/img/pokemon/shiny/centiskorch-gmax.png"
 import centiskorch from "../assets/img/pokemon/shiny/centiskorch.png"
 import chandelure from "../assets/img/pokemon/shiny/chandelure.png"
 import chansey from "../assets/img/pokemon/shiny/chansey.png"
-import charizardgmax from "../assets/img/pokemon/shiny/charizard-gmax.png"
-import charizardmegax from "../assets/img/pokemon/shiny/charizard-mega-x.png"
-import charizardmegay from "../assets/img/pokemon/shiny/charizard-mega-y.png"
 import charizard from "../assets/img/pokemon/shiny/charizard.png"
 import charjabug from "../assets/img/pokemon/shiny/charjabug.png"
 import charmander from "../assets/img/pokemon/shiny/charmander.png"
@@ -240,7 +192,6 @@ import chimecho from "../assets/img/pokemon/shiny/chimecho.png"
 import chinchou from "../assets/img/pokemon/shiny/chinchou.png"
 import chingling from "../assets/img/pokemon/shiny/chingling.png"
 import cinccino from "../assets/img/pokemon/shiny/cinccino.png"
-import cinderacegmax from "../assets/img/pokemon/shiny/cinderace-gmax.png"
 import cinderace from "../assets/img/pokemon/shiny/cinderace.png"
 import clamperl from "../assets/img/pokemon/shiny/clamperl.png"
 import clauncher from "../assets/img/pokemon/shiny/clauncher.png"
@@ -251,34 +202,25 @@ import clefairy from "../assets/img/pokemon/shiny/clefairy.png"
 import cleffa from "../assets/img/pokemon/shiny/cleffa.png"
 import clobbopus from "../assets/img/pokemon/shiny/clobbopus.png"
 import cloyster from "../assets/img/pokemon/shiny/cloyster.png"
-import coalossalgmax from "../assets/img/pokemon/shiny/coalossal-gmax.png"
 import coalossal from "../assets/img/pokemon/shiny/coalossal.png"
-import cobalion from "../assets/img/pokemon/shiny/cobalion.png"
 import cofagrigus from "../assets/img/pokemon/shiny/cofagrigus.png"
 import combee from "../assets/img/pokemon/shiny/combee.png"
 import combusken from "../assets/img/pokemon/shiny/combusken.png"
 import comfey from "../assets/img/pokemon/shiny/comfey.png"
 import conkeldurr from "../assets/img/pokemon/shiny/conkeldurr.png"
-import copperajahgmax from "../assets/img/pokemon/shiny/copperajah-gmax.png"
 import copperajah from "../assets/img/pokemon/shiny/copperajah.png"
 import corphish from "../assets/img/pokemon/shiny/corphish.png"
 import corsolagalar from "../assets/img/pokemon/shiny/corsola-galar.png"
 import corsola from "../assets/img/pokemon/shiny/corsola.png"
-import corviknightgmax from "../assets/img/pokemon/shiny/corviknight-gmax.png"
 import corviknight from "../assets/img/pokemon/shiny/corviknight.png"
 import corvisquire from "../assets/img/pokemon/shiny/corvisquire.png"
-import cosmoem from "../assets/img/pokemon/shiny/cosmoem.png"
-import cosmog from "../assets/img/pokemon/shiny/cosmog.png"
 import cottonee from "../assets/img/pokemon/shiny/cottonee.png"
 import crabominable from "../assets/img/pokemon/shiny/crabominable.png"
 import crabrawler from "../assets/img/pokemon/shiny/crabrawler.png"
 import cradily from "../assets/img/pokemon/shiny/cradily.png"
-import cramorantgorging from "../assets/img/pokemon/shiny/cramorant-gorging.png"
-import cramorantgulping from "../assets/img/pokemon/shiny/cramorant-gulping.png"
 import cramorant from "../assets/img/pokemon/shiny/cramorant.png"
 import cranidos from "../assets/img/pokemon/shiny/cranidos.png"
 import crawdaunt from "../assets/img/pokemon/shiny/crawdaunt.png"
-import cresselia from "../assets/img/pokemon/shiny/cresselia.png"
 import croagunk from "../assets/img/pokemon/shiny/croagunk.png"
 import crobat from "../assets/img/pokemon/shiny/crobat.png"
 import croconaw from "../assets/img/pokemon/shiny/croconaw.png"
@@ -290,10 +232,7 @@ import cufant from "../assets/img/pokemon/shiny/cufant.png"
 import cursola from "../assets/img/pokemon/shiny/cursola.png"
 import cutiefly from "../assets/img/pokemon/shiny/cutiefly.png"
 import cyndaquil from "../assets/img/pokemon/shiny/cyndaquil.png"
-import darkrai from "../assets/img/pokemon/shiny/darkrai.png"
-import darmanitangalarzen from "../assets/img/pokemon/shiny/darmanitan-galar-zen.png"
 import darmanitangalar from "../assets/img/pokemon/shiny/darmanitan-galar.png"
-import darmanitanzen from "../assets/img/pokemon/shiny/darmanitan-zen.png"
 import darmanitan from "../assets/img/pokemon/shiny/darmanitan.png"
 import dartrix from "../assets/img/pokemon/shiny/dartrix.png"
 import darumakagalar from "../assets/img/pokemon/shiny/darumaka-galar.png"
@@ -308,17 +247,10 @@ import deino from "../assets/img/pokemon/shiny/deino.png"
 import delcatty from "../assets/img/pokemon/shiny/delcatty.png"
 import delibird from "../assets/img/pokemon/shiny/delibird.png"
 import delphox from "../assets/img/pokemon/shiny/delphox.png"
-import deoxysattack from "../assets/img/pokemon/shiny/deoxys-attack.png"
-import deoxysdefense from "../assets/img/pokemon/shiny/deoxys-defense.png"
-import deoxysspeed from "../assets/img/pokemon/shiny/deoxys-speed.png"
-import deoxys from "../assets/img/pokemon/shiny/deoxys.png"
 import dewgong from "../assets/img/pokemon/shiny/dewgong.png"
 import dewott from "../assets/img/pokemon/shiny/dewott.png"
 import dewpider from "../assets/img/pokemon/shiny/dewpider.png"
 import dhelmise from "../assets/img/pokemon/shiny/dhelmise.png"
-import dialga from "../assets/img/pokemon/shiny/dialga.png"
-import dianciemega from "../assets/img/pokemon/shiny/diancie-mega.png"
-import diancie from "../assets/img/pokemon/shiny/diancie.png"
 import diggersby from "../assets/img/pokemon/shiny/diggersby.png"
 import diglettalola from "../assets/img/pokemon/shiny/diglett-alola.png"
 import diglett from "../assets/img/pokemon/shiny/diglett.png"
@@ -338,7 +270,6 @@ import drakloak from "../assets/img/pokemon/shiny/drakloak.png"
 import drampa from "../assets/img/pokemon/shiny/drampa.png"
 import drapion from "../assets/img/pokemon/shiny/drapion.png"
 import dratini from "../assets/img/pokemon/shiny/dratini.png"
-import drednawgmax from "../assets/img/pokemon/shiny/drednaw-gmax.png"
 import drednaw from "../assets/img/pokemon/shiny/drednaw.png"
 import dreepy from "../assets/img/pokemon/shiny/dreepy.png"
 import drifblim from "../assets/img/pokemon/shiny/drifblim.png"
@@ -353,7 +284,6 @@ import dugtrioalola from "../assets/img/pokemon/shiny/dugtrio-alola.png"
 import dugtrio from "../assets/img/pokemon/shiny/dugtrio.png"
 import dunsparce from "../assets/img/pokemon/shiny/dunsparce.png"
 import duosion from "../assets/img/pokemon/shiny/duosion.png"
-import duraludongmax from "../assets/img/pokemon/shiny/duraludon-gmax.png"
 import duraludon from "../assets/img/pokemon/shiny/duraludon.png"
 import durant from "../assets/img/pokemon/shiny/durant.png"
 import dusclops from "../assets/img/pokemon/shiny/dusclops.png"
@@ -363,12 +293,7 @@ import dustox from "../assets/img/pokemon/shiny/dustox.png"
 import dwebble from "../assets/img/pokemon/shiny/dwebble.png"
 import eelektrik from "../assets/img/pokemon/shiny/eelektrik.png"
 import eelektross from "../assets/img/pokemon/shiny/eelektross.png"
-import eeveegmax from "../assets/img/pokemon/shiny/eevee-gmax.png"
-import eeveestarter from "../assets/img/pokemon/shiny/eevee-starter.png"
 import eevee from "../assets/img/pokemon/shiny/eevee.png"
-import eggmanaphy from "../assets/img/pokemon/shiny/egg-manaphy.png"
-import egg from "../assets/img/pokemon/shiny/egg.png"
-import eiscuenoice from "../assets/img/pokemon/shiny/eiscue-noice.png"
 import eiscue from "../assets/img/pokemon/shiny/eiscue.png"
 import ekans from "../assets/img/pokemon/shiny/ekans.png"
 import eldegoss from "../assets/img/pokemon/shiny/eldegoss.png"
@@ -381,12 +306,9 @@ import elgyem from "../assets/img/pokemon/shiny/elgyem.png"
 import emboar from "../assets/img/pokemon/shiny/emboar.png"
 import emolga from "../assets/img/pokemon/shiny/emolga.png"
 import empoleon from "../assets/img/pokemon/shiny/empoleon.png"
-import entei from "../assets/img/pokemon/shiny/entei.png"
 import escavalier from "../assets/img/pokemon/shiny/escavalier.png"
 import espeon from "../assets/img/pokemon/shiny/espeon.png"
 import espurr from "../assets/img/pokemon/shiny/espurr.png"
-import eternatuseternamax from "../assets/img/pokemon/shiny/eternatus-eternamax.png"
-import eternatus from "../assets/img/pokemon/shiny/eternatus.png"
 import excadrill from "../assets/img/pokemon/shiny/excadrill.png"
 import exeggcute from "../assets/img/pokemon/shiny/exeggcute.png"
 import exeggutoralola from "../assets/img/pokemon/shiny/exeggutor-alola.png"
@@ -408,14 +330,12 @@ import flabebeorange from "../assets/img/pokemon/shiny/flabebe-orange.png"
 import flabebewhite from "../assets/img/pokemon/shiny/flabebe-white.png"
 import flabebeyellow from "../assets/img/pokemon/shiny/flabebe-yellow.png"
 import flabebe from "../assets/img/pokemon/shiny/flabebe.png"
-import flapplegmax from "../assets/img/pokemon/shiny/flapple-gmax.png"
 import flapple from "../assets/img/pokemon/shiny/flapple.png"
 import flareon from "../assets/img/pokemon/shiny/flareon.png"
 import fletchinder from "../assets/img/pokemon/shiny/fletchinder.png"
 import fletchling from "../assets/img/pokemon/shiny/fletchling.png"
 import floatzel from "../assets/img/pokemon/shiny/floatzel.png"
 import floetteblue from "../assets/img/pokemon/shiny/floette-blue.png"
-import floetteeternal from "../assets/img/pokemon/shiny/floette-eternal.png"
 import floetteorange from "../assets/img/pokemon/shiny/floette-orange.png"
 import floettewhite from "../assets/img/pokemon/shiny/floette-white.png"
 import floetteyellow from "../assets/img/pokemon/shiny/floette-yellow.png"
@@ -448,39 +368,23 @@ import furfroustar from "../assets/img/pokemon/shiny/furfrou-star.png"
 import furfrou from "../assets/img/pokemon/shiny/furfrou.png"
 import furret from "../assets/img/pokemon/shiny/furret.png"
 import gabite from "../assets/img/pokemon/shiny/gabite.png"
-import gallademega from "../assets/img/pokemon/shiny/gallade-mega.png"
 import gallade from "../assets/img/pokemon/shiny/gallade.png"
 import galvantula from "../assets/img/pokemon/shiny/galvantula.png"
-import garbodorgmax from "../assets/img/pokemon/shiny/garbodor-gmax.png"
 import garbodor from "../assets/img/pokemon/shiny/garbodor.png"
-import garchompmega from "../assets/img/pokemon/shiny/garchomp-mega.png"
 import garchomp from "../assets/img/pokemon/shiny/garchomp.png"
-import gardevoirmega from "../assets/img/pokemon/shiny/gardevoir-mega.png"
 import gardevoir from "../assets/img/pokemon/shiny/gardevoir.png"
 import gastly from "../assets/img/pokemon/shiny/gastly.png"
 import gastrodoneast from "../assets/img/pokemon/shiny/gastrodon-east.png"
 import gastrodon from "../assets/img/pokemon/shiny/gastrodon.png"
-import genesectnodrive from "../assets/img/pokemon/shiny/genesect--no-drive.png"
-import genesectburn from "../assets/img/pokemon/shiny/genesect-burn.png"
-import genesectchill from "../assets/img/pokemon/shiny/genesect-chill.png"
-import genesectdouse from "../assets/img/pokemon/shiny/genesect-douse.png"
-import genesectshock from "../assets/img/pokemon/shiny/genesect-shock.png"
-import genesect from "../assets/img/pokemon/shiny/genesect.png"
-import gengargmax from "../assets/img/pokemon/shiny/gengar-gmax.png"
-import gengarmega from "../assets/img/pokemon/shiny/gengar-mega.png"
 import gengar from "../assets/img/pokemon/shiny/gengar.png"
 import geodudealola from "../assets/img/pokemon/shiny/geodude-alola.png"
 import geodude from "../assets/img/pokemon/shiny/geodude.png"
 import gible from "../assets/img/pokemon/shiny/gible.png"
 import gigalith from "../assets/img/pokemon/shiny/gigalith.png"
 import girafarig from "../assets/img/pokemon/shiny/girafarig.png"
-import giratinaorigin from "../assets/img/pokemon/shiny/giratina-origin.png"
-import giratina from "../assets/img/pokemon/shiny/giratina.png"
 import glaceon from "../assets/img/pokemon/shiny/glaceon.png"
-import glaliemega from "../assets/img/pokemon/shiny/glalie-mega.png"
 import glalie from "../assets/img/pokemon/shiny/glalie.png"
 import glameow from "../assets/img/pokemon/shiny/glameow.png"
-import glastrier from "../assets/img/pokemon/shiny/glastrier.png"
 import gligar from "../assets/img/pokemon/shiny/gligar.png"
 import gliscor from "../assets/img/pokemon/shiny/gliscor.png"
 import gloom from "../assets/img/pokemon/shiny/gloom.png"
@@ -509,16 +413,12 @@ import grapploct from "../assets/img/pokemon/shiny/grapploct.png"
 import graveleralola from "../assets/img/pokemon/shiny/graveler-alola.png"
 import graveler from "../assets/img/pokemon/shiny/graveler.png"
 import greedent from "../assets/img/pokemon/shiny/greedent.png"
-import greninjaash from "../assets/img/pokemon/shiny/greninja-ash.png"
 import greninja from "../assets/img/pokemon/shiny/greninja.png"
 import grimeralola from "../assets/img/pokemon/shiny/grimer-alola.png"
 import grimer from "../assets/img/pokemon/shiny/grimer.png"
-import grimmsnarlgmax from "../assets/img/pokemon/shiny/grimmsnarl-gmax.png"
 import grimmsnarl from "../assets/img/pokemon/shiny/grimmsnarl.png"
 import grookey from "../assets/img/pokemon/shiny/grookey.png"
 import grotle from "../assets/img/pokemon/shiny/grotle.png"
-import groudonprimal from "../assets/img/pokemon/shiny/groudon-primal.png"
-import groudon from "../assets/img/pokemon/shiny/groudon.png"
 import grovyle from "../assets/img/pokemon/shiny/grovyle.png"
 import growlithe from "../assets/img/pokemon/shiny/growlithe.png"
 import grubbin from "../assets/img/pokemon/shiny/grubbin.png"
@@ -526,24 +426,19 @@ import grumpig from "../assets/img/pokemon/shiny/grumpig.png"
 import gulpin from "../assets/img/pokemon/shiny/gulpin.png"
 import gumshoos from "../assets/img/pokemon/shiny/gumshoos.png"
 import gurdurr from "../assets/img/pokemon/shiny/gurdurr.png"
-import guzzlord from "../assets/img/pokemon/shiny/guzzlord.png"
-import gyaradosmega from "../assets/img/pokemon/shiny/gyarados-mega.png"
 import gyarados from "../assets/img/pokemon/shiny/gyarados.png"
 import hakamoo from "../assets/img/pokemon/shiny/hakamo-o.png"
 import happiny from "../assets/img/pokemon/shiny/happiny.png"
 import hariyama from "../assets/img/pokemon/shiny/hariyama.png"
 import hatenna from "../assets/img/pokemon/shiny/hatenna.png"
-import hatterenegmax from "../assets/img/pokemon/shiny/hatterene-gmax.png"
 import hatterene from "../assets/img/pokemon/shiny/hatterene.png"
 import hattrem from "../assets/img/pokemon/shiny/hattrem.png"
 import haunter from "../assets/img/pokemon/shiny/haunter.png"
 import hawlucha from "../assets/img/pokemon/shiny/hawlucha.png"
 import haxorus from "../assets/img/pokemon/shiny/haxorus.png"
 import heatmor from "../assets/img/pokemon/shiny/heatmor.png"
-import heatran from "../assets/img/pokemon/shiny/heatran.png"
 import heliolisk from "../assets/img/pokemon/shiny/heliolisk.png"
 import helioptile from "../assets/img/pokemon/shiny/helioptile.png"
-import heracrossmega from "../assets/img/pokemon/shiny/heracross-mega.png"
 import heracross from "../assets/img/pokemon/shiny/heracross.png"
 import herdier from "../assets/img/pokemon/shiny/herdier.png"
 import hippopotasf from "../assets/img/pokemon/shiny/hippopotas-f.png"
@@ -553,15 +448,11 @@ import hippowdon from "../assets/img/pokemon/shiny/hippowdon.png"
 import hitmonchan from "../assets/img/pokemon/shiny/hitmonchan.png"
 import hitmonlee from "../assets/img/pokemon/shiny/hitmonlee.png"
 import hitmontop from "../assets/img/pokemon/shiny/hitmontop.png"
-import hooh from "../assets/img/pokemon/shiny/ho-oh.png"
 import honchkrow from "../assets/img/pokemon/shiny/honchkrow.png"
 import honedge from "../assets/img/pokemon/shiny/honedge.png"
-import hoopaunbound from "../assets/img/pokemon/shiny/hoopa-unbound.png"
-import hoopa from "../assets/img/pokemon/shiny/hoopa.png"
 import hoothoot from "../assets/img/pokemon/shiny/hoothoot.png"
 import hoppip from "../assets/img/pokemon/shiny/hoppip.png"
 import horsea from "../assets/img/pokemon/shiny/horsea.png"
-import houndoommega from "../assets/img/pokemon/shiny/houndoom-mega.png"
 import houndoom from "../assets/img/pokemon/shiny/houndoom.png"
 import houndour from "../assets/img/pokemon/shiny/houndour.png"
 import huntail from "../assets/img/pokemon/shiny/huntail.png"
@@ -575,14 +466,12 @@ import indeedeef from "../assets/img/pokemon/shiny/indeedee-f.png"
 import indeedee from "../assets/img/pokemon/shiny/indeedee.png"
 import infernape from "../assets/img/pokemon/shiny/infernape.png"
 import inkay from "../assets/img/pokemon/shiny/inkay.png"
-import inteleongmax from "../assets/img/pokemon/shiny/inteleon-gmax.png"
 import inteleon from "../assets/img/pokemon/shiny/inteleon.png"
 import ivysaur from "../assets/img/pokemon/shiny/ivysaur.png"
 import jangmoo from "../assets/img/pokemon/shiny/jangmo-o.png"
 import jellicentf from "../assets/img/pokemon/shiny/jellicent-f.png"
 import jellicent from "../assets/img/pokemon/shiny/jellicent.png"
 import jigglypuff from "../assets/img/pokemon/shiny/jigglypuff.png"
-import jirachi from "../assets/img/pokemon/shiny/jirachi.png"
 import jolteon from "../assets/img/pokemon/shiny/jolteon.png"
 import joltik from "../assets/img/pokemon/shiny/joltik.png"
 import jumpluff from "../assets/img/pokemon/shiny/jumpluff.png"
@@ -591,15 +480,10 @@ import kabuto from "../assets/img/pokemon/shiny/kabuto.png"
 import kabutops from "../assets/img/pokemon/shiny/kabutops.png"
 import kadabra from "../assets/img/pokemon/shiny/kadabra.png"
 import kakuna from "../assets/img/pokemon/shiny/kakuna.png"
-import kangaskhanmega from "../assets/img/pokemon/shiny/kangaskhan-mega.png"
 import kangaskhan from "../assets/img/pokemon/shiny/kangaskhan.png"
 import karrablast from "../assets/img/pokemon/shiny/karrablast.png"
-import kartana from "../assets/img/pokemon/shiny/kartana.png"
 import kecleon from "../assets/img/pokemon/shiny/kecleon.png"
-import keldeoresolute from "../assets/img/pokemon/shiny/keldeo-resolute.png"
-import keldeo from "../assets/img/pokemon/shiny/keldeo.png"
 import kingdra from "../assets/img/pokemon/shiny/kingdra.png"
-import kinglergmax from "../assets/img/pokemon/shiny/kingler-gmax.png"
 import kingler from "../assets/img/pokemon/shiny/kingler.png"
 import kirlia from "../assets/img/pokemon/shiny/kirlia.png"
 import klang from "../assets/img/pokemon/shiny/klang.png"
@@ -614,25 +498,12 @@ import kricketot from "../assets/img/pokemon/shiny/kricketot.png"
 import kricketune from "../assets/img/pokemon/shiny/kricketune.png"
 import krokorok from "../assets/img/pokemon/shiny/krokorok.png"
 import krookodile from "../assets/img/pokemon/shiny/krookodile.png"
-import kubfu from "../assets/img/pokemon/shiny/kubfu.png"
-import kyogreprimal from "../assets/img/pokemon/shiny/kyogre-primal.png"
-import kyogre from "../assets/img/pokemon/shiny/kyogre.png"
-import kyuremblack from "../assets/img/pokemon/shiny/kyurem-black.png"
-import kyuremwhite from "../assets/img/pokemon/shiny/kyurem-white.png"
-import kyurem from "../assets/img/pokemon/shiny/kyurem.png"
 import lairon from "../assets/img/pokemon/shiny/lairon.png"
 import lampent from "../assets/img/pokemon/shiny/lampent.png"
-import landorustherian from "../assets/img/pokemon/shiny/landorus-therian.png"
-import landorus from "../assets/img/pokemon/shiny/landorus.png"
 import lanturn from "../assets/img/pokemon/shiny/lanturn.png"
-import laprasgmax from "../assets/img/pokemon/shiny/lapras-gmax.png"
 import lapras from "../assets/img/pokemon/shiny/lapras.png"
 import larvesta from "../assets/img/pokemon/shiny/larvesta.png"
 import larvitar from "../assets/img/pokemon/shiny/larvitar.png"
-import latiasmega from "../assets/img/pokemon/shiny/latias-mega.png"
-import latias from "../assets/img/pokemon/shiny/latias.png"
-import latiosmega from "../assets/img/pokemon/shiny/latios-mega.png"
-import latios from "../assets/img/pokemon/shiny/latios.png"
 import leafeon from "../assets/img/pokemon/shiny/leafeon.png"
 import leavanny from "../assets/img/pokemon/shiny/leavanny.png"
 import ledian from "../assets/img/pokemon/shiny/ledian.png"
@@ -649,16 +520,12 @@ import litleo from "../assets/img/pokemon/shiny/litleo.png"
 import litten from "../assets/img/pokemon/shiny/litten.png"
 import litwick from "../assets/img/pokemon/shiny/litwick.png"
 import lombre from "../assets/img/pokemon/shiny/lombre.png"
-import lopunnymega from "../assets/img/pokemon/shiny/lopunny-mega.png"
 import lopunny from "../assets/img/pokemon/shiny/lopunny.png"
 import lotad from "../assets/img/pokemon/shiny/lotad.png"
 import loudred from "../assets/img/pokemon/shiny/loudred.png"
-import lucariomega from "../assets/img/pokemon/shiny/lucario-mega.png"
 import lucario from "../assets/img/pokemon/shiny/lucario.png"
 import ludicolo from "../assets/img/pokemon/shiny/ludicolo.png"
-import lugia from "../assets/img/pokemon/shiny/lugia.png"
 import lumineon from "../assets/img/pokemon/shiny/lumineon.png"
-import lunala from "../assets/img/pokemon/shiny/lunala.png"
 import lunatone from "../assets/img/pokemon/shiny/lunatone.png"
 import lurantis from "../assets/img/pokemon/shiny/lurantis.png"
 import luvdisc from "../assets/img/pokemon/shiny/luvdisc.png"
@@ -667,14 +534,11 @@ import luxray from "../assets/img/pokemon/shiny/luxray.png"
 import lycanrocdusk from "../assets/img/pokemon/shiny/lycanroc-dusk.png"
 import lycanrocmidnight from "../assets/img/pokemon/shiny/lycanroc-midnight.png"
 import lycanroc from "../assets/img/pokemon/shiny/lycanroc.png"
-import machampgmax from "../assets/img/pokemon/shiny/machamp-gmax.png"
 import machamp from "../assets/img/pokemon/shiny/machamp.png"
 import machoke from "../assets/img/pokemon/shiny/machoke.png"
 import machop from "../assets/img/pokemon/shiny/machop.png"
 import magby from "../assets/img/pokemon/shiny/magby.png"
 import magcargo from "../assets/img/pokemon/shiny/magcargo.png"
-import magearnaoriginal from "../assets/img/pokemon/shiny/magearna-original.png"
-import magearna from "../assets/img/pokemon/shiny/magearna.png"
 import magikarp from "../assets/img/pokemon/shiny/magikarp.png"
 import magmar from "../assets/img/pokemon/shiny/magmar.png"
 import magmortar from "../assets/img/pokemon/shiny/magmortar.png"
@@ -684,9 +548,7 @@ import magnezone from "../assets/img/pokemon/shiny/magnezone.png"
 import makuhita from "../assets/img/pokemon/shiny/makuhita.png"
 import malamar from "../assets/img/pokemon/shiny/malamar.png"
 import mamoswine from "../assets/img/pokemon/shiny/mamoswine.png"
-import manaphy from "../assets/img/pokemon/shiny/manaphy.png"
 import mandibuzz from "../assets/img/pokemon/shiny/mandibuzz.png"
-import manectricmega from "../assets/img/pokemon/shiny/manectric-mega.png"
 import manectric from "../assets/img/pokemon/shiny/manectric.png"
 import mankey from "../assets/img/pokemon/shiny/mankey.png"
 import mantine from "../assets/img/pokemon/shiny/mantine.png"
@@ -697,35 +559,20 @@ import mareep from "../assets/img/pokemon/shiny/mareep.png"
 import marill from "../assets/img/pokemon/shiny/marill.png"
 import marowakalola from "../assets/img/pokemon/shiny/marowak-alola.png"
 import marowak from "../assets/img/pokemon/shiny/marowak.png"
-import marshadow from "../assets/img/pokemon/shiny/marshadow.png"
 import marshtomp from "../assets/img/pokemon/shiny/marshtomp.png"
 import masquerain from "../assets/img/pokemon/shiny/masquerain.png"
-import mawilemega from "../assets/img/pokemon/shiny/mawile-mega.png"
 import mawile from "../assets/img/pokemon/shiny/mawile.png"
-import medichammega from "../assets/img/pokemon/shiny/medicham-mega.png"
 import medicham from "../assets/img/pokemon/shiny/medicham.png"
 import meditite from "../assets/img/pokemon/shiny/meditite.png"
 import meganium from "../assets/img/pokemon/shiny/meganium.png"
-import melmetalgmax from "../assets/img/pokemon/shiny/melmetal-gmax.png"
-import melmetal from "../assets/img/pokemon/shiny/melmetal.png"
-import meloettapirouette from "../assets/img/pokemon/shiny/meloetta-pirouette.png"
-import meloetta from "../assets/img/pokemon/shiny/meloetta.png"
-import meltan from "../assets/img/pokemon/shiny/meltan.png"
 import meowsticf from "../assets/img/pokemon/shiny/meowstic-f.png"
 import meowstic from "../assets/img/pokemon/shiny/meowstic.png"
 import meowthalola from "../assets/img/pokemon/shiny/meowth-alola.png"
 import meowthgalar from "../assets/img/pokemon/shiny/meowth-galar.png"
-import meowthgmax from "../assets/img/pokemon/shiny/meowth-gmax.png"
 import meowth from "../assets/img/pokemon/shiny/meowth.png"
-import mesprit from "../assets/img/pokemon/shiny/mesprit.png"
-import metagrossmega from "../assets/img/pokemon/shiny/metagross-mega.png"
 import metagross from "../assets/img/pokemon/shiny/metagross.png"
 import metang from "../assets/img/pokemon/shiny/metang.png"
 import metapod from "../assets/img/pokemon/shiny/metapod.png"
-import mew from "../assets/img/pokemon/shiny/mew.png"
-import mewtwomegax from "../assets/img/pokemon/shiny/mewtwo-mega-x.png"
-import mewtwomegay from "../assets/img/pokemon/shiny/mewtwo-mega-y.png"
-import mewtwo from "../assets/img/pokemon/shiny/mewtwo.png"
 import mienfoo from "../assets/img/pokemon/shiny/mienfoo.png"
 import mienshao from "../assets/img/pokemon/shiny/mienshao.png"
 import mightyena from "../assets/img/pokemon/shiny/mightyena.png"
@@ -733,7 +580,6 @@ import milcery from "../assets/img/pokemon/shiny/milcery.png"
 import milotic from "../assets/img/pokemon/shiny/milotic.png"
 import miltank from "../assets/img/pokemon/shiny/miltank.png"
 import mimejr from "../assets/img/pokemon/shiny/mime-jr.png"
-import mimikyubusted from "../assets/img/pokemon/shiny/mimikyu-busted.png"
 import mimikyu from "../assets/img/pokemon/shiny/mimikyu.png"
 import minccino from "../assets/img/pokemon/shiny/minccino.png"
 import miniorblue from "../assets/img/pokemon/shiny/minior-blue.png"
@@ -747,12 +593,9 @@ import minior from "../assets/img/pokemon/shiny/minior.png"
 import minun from "../assets/img/pokemon/shiny/minun.png"
 import misdreavus from "../assets/img/pokemon/shiny/misdreavus.png"
 import mismagius from "../assets/img/pokemon/shiny/mismagius.png"
-import moltresgalar from "../assets/img/pokemon/shiny/moltres-galar.png"
-import moltres from "../assets/img/pokemon/shiny/moltres.png"
 import monferno from "../assets/img/pokemon/shiny/monferno.png"
 import morelull from "../assets/img/pokemon/shiny/morelull.png"
 import morgrem from "../assets/img/pokemon/shiny/morgrem.png"
-import morpekohangry from "../assets/img/pokemon/shiny/morpeko-hangry.png"
 import morpeko from "../assets/img/pokemon/shiny/morpeko.png"
 import mothim from "../assets/img/pokemon/shiny/mothim.png"
 import mrmimegalar from "../assets/img/pokemon/shiny/mr-mime-galar.png"
@@ -767,12 +610,7 @@ import munchlax from "../assets/img/pokemon/shiny/munchlax.png"
 import munna from "../assets/img/pokemon/shiny/munna.png"
 import murkrow from "../assets/img/pokemon/shiny/murkrow.png"
 import musharna from "../assets/img/pokemon/shiny/musharna.png"
-import naganadel from "../assets/img/pokemon/shiny/naganadel.png"
 import natu from "../assets/img/pokemon/shiny/natu.png"
-import necrozmadawnwings from "../assets/img/pokemon/shiny/necrozma-dawn-wings.png"
-import necrozmaduskmane from "../assets/img/pokemon/shiny/necrozma-dusk-mane.png"
-import necrozmaultra from "../assets/img/pokemon/shiny/necrozma-ultra.png"
-import necrozma from "../assets/img/pokemon/shiny/necrozma.png"
 import nickit from "../assets/img/pokemon/shiny/nickit.png"
 import nidoking from "../assets/img/pokemon/shiny/nidoking.png"
 import nidoqueen from "../assets/img/pokemon/shiny/nidoqueen.png"
@@ -780,7 +618,6 @@ import nidoranf from "../assets/img/pokemon/shiny/nidoran-f.png"
 import nidoranm from "../assets/img/pokemon/shiny/nidoran-m.png"
 import nidorina from "../assets/img/pokemon/shiny/nidorina.png"
 import nidorino from "../assets/img/pokemon/shiny/nidorino.png"
-import nihilego from "../assets/img/pokemon/shiny/nihilego.png"
 import nincada from "../assets/img/pokemon/shiny/nincada.png"
 import ninetalesalola from "../assets/img/pokemon/shiny/ninetales-alola.png"
 import ninetales from "../assets/img/pokemon/shiny/ninetales.png"
@@ -798,7 +635,6 @@ import omanyte from "../assets/img/pokemon/shiny/omanyte.png"
 import omastar from "../assets/img/pokemon/shiny/omastar.png"
 import onix from "../assets/img/pokemon/shiny/onix.png"
 import oranguru from "../assets/img/pokemon/shiny/oranguru.png"
-import orbeetlegmax from "../assets/img/pokemon/shiny/orbeetle-gmax.png"
 import orbeetle from "../assets/img/pokemon/shiny/orbeetle.png"
 import oricoriopau from "../assets/img/pokemon/shiny/oricorio-pau.png"
 import oricoriopompom from "../assets/img/pokemon/shiny/oricorio-pom-pom.png"
@@ -806,7 +642,6 @@ import oricoriosensu from "../assets/img/pokemon/shiny/oricorio-sensu.png"
 import oricorio from "../assets/img/pokemon/shiny/oricorio.png"
 import oshawott from "../assets/img/pokemon/shiny/oshawott.png"
 import pachirisu from "../assets/img/pokemon/shiny/pachirisu.png"
-import palkia from "../assets/img/pokemon/shiny/palkia.png"
 import palossand from "../assets/img/pokemon/shiny/palossand.png"
 import palpitoad from "../assets/img/pokemon/shiny/palpitoad.png"
 import pancham from "../assets/img/pokemon/shiny/pancham.png"
@@ -826,11 +661,8 @@ import persian from "../assets/img/pokemon/shiny/persian.png"
 import petilil from "../assets/img/pokemon/shiny/petilil.png"
 import phanpy from "../assets/img/pokemon/shiny/phanpy.png"
 import phantump from "../assets/img/pokemon/shiny/phantump.png"
-import pheromosa from "../assets/img/pokemon/shiny/pheromosa.png"
-import phione from "../assets/img/pokemon/shiny/phione.png"
 import pichuspikyeared from "../assets/img/pokemon/shiny/pichu-spiky-eared.png"
 import pichu from "../assets/img/pokemon/shiny/pichu.png"
-import pidgeotmega from "../assets/img/pokemon/shiny/pidgeot-mega.png"
 import pidgeot from "../assets/img/pokemon/shiny/pidgeot.png"
 import pidgeotto from "../assets/img/pokemon/shiny/pidgeotto.png"
 import pidgey from "../assets/img/pokemon/shiny/pidgey.png"
@@ -839,9 +671,7 @@ import pignite from "../assets/img/pokemon/shiny/pignite.png"
 import pikachualolacapfemale from "../assets/img/pokemon/shiny/pikachu-alola-cap-female.png"
 import pikachualolacap from "../assets/img/pokemon/shiny/pikachu-alola-cap.png"
 import pikachubelle from "../assets/img/pokemon/shiny/pikachu-belle.png"
-import pikachucosplay from "../assets/img/pokemon/shiny/pikachu-cosplay.png"
 import pikachuf from "../assets/img/pokemon/shiny/pikachu-f.png"
-import pikachugmax from "../assets/img/pokemon/shiny/pikachu-gmax.png"
 import pikachuhoenncapfemale from "../assets/img/pokemon/shiny/pikachu-hoenn-cap-female.png"
 import pikachuhoenncap from "../assets/img/pokemon/shiny/pikachu-hoenn-cap.png"
 import pikachukaloscapfemale from "../assets/img/pokemon/shiny/pikachu-kalos-cap-female.png"
@@ -856,8 +686,6 @@ import pikachupopstar from "../assets/img/pokemon/shiny/pikachu-pop-star.png"
 import pikachurockstar from "../assets/img/pokemon/shiny/pikachu-rock-star.png"
 import pikachusinnohcapfemale from "../assets/img/pokemon/shiny/pikachu-sinnoh-cap-female.png"
 import pikachusinnohcap from "../assets/img/pokemon/shiny/pikachu-sinnoh-cap.png"
-import pikachustarterfemale from "../assets/img/pokemon/shiny/pikachu-starter-female.png"
-import pikachustarter from "../assets/img/pokemon/shiny/pikachu-starter.png"
 import pikachuunovacapfemale from "../assets/img/pokemon/shiny/pikachu-unova-cap-female.png"
 import pikachuunovacap from "../assets/img/pokemon/shiny/pikachu-unova-cap.png"
 import pikachuworldcapfemale from "../assets/img/pokemon/shiny/pikachu-world-cap-female.png"
@@ -867,11 +695,9 @@ import pikipek from "../assets/img/pokemon/shiny/pikipek.png"
 import piloswine from "../assets/img/pokemon/shiny/piloswine.png"
 import pincurchin from "../assets/img/pokemon/shiny/pincurchin.png"
 import pineco from "../assets/img/pokemon/shiny/pineco.png"
-import pinsirmega from "../assets/img/pokemon/shiny/pinsir-mega.png"
 import pinsir from "../assets/img/pokemon/shiny/pinsir.png"
 import piplup from "../assets/img/pokemon/shiny/piplup.png"
 import plusle from "../assets/img/pokemon/shiny/plusle.png"
-import poipole from "../assets/img/pokemon/shiny/poipole.png"
 import politoed from "../assets/img/pokemon/shiny/politoed.png"
 import poliwag from "../assets/img/pokemon/shiny/poliwag.png"
 import poliwhirl from "../assets/img/pokemon/shiny/poliwhirl.png"
@@ -906,7 +732,6 @@ import qwilfish from "../assets/img/pokemon/shiny/qwilfish.png"
 import raboot from "../assets/img/pokemon/shiny/raboot.png"
 import raichualola from "../assets/img/pokemon/shiny/raichu-alola.png"
 import raichu from "../assets/img/pokemon/shiny/raichu.png"
-import raikou from "../assets/img/pokemon/shiny/raikou.png"
 import ralts from "../assets/img/pokemon/shiny/ralts.png"
 import rampardos from "../assets/img/pokemon/shiny/rampardos.png"
 import rapidashgalar from "../assets/img/pokemon/shiny/rapidash-galar.png"
@@ -915,23 +740,13 @@ import raticatealola from "../assets/img/pokemon/shiny/raticate-alola.png"
 import raticate from "../assets/img/pokemon/shiny/raticate.png"
 import rattataalola from "../assets/img/pokemon/shiny/rattata-alola.png"
 import rattata from "../assets/img/pokemon/shiny/rattata.png"
-import rayquazamega from "../assets/img/pokemon/shiny/rayquaza-mega.png"
-import rayquaza from "../assets/img/pokemon/shiny/rayquaza.png"
-import regice from "../assets/img/pokemon/shiny/regice.png"
-import regidrago from "../assets/img/pokemon/shiny/regidrago.png"
-import regieleki from "../assets/img/pokemon/shiny/regieleki.png"
-import regigigas from "../assets/img/pokemon/shiny/regigigas.png"
-import regirock from "../assets/img/pokemon/shiny/regirock.png"
-import registeel from "../assets/img/pokemon/shiny/registeel.png"
 import relicanth from "../assets/img/pokemon/shiny/relicanth.png"
 import remoraid from "../assets/img/pokemon/shiny/remoraid.png"
-import reshiram from "../assets/img/pokemon/shiny/reshiram.png"
 import reuniclus from "../assets/img/pokemon/shiny/reuniclus.png"
 import rhydon from "../assets/img/pokemon/shiny/rhydon.png"
 import rhyhorn from "../assets/img/pokemon/shiny/rhyhorn.png"
 import rhyperior from "../assets/img/pokemon/shiny/rhyperior.png"
 import ribombee from "../assets/img/pokemon/shiny/ribombee.png"
-import rillaboomgmax from "../assets/img/pokemon/shiny/rillaboom-gmax.png"
 import rillaboom from "../assets/img/pokemon/shiny/rillaboom.png"
 import riolu from "../assets/img/pokemon/shiny/riolu.png"
 import rockruff from "../assets/img/pokemon/shiny/rockruff.png"
@@ -949,14 +764,11 @@ import rotom from "../assets/img/pokemon/shiny/rotom.png"
 import rowlet from "../assets/img/pokemon/shiny/rowlet.png"
 import rufflet from "../assets/img/pokemon/shiny/rufflet.png"
 import runerigus from "../assets/img/pokemon/shiny/runerigus.png"
-import sableyemega from "../assets/img/pokemon/shiny/sableye-mega.png"
 import sableye from "../assets/img/pokemon/shiny/sableye.png"
-import salamencemega from "../assets/img/pokemon/shiny/salamence-mega.png"
 import salamence from "../assets/img/pokemon/shiny/salamence.png"
 import salandit from "../assets/img/pokemon/shiny/salandit.png"
 import salazzle from "../assets/img/pokemon/shiny/salazzle.png"
 import samurott from "../assets/img/pokemon/shiny/samurott.png"
-import sandacondagmax from "../assets/img/pokemon/shiny/sandaconda-gmax.png"
 import sandaconda from "../assets/img/pokemon/shiny/sandaconda.png"
 import sandile from "../assets/img/pokemon/shiny/sandile.png"
 import sandshrewalola from "../assets/img/pokemon/shiny/sandshrew-alola.png"
@@ -970,9 +782,7 @@ import sawsbucksummer from "../assets/img/pokemon/shiny/sawsbuck-summer.png"
 import sawsbuckwinter from "../assets/img/pokemon/shiny/sawsbuck-winter.png"
 import sawsbuck from "../assets/img/pokemon/shiny/sawsbuck.png"
 import scatterbug from "../assets/img/pokemon/shiny/scatterbug.png"
-import sceptilemega from "../assets/img/pokemon/shiny/sceptile-mega.png"
 import sceptile from "../assets/img/pokemon/shiny/sceptile.png"
-import scizormega from "../assets/img/pokemon/shiny/scizor-mega.png"
 import scizor from "../assets/img/pokemon/shiny/scizor.png"
 import scolipede from "../assets/img/pokemon/shiny/scolipede.png"
 import scorbunny from "../assets/img/pokemon/shiny/scorbunny.png"
@@ -990,10 +800,7 @@ import serperior from "../assets/img/pokemon/shiny/serperior.png"
 import servine from "../assets/img/pokemon/shiny/servine.png"
 import seviper from "../assets/img/pokemon/shiny/seviper.png"
 import sewaddle from "../assets/img/pokemon/shiny/sewaddle.png"
-import sharpedomega from "../assets/img/pokemon/shiny/sharpedo-mega.png"
 import sharpedo from "../assets/img/pokemon/shiny/sharpedo.png"
-import shayminsky from "../assets/img/pokemon/shiny/shaymin-sky.png"
-import shaymin from "../assets/img/pokemon/shiny/shaymin.png"
 import shedinja from "../assets/img/pokemon/shiny/shedinja.png"
 import shelgon from "../assets/img/pokemon/shiny/shelgon.png"
 import shellder from "../assets/img/pokemon/shiny/shellder.png"
@@ -1010,24 +817,6 @@ import shuppet from "../assets/img/pokemon/shiny/shuppet.png"
 import sigilyph from "../assets/img/pokemon/shiny/sigilyph.png"
 import silcoon from "../assets/img/pokemon/shiny/silcoon.png"
 import silicobra from "../assets/img/pokemon/shiny/silicobra.png"
-import silvallybug from "../assets/img/pokemon/shiny/silvally-bug.png"
-import silvallydark from "../assets/img/pokemon/shiny/silvally-dark.png"
-import silvallydragon from "../assets/img/pokemon/shiny/silvally-dragon.png"
-import silvallyelectric from "../assets/img/pokemon/shiny/silvally-electric.png"
-import silvallyfairy from "../assets/img/pokemon/shiny/silvally-fairy.png"
-import silvallyfighting from "../assets/img/pokemon/shiny/silvally-fighting.png"
-import silvallyfire from "../assets/img/pokemon/shiny/silvally-fire.png"
-import silvallyflying from "../assets/img/pokemon/shiny/silvally-flying.png"
-import silvallyghost from "../assets/img/pokemon/shiny/silvally-ghost.png"
-import silvallygrass from "../assets/img/pokemon/shiny/silvally-grass.png"
-import silvallyground from "../assets/img/pokemon/shiny/silvally-ground.png"
-import silvallyice from "../assets/img/pokemon/shiny/silvally-ice.png"
-import silvallypoison from "../assets/img/pokemon/shiny/silvally-poison.png"
-import silvallypsychic from "../assets/img/pokemon/shiny/silvally-psychic.png"
-import silvallyrock from "../assets/img/pokemon/shiny/silvally-rock.png"
-import silvallysteel from "../assets/img/pokemon/shiny/silvally-steel.png"
-import silvallywater from "../assets/img/pokemon/shiny/silvally-water.png"
-import silvally from "../assets/img/pokemon/shiny/silvally.png"
 import simipour from "../assets/img/pokemon/shiny/simipour.png"
 import simisage from "../assets/img/pokemon/shiny/simisage.png"
 import simisear from "../assets/img/pokemon/shiny/simisear.png"
@@ -1046,7 +835,6 @@ import slaking from "../assets/img/pokemon/shiny/slaking.png"
 import slakoth from "../assets/img/pokemon/shiny/slakoth.png"
 import sliggoo from "../assets/img/pokemon/shiny/sliggoo.png"
 import slowbrogalar from "../assets/img/pokemon/shiny/slowbro-galar.png"
-import slowbromega from "../assets/img/pokemon/shiny/slowbro-mega.png"
 import slowbro from "../assets/img/pokemon/shiny/slowbro.png"
 import slowkinggalar from "../assets/img/pokemon/shiny/slowking-galar.png"
 import slowking from "../assets/img/pokemon/shiny/slowking.png"
@@ -1059,17 +847,14 @@ import smoochum from "../assets/img/pokemon/shiny/smoochum.png"
 import sneasel from "../assets/img/pokemon/shiny/sneasel.png"
 import snivy from "../assets/img/pokemon/shiny/snivy.png"
 import snom from "../assets/img/pokemon/shiny/snom.png"
-import snorlaxgmax from "../assets/img/pokemon/shiny/snorlax-gmax.png"
 import snorlax from "../assets/img/pokemon/shiny/snorlax.png"
 import snorunt from "../assets/img/pokemon/shiny/snorunt.png"
 import snover from "../assets/img/pokemon/shiny/snover.png"
 import snubbull from "../assets/img/pokemon/shiny/snubbull.png"
 import sobble from "../assets/img/pokemon/shiny/sobble.png"
-import solgaleo from "../assets/img/pokemon/shiny/solgaleo.png"
 import solosis from "../assets/img/pokemon/shiny/solosis.png"
 import solrock from "../assets/img/pokemon/shiny/solrock.png"
 import spearow from "../assets/img/pokemon/shiny/spearow.png"
-import spectrier from "../assets/img/pokemon/shiny/spectrier.png"
 import spewpa from "../assets/img/pokemon/shiny/spewpa.png"
 import spheal from "../assets/img/pokemon/shiny/spheal.png"
 import spinarak from "../assets/img/pokemon/shiny/spinarak.png"
@@ -1080,14 +865,12 @@ import spiritomb from "../assets/img/pokemon/shiny/spiritomb.png"
 import spoink from "../assets/img/pokemon/shiny/spoink.png"
 import spritzee from "../assets/img/pokemon/shiny/spritzee.png"
 import squirtle from "../assets/img/pokemon/shiny/squirtle.png"
-import stakataka from "../assets/img/pokemon/shiny/stakataka.png"
 import stantler from "../assets/img/pokemon/shiny/stantler.png"
 import staraptor from "../assets/img/pokemon/shiny/staraptor.png"
 import staravia from "../assets/img/pokemon/shiny/staravia.png"
 import starly from "../assets/img/pokemon/shiny/starly.png"
 import starmie from "../assets/img/pokemon/shiny/starmie.png"
 import staryu from "../assets/img/pokemon/shiny/staryu.png"
-import steelixmega from "../assets/img/pokemon/shiny/steelix-mega.png"
 import steelix from "../assets/img/pokemon/shiny/steelix.png"
 import steenee from "../assets/img/pokemon/shiny/steenee.png"
 import stonjourner from "../assets/img/pokemon/shiny/stonjourner.png"
@@ -1097,14 +880,12 @@ import stunfiskgalar from "../assets/img/pokemon/shiny/stunfisk-galar.png"
 import stunfisk from "../assets/img/pokemon/shiny/stunfisk.png"
 import stunky from "../assets/img/pokemon/shiny/stunky.png"
 import sudowoodo from "../assets/img/pokemon/shiny/sudowoodo.png"
-import suicune from "../assets/img/pokemon/shiny/suicune.png"
 import sunflora from "../assets/img/pokemon/shiny/sunflora.png"
 import sunkern from "../assets/img/pokemon/shiny/sunkern.png"
 import surskit from "../assets/img/pokemon/shiny/surskit.png"
 import swablu from "../assets/img/pokemon/shiny/swablu.png"
 import swadloon from "../assets/img/pokemon/shiny/swadloon.png"
 import swalot from "../assets/img/pokemon/shiny/swalot.png"
-import swampertmega from "../assets/img/pokemon/shiny/swampert-mega.png"
 import swampert from "../assets/img/pokemon/shiny/swampert.png"
 import swanna from "../assets/img/pokemon/shiny/swanna.png"
 import swellow from "../assets/img/pokemon/shiny/swellow.png"
@@ -1116,20 +897,13 @@ import taillow from "../assets/img/pokemon/shiny/taillow.png"
 import talonflame from "../assets/img/pokemon/shiny/talonflame.png"
 import tangela from "../assets/img/pokemon/shiny/tangela.png"
 import tangrowth from "../assets/img/pokemon/shiny/tangrowth.png"
-import tapubulu from "../assets/img/pokemon/shiny/tapu-bulu.png"
-import tapufini from "../assets/img/pokemon/shiny/tapu-fini.png"
-import tapukoko from "../assets/img/pokemon/shiny/tapu-koko.png"
-import tapulele from "../assets/img/pokemon/shiny/tapu-lele.png"
 import tauros from "../assets/img/pokemon/shiny/tauros.png"
 import teddiursa from "../assets/img/pokemon/shiny/teddiursa.png"
 import tentacool from "../assets/img/pokemon/shiny/tentacool.png"
 import tentacruel from "../assets/img/pokemon/shiny/tentacruel.png"
 import tepig from "../assets/img/pokemon/shiny/tepig.png"
-import terrakion from "../assets/img/pokemon/shiny/terrakion.png"
 import thievul from "../assets/img/pokemon/shiny/thievul.png"
 import throh from "../assets/img/pokemon/shiny/throh.png"
-import thundurustherian from "../assets/img/pokemon/shiny/thundurus-therian.png"
-import thundurus from "../assets/img/pokemon/shiny/thundurus.png"
 import thwackey from "../assets/img/pokemon/shiny/thwackey.png"
 import timburr from "../assets/img/pokemon/shiny/timburr.png"
 import tirtouga from "../assets/img/pokemon/shiny/tirtouga.png"
@@ -1139,8 +913,6 @@ import togepi from "../assets/img/pokemon/shiny/togepi.png"
 import togetic from "../assets/img/pokemon/shiny/togetic.png"
 import torchic from "../assets/img/pokemon/shiny/torchic.png"
 import torkoal from "../assets/img/pokemon/shiny/torkoal.png"
-import tornadustherian from "../assets/img/pokemon/shiny/tornadus-therian.png"
-import tornadus from "../assets/img/pokemon/shiny/tornadus.png"
 import torracat from "../assets/img/pokemon/shiny/torracat.png"
 import torterra from "../assets/img/pokemon/shiny/torterra.png"
 import totodile from "../assets/img/pokemon/shiny/totodile.png"
@@ -1148,8 +920,6 @@ import toucannon from "../assets/img/pokemon/shiny/toucannon.png"
 import toxapex from "../assets/img/pokemon/shiny/toxapex.png"
 import toxel from "../assets/img/pokemon/shiny/toxel.png"
 import toxicroak from "../assets/img/pokemon/shiny/toxicroak.png"
-import toxtricitygmax from "../assets/img/pokemon/shiny/toxtricity-gmax.png"
-import toxtricitylowkeygmax from "../assets/img/pokemon/shiny/toxtricity-low-key-gmax.png"
 import toxtricitylowkey from "../assets/img/pokemon/shiny/toxtricity-low-key.png"
 import toxtricity from "../assets/img/pokemon/shiny/toxtricity.png"
 import tranquill from "../assets/img/pokemon/shiny/tranquill.png"
@@ -1166,7 +936,6 @@ import tympole from "../assets/img/pokemon/shiny/tympole.png"
 import tynamo from "../assets/img/pokemon/shiny/tynamo.png"
 import typenull from "../assets/img/pokemon/shiny/type-null.png"
 import typhlosion from "../assets/img/pokemon/shiny/typhlosion.png"
-import tyranitarmega from "../assets/img/pokemon/shiny/tyranitar-mega.png"
 import tyranitar from "../assets/img/pokemon/shiny/tyranitar.png"
 import tyrantrum from "../assets/img/pokemon/shiny/tyrantrum.png"
 import tyrogue from "../assets/img/pokemon/shiny/tyrogue.png"
@@ -1174,8 +943,6 @@ import tyrunt from "../assets/img/pokemon/shiny/tyrunt.png"
 import umbreon from "../assets/img/pokemon/shiny/umbreon.png"
 import unfezantf from "../assets/img/pokemon/shiny/unfezant-f.png"
 import unfezant from "../assets/img/pokemon/shiny/unfezant.png"
-import unknownpokemon from "../assets/img/pokemon/shiny/unknown-pokemon.png"
-import unknownpokemon2 from "../assets/img/pokemon/shiny/unknown-pokemon2.png"
 import unownb from "../assets/img/pokemon/shiny/unown-b.png"
 import unownc from "../assets/img/pokemon/shiny/unown-c.png"
 import unownd from "../assets/img/pokemon/shiny/unown-d.png"
@@ -1205,10 +972,6 @@ import unowny from "../assets/img/pokemon/shiny/unown-y.png"
 import unownz from "../assets/img/pokemon/shiny/unown-z.png"
 import unown from "../assets/img/pokemon/shiny/unown.png"
 import ursaring from "../assets/img/pokemon/shiny/ursaring.png"
-import urshifugmax from "../assets/img/pokemon/shiny/urshifu-gmax.png"
-import urshifurapidstrikegmax from "../assets/img/pokemon/shiny/urshifu-rapid-strike-gmax.png"
-import urshifu from "../assets/img/pokemon/shiny/urshifu.png"
-import uxie from "../assets/img/pokemon/shiny/uxie.png"
 import vanillish from "../assets/img/pokemon/shiny/vanillish.png"
 import vanillite from "../assets/img/pokemon/shiny/vanillite.png"
 import vanilluxe from "../assets/img/pokemon/shiny/vanilluxe.png"
@@ -1216,12 +979,9 @@ import vaporeon from "../assets/img/pokemon/shiny/vaporeon.png"
 import venipede from "../assets/img/pokemon/shiny/venipede.png"
 import venomoth from "../assets/img/pokemon/shiny/venomoth.png"
 import venonat from "../assets/img/pokemon/shiny/venonat.png"
-import venusaurgmax from "../assets/img/pokemon/shiny/venusaur-gmax.png"
-import venusaurmega from "../assets/img/pokemon/shiny/venusaur-mega.png"
 import venusaur from "../assets/img/pokemon/shiny/venusaur.png"
 import vespiquen from "../assets/img/pokemon/shiny/vespiquen.png"
 import vibrava from "../assets/img/pokemon/shiny/vibrava.png"
-import victini from "../assets/img/pokemon/shiny/victini.png"
 import victreebel from "../assets/img/pokemon/shiny/victreebel.png"
 import vigoroth from "../assets/img/pokemon/shiny/vigoroth.png"
 import vikavolt from "../assets/img/pokemon/shiny/vikavolt.png"
@@ -1248,7 +1008,6 @@ import vivillonsun from "../assets/img/pokemon/shiny/vivillon-sun.png"
 import vivillontundra from "../assets/img/pokemon/shiny/vivillon-tundra.png"
 import vivillon from "../assets/img/pokemon/shiny/vivillon.png"
 import volbeat from "../assets/img/pokemon/shiny/volbeat.png"
-import volcanion from "../assets/img/pokemon/shiny/volcanion.png"
 import volcarona from "../assets/img/pokemon/shiny/volcarona.png"
 import voltorb from "../assets/img/pokemon/shiny/voltorb.png"
 import vullaby from "../assets/img/pokemon/shiny/vullaby.png"
@@ -1271,7 +1030,6 @@ import whismur from "../assets/img/pokemon/shiny/whismur.png"
 import wigglytuff from "../assets/img/pokemon/shiny/wigglytuff.png"
 import wimpod from "../assets/img/pokemon/shiny/wimpod.png"
 import wingull from "../assets/img/pokemon/shiny/wingull.png"
-import wishiwashischool from "../assets/img/pokemon/shiny/wishiwashi-school.png"
 import wishiwashi from "../assets/img/pokemon/shiny/wishiwashi.png"
 import wobbuffet from "../assets/img/pokemon/shiny/wobbuffet.png"
 import woobat from "../assets/img/pokemon/shiny/woobat.png"
@@ -1283,5301 +1041,6362 @@ import wormadam from "../assets/img/pokemon/shiny/wormadam.png"
 import wurmple from "../assets/img/pokemon/shiny/wurmple.png"
 import wynaut from "../assets/img/pokemon/shiny/wynaut.png"
 import xatu from "../assets/img/pokemon/shiny/xatu.png"
-import xerneasactive from "../assets/img/pokemon/shiny/xerneas-active.png"
-import xerneas from "../assets/img/pokemon/shiny/xerneas.png"
-import xurkitree from "../assets/img/pokemon/shiny/xurkitree.png"
 import yamaskgalar from "../assets/img/pokemon/shiny/yamask-galar.png"
 import yamask from "../assets/img/pokemon/shiny/yamask.png"
 import yamper from "../assets/img/pokemon/shiny/yamper.png"
 import yanma from "../assets/img/pokemon/shiny/yanma.png"
 import yanmega from "../assets/img/pokemon/shiny/yanmega.png"
 import yungoos from "../assets/img/pokemon/shiny/yungoos.png"
-import yveltal from "../assets/img/pokemon/shiny/yveltal.png"
-import zaciancrowned from "../assets/img/pokemon/shiny/zacian-crowned.png"
-import zacian from "../assets/img/pokemon/shiny/zacian.png"
-import zamazentacrowned from "../assets/img/pokemon/shiny/zamazenta-crowned.png"
-import zamazenta from "../assets/img/pokemon/shiny/zamazenta.png"
 import zangoose from "../assets/img/pokemon/shiny/zangoose.png"
-import zapdosgalar from "../assets/img/pokemon/shiny/zapdos-galar.png"
-import zapdos from "../assets/img/pokemon/shiny/zapdos.png"
-import zarudedada from "../assets/img/pokemon/shiny/zarude-dada.png"
-import zarude from "../assets/img/pokemon/shiny/zarude.png"
 import zebstrika from "../assets/img/pokemon/shiny/zebstrika.png"
-import zekrom from "../assets/img/pokemon/shiny/zekrom.png"
-import zeraora from "../assets/img/pokemon/shiny/zeraora.png"
 import zigzagoongalar from "../assets/img/pokemon/shiny/zigzagoon-galar.png"
 import zigzagoon from "../assets/img/pokemon/shiny/zigzagoon.png"
 import zoroark from "../assets/img/pokemon/shiny/zoroark.png"
 import zorua from "../assets/img/pokemon/shiny/zorua.png"
 import zubat from "../assets/img/pokemon/shiny/zubat.png"
 import zweilous from "../assets/img/pokemon/shiny/zweilous.png"
-import zygarde10 from "../assets/img/pokemon/shiny/zygarde-10.png"
-import zygardecomplete from "../assets/img/pokemon/shiny/zygarde-complete.png"
-import zygarde from "../assets/img/pokemon/shiny/zygarde.png"
 
-export const allShinyImages = [
-    {
-        image: abomasnowmega,
-        name: "abomasnow (Mega)",
-    },
+export const allImages = [
     {
         image: abomasnow,
         name: "abomasnow",
+        link: "abomasnow",
+        form: "default",
     },
     {
         image: abra,
         name: "abra",
-    },
-    {
-        image: absolmega,
-        name: "absol (Mega)",
+        link: "abra",
+        form: "default",
     },
     {
         image: absol,
         name: "absol",
+        link: "absol",
+        form: "default",
     },
     {
         image: accelgor,
         name: "accelgor",
+        link: "accelgor",
+        form: "default",
     },
     {
         image: aegislashblade,
-        name: "aegislashblade",
+        name: "aegislash",
+        link: "aegislashblade",
+        form: "blade",
     },
     {
         image: aegislash,
         name: "aegislash",
-    },
-    {
-        image: aerodactylmega,
-        name: "aerodactyl (Mega)",
+        link: "aegislash",
+        form: "default",
     },
     {
         image: aerodactyl,
         name: "aerodactyl",
-    },
-    {
-        image: aggronmega,
-        name: "aggron (Mega)",
+        link: "aerodactyl",
+        form: "default",
     },
     {
         image: aggron,
         name: "aggron",
+        link: "aggron",
+        form: "default",
     },
     {
         image: aipom,
         name: "aipom",
-    },
-    {
-        image: alakazammega,
-        name: "alakazam (Mega)",
+        link: "aipom",
+        form: "default",
     },
     {
         image: alakazam,
         name: "alakazam",
+        link: "alakazam",
+        form: "default",
     },
     {
         image: alcremiecaramelswirlberry,
-        name: "alcremiecaramelswirlberry",
+        name: "alcremie",
+        link: "alcremiecaramelswirlberry",
+        form: "caramel swirl (berry)",
     },
     {
         image: alcremiecaramelswirlclover,
-        name: "alcremiecaramelswirlclover",
+        name: "alcremie",
+        link: "alcremiecaramelswirlclover",
+        form: "caramel swirl (clover)",
     },
     {
         image: alcremiecaramelswirlflower,
-        name: "alcremiecaramelswirlflower",
+        name: "alcremie",
+        link: "alcremiecaramelswirlflower",
+        form: "caramel swirl (flower)",
     },
     {
         image: alcremiecaramelswirllove,
-        name: "alcremiecaramelswirllove",
+        name: "alcremie",
+        link: "alcremiecaramelswirllove",
+        form: "caramel swirl (love)",
     },
     {
         image: alcremiecaramelswirlplain,
-        name: "alcremiecaramelswirlplain",
+        name: "alcremie",
+        link: "alcremiecaramelswirlplain",
+        form: "caramel swirl (plain)",
     },
     {
         image: alcremiecaramelswirlribbon,
-        name: "alcremiecaramelswirlribbon",
+        name: "alcremie",
+        link: "alcremiecaramelswirlribbon",
+        form: "caramel swirl (ribbon)",
     },
     {
         image: alcremiecaramelswirlstar,
-        name: "alcremiecaramelswirlstar",
+        name: "alcremie",
+        link: "alcremiecaramelswirlstar",
+        form: "caramel swirl (star)",
     },
     {
         image: alcremiecaramelswirlstrawberry,
-        name: "alcremiecaramelswirlstrawberry",
-    },
-    {
-        image: alcremiegmax,
-        name: "alcremie (Dynamax)",
+        name: "alcremie",
+        link: "alcremiecaramelswirlstrawberry",
+        form: "caramel swirl (strawberry)",
     },
     {
         image: alcremielemoncreamberry,
-        name: "alcremielemoncreamberry",
+        name: "alcremie",
+        link: "alcremielemoncreamberry",
+        form: "lemon cream (berry)",
     },
     {
         image: alcremielemoncreamclover,
-        name: "alcremielemoncreamclover",
+        name: "alcremie",
+        link: "alcremielemoncreamclover",
+        form: "lemon cream (clover)",
     },
     {
         image: alcremielemoncreamflower,
-        name: "alcremielemoncreamflower",
+        name: "alcremie",
+        link: "alcremielemoncreamflower",
+        form: "lemon cream (flower)",
     },
     {
         image: alcremielemoncreamlove,
-        name: "alcremielemoncreamlove",
+        name: "alcremie",
+        link: "alcremielemoncreamlove",
+        form: "lemon cream (love)",
     },
     {
         image: alcremielemoncreamplain,
-        name: "alcremielemoncreamplain",
+        name: "alcremie",
+        link: "alcremielemoncreamplain",
+        form: "lemon cream (plain)",
     },
     {
         image: alcremielemoncreamribbon,
-        name: "alcremielemoncreamribbon",
+        name: "alcremie",
+        link: "alcremielemoncreamribbon",
+        form: "lemon cream (ribbon)",
     },
     {
         image: alcremielemoncreamstar,
-        name: "alcremielemoncreamstar",
+        name: "alcremie",
+        link: "alcremielemoncreamstar",
+        form: "lemon cream (star)",
     },
     {
         image: alcremielemoncreamstrawberry,
-        name: "alcremielemoncreamstrawberry",
+        name: "alcremie",
+        link: "alcremielemoncreamstrawberry",
+        form: "lemon cream (strawberry)",
     },
     {
         image: alcremiematchacreamberry,
-        name: "alcremiematchacreamberry",
+        name: "alcremie",
+        link: "alcremiematchacreamberry",
+        form: "matcha cream (berry)",
     },
     {
         image: alcremiematchacreamclover,
-        name: "alcremiematchacreamclover",
+        name: "alcremie",
+        link: "alcremiematchacreamclover",
+        form: "matcha cream (clover)",
     },
     {
         image: alcremiematchacreamflower,
-        name: "alcremiematchacreamflower",
+        name: "alcremie",
+        link: "alcremiematchacreamflower",
+        form: "matcha cream (flower)",
     },
     {
         image: alcremiematchacreamlove,
-        name: "alcremiematchacreamlove",
+        name: "alcremie",
+        link: "alcremiematchacreamlove",
+        form: "matcha cream (love)",
     },
     {
         image: alcremiematchacreamplain,
-        name: "alcremiematchacreamplain",
+        name: "alcremie",
+        link: "alcremiematchacreamplain",
+        form: "matcha cream (plain)",
     },
     {
         image: alcremiematchacreamribbon,
-        name: "alcremiematchacreamribbon",
+        name: "alcremie",
+        link: "alcremiematchacreamribbon",
+        form: "matcha cream (ribbon)",
     },
     {
         image: alcremiematchacreamstar,
-        name: "alcremiematchacreamstar",
+        name: "alcremie",
+        link: "alcremiematchacreamstar",
+        form: "matcha cream (star)",
     },
     {
         image: alcremiematchacreamstrawberry,
-        name: "alcremiematchacreamstrawberry",
+        name: "alcremie",
+        link: "alcremiematchacreamstrawberry",
+        form: "matcha cream (strawberry)",
     },
     {
         image: alcremiemintcreamberry,
-        name: "alcremiemintcreamberry",
+        name: "alcremie",
+        link: "alcremiemintcreamberry",
+        form: "mint cream (berry)",
     },
     {
         image: alcremiemintcreamclover,
-        name: "alcremiemintcreamclover",
+        name: "alcremie",
+        link: "alcremiemintcreamclover",
+        form: "mint cream (clover)",
     },
     {
         image: alcremiemintcreamflower,
-        name: "alcremiemintcreamflower",
+        name: "alcremie",
+        link: "alcremiemintcreamflower",
+        form: "mint cream (flower)",
     },
     {
         image: alcremiemintcreamlove,
-        name: "alcremiemintcreamlove",
+        name: "alcremie",
+        link: "alcremiemintcreamlove",
+        form: "mint cream (love)",
     },
     {
         image: alcremiemintcreamplain,
-        name: "alcremiemintcreamplain",
+        name: "alcremie",
+        link: "alcremiemintcreamplain",
+        form: "mint cream (plain)",
     },
     {
         image: alcremiemintcreamribbon,
-        name: "alcremiemintcreamribbon",
+        name: "alcremie",
+        link: "alcremiemintcreamribbon",
+        form: "mint cream (ribbon)",
     },
     {
         image: alcremiemintcreamstar,
-        name: "alcremiemintcreamstar",
+        name: "alcremie",
+        link: "alcremiemintcreamstar",
+        form: "mint cream (star)",
     },
     {
         image: alcremiemintcreamstrawberry,
-        name: "alcremiemintcreamstrawberry",
+        name: "alcremie",
+        link: "alcremiemintcreamstrawberry",
+        form: "mint cream (strawberry)",
     },
     {
         image: alcremierainbowswirlberry,
-        name: "alcremierainbowswirlberry",
+        name: "alcremie",
+        link: "alcremierainbowswirlberry",
+        form: "rainbow swirl (berry)",
     },
     {
         image: alcremierainbowswirlclover,
-        name: "alcremierainbowswirlclover",
+        name: "alcremie",
+        link: "alcremierainbowswirlclover",
+        form: "rainbow swirl (clover)",
     },
     {
         image: alcremierainbowswirlflower,
-        name: "alcremierainbowswirlflower",
+        name: "alcremie",
+        link: "alcremierainbowswirlflower",
+        form: "rainbow swirl (flower)",
     },
     {
         image: alcremierainbowswirllove,
-        name: "alcremierainbowswirllove",
+        name: "alcremie",
+        link: "alcremierainbowswirllove",
+        form: "rainbow swirl (love)",
     },
     {
         image: alcremierainbowswirlplain,
-        name: "alcremierainbowswirlplain",
+        name: "alcremie",
+        link: "alcremierainbowswirlplain",
+        form: "rainbow swirl (plain)",
     },
     {
         image: alcremierainbowswirlribbon,
-        name: "alcremierainbowswirlribbon",
+        name: "alcremie",
+        link: "alcremierainbowswirlribbon",
+        form: "rainbow swirl (ribbon)",
     },
     {
         image: alcremierainbowswirlstar,
-        name: "alcremierainbowswirlstar",
+        name: "alcremie",
+        link: "alcremierainbowswirlstar",
+        form: "rainbow swirl (star)",
     },
     {
         image: alcremierainbowswirlstrawberry,
-        name: "alcremierainbowswirlstrawberry",
+        name: "alcremie",
+        link: "alcremierainbowswirlstrawberry",
+        form: "rainbow swirl (strawberry)",
     },
     {
         image: alcremierubycreamberry,
-        name: "alcremierubycreamberry",
+        name: "alcremie",
+        link: "alcremierubycreamberry",
+        form: "ruby cream (berry)",
     },
     {
         image: alcremierubycreamclover,
-        name: "alcremierubycreamclover",
+        name: "alcremie",
+        link: "alcremierubycreamclover",
+        form: "ruby cream (clover)",
     },
     {
         image: alcremierubycreamflower,
-        name: "alcremierubycreamflower",
+        name: "alcremie",
+        link: "alcremierubycreamflower",
+        form: "ruby cream (flower)",
     },
     {
         image: alcremierubycreamlove,
-        name: "alcremierubycreamlove",
+        name: "alcremie",
+        link: "alcremierubycreamlove",
+        form: "ruby cream (love)",
     },
     {
         image: alcremierubycreamplain,
-        name: "alcremierubycreamplain",
+        name: "alcremie",
+        link: "alcremierubycreamplain",
+        form: "ruby cream (plain)",
     },
     {
         image: alcremierubycreamribbon,
-        name: "alcremierubycreamribbon",
+        name: "alcremie",
+        link: "alcremierubycreamribbon",
+        form: "ruby cream (ribbon)",
     },
     {
         image: alcremierubycreamstar,
-        name: "alcremierubycreamstar",
+        name: "alcremie",
+        link: "alcremierubycreamstar",
+        form: "ruby cream (star)",
     },
     {
         image: alcremierubycreamstrawberry,
-        name: "alcremierubycreamstrawberry",
+        name: "alcremie",
+        link: "alcremierubycreamstrawberry",
+        form: "ruby cream (strawberry)",
     },
     {
         image: alcremierubyswirlberry,
-        name: "alcremierubyswirlberry",
+        name: "alcremie",
+        link: "alcremierubyswirlberry",
+        form: "ruby swirl (berry)",
     },
     {
         image: alcremierubyswirlclover,
-        name: "alcremierubyswirlclover",
+        name: "alcremie",
+        link: "alcremierubyswirlclover",
+        form: "ruby swirl (clover)",
     },
     {
         image: alcremierubyswirlflower,
-        name: "alcremierubyswirlflower",
+        name: "alcremie",
+        link: "alcremierubyswirlflower",
+        form: "ruby swirl (flower)",
     },
     {
         image: alcremierubyswirllove,
-        name: "alcremierubyswirllove",
+        name: "alcremie",
+        link: "alcremierubyswirllove",
+        form: "ruby swirl (love)",
     },
     {
         image: alcremierubyswirlplain,
-        name: "alcremierubyswirlplain",
+        name: "alcremie",
+        link: "alcremierubyswirlplain",
+        form: "ruby swirl (plain)",
     },
     {
         image: alcremierubyswirlribbon,
-        name: "alcremierubyswirlribbon",
+        name: "alcremie",
+        link: "alcremierubyswirlribbon",
+        form: "ruby swirl (ribbon)",
     },
     {
         image: alcremierubyswirlstar,
-        name: "alcremierubyswirlstar",
+        name: "alcremie",
+        link: "alcremierubyswirlstar",
+        form: "ruby swirl (star)",
     },
     {
         image: alcremierubyswirlstrawberry,
-        name: "alcremierubyswirlstrawberry",
+        name: "alcremie",
+        link: "alcremierubyswirlstrawberry",
+        form: "ruby swirl (strawberry)",
     },
     {
         image: alcremiesaltedcreamberry,
-        name: "alcremiesaltedcreamberry",
+        name: "alcremie",
+        link: "alcremiesaltedcreamberry",
+        form: "salted cream (berry)",
     },
     {
         image: alcremiesaltedcreamclover,
-        name: "alcremiesaltedcreamclover",
+        name: "alcremie",
+        link: "alcremiesaltedcreamclover",
+        form: "salted cream (clover)",
     },
     {
         image: alcremiesaltedcreamflower,
-        name: "alcremiesaltedcreamflower",
+        name: "alcremie",
+        link: "alcremiesaltedcreamflower",
+        form: "salted cream (flower)",
     },
     {
         image: alcremiesaltedcreamlove,
-        name: "alcremiesaltedcreamlove",
+        name: "alcremie",
+        link: "alcremiesaltedcreamlove",
+        form: "salted cream (love)",
     },
     {
         image: alcremiesaltedcreamplain,
-        name: "alcremiesaltedcreamplain",
+        name: "alcremie",
+        link: "alcremiesaltedcreamplain",
+        form: "salted cream (plain)",
     },
     {
         image: alcremiesaltedcreamribbon,
-        name: "alcremiesaltedcreamribbon",
+        name: "alcremie",
+        link: "alcremiesaltedcreamribbon",
+        form: "salted cream (ribbon)",
     },
     {
         image: alcremiesaltedcreamstar,
-        name: "alcremiesaltedcreamstar",
+        name: "alcremie",
+        link: "alcremiesaltedcreamstar",
+        form: "salted cream (star)",
     },
     {
         image: alcremiesaltedcreamstrawberry,
-        name: "alcremiesaltedcreamstrawberry",
+        name: "alcremie",
+        link: "alcremiesaltedcreamstrawberry",
+        form: "salted cream (strawberry)",
     },
     {
         image: alcremievanillacreamberry,
-        name: "alcremievanillacreamberry",
+        name: "alcremie",
+        link: "alcremievanillacreamberry",
+        form: "vanilla cream (berry)",
     },
     {
         image: alcremievanillacreamclover,
-        name: "alcremievanillacreamclover",
+        name: "alcremie",
+        link: "alcremievanillacreamclover",
+        form: "vanilla cream (clover)",
     },
     {
         image: alcremievanillacreamflower,
-        name: "alcremievanillacreamflower",
+        name: "alcremie",
+        link: "alcremievanillacreamflower",
+        form: "vanilla cream (flower)",
     },
     {
         image: alcremievanillacreamlove,
-        name: "alcremievanillacreamlove",
+        name: "alcremie",
+        link: "alcremievanillacreamlove",
+        form: "vanilla cream (love)",
     },
     {
         image: alcremievanillacreamplain,
-        name: "alcremievanillacreamplain",
+        name: "alcremie",
+        link: "alcremievanillacreamplain",
+        form: "vanilla cream (plain)",
     },
     {
         image: alcremievanillacreamribbon,
-        name: "alcremievanillacreamribbon",
+        name: "alcremie",
+        link: "alcremievanillacreamribbon",
+        form: "vanilla cream (ribbon)",
     },
     {
         image: alcremievanillacreamstar,
-        name: "alcremievanillacreamstar",
+        name: "alcremie",
+        link: "alcremievanillacreamstar",
+        form: "vanilla cream (star)",
     },
     {
         image: alcremievanillacreamstrawberry,
-        name: "alcremievanillacreamstrawberry",
+        name: "alcremie",
+        link: "alcremievanillacreamstrawberry",
+        form: "vanilla cream (strawberry)",
     },
     {
         image: alcremie,
         name: "alcremie",
+        link: "alcremie",
+        form: "default",
     },
     {
         image: alomomola,
         name: "alomomola",
-    },
-    {
-        image: altariamega,
-        name: "altaria (Mega)",
+        link: "alomomola",
+        form: "default",
     },
     {
         image: altaria,
         name: "altaria",
+        link: "altaria",
+        form: "default",
     },
     {
         image: amaura,
         name: "amaura",
+        link: "amaura",
+        form: "default",
     },
     {
         image: ambipom,
         name: "ambipom",
+        link: "ambipom",
+        form: "default",
     },
     {
         image: amoonguss,
         name: "amoonguss",
-    },
-    {
-        image: ampharosmega,
-        name: "ampharos (Mega)",
+        link: "amoonguss",
+        form: "default",
     },
     {
         image: ampharos,
         name: "ampharos",
+        link: "ampharos",
+        form: "default",
     },
     {
         image: anorith,
         name: "anorith",
-    },
-    {
-        image: appletungmax,
-        name: "appletun (Dynamax)",
+        link: "anorith",
+        form: "default",
     },
     {
         image: appletun,
         name: "appletun",
+        link: "appletun",
+        form: "default",
     },
     {
         image: applin,
         name: "applin",
+        link: "applin",
+        form: "default",
     },
     {
         image: araquanid,
         name: "araquanid",
+        link: "araquanid",
+        form: "default",
     },
     {
         image: arbok,
         name: "arbok",
+        link: "arbok",
+        form: "default",
     },
     {
         image: arcanine,
         name: "arcanine",
-    },
-    {
-        image: arceusbug,
-        name: "arceusbug",
-    },
-    {
-        image: arceusdark,
-        name: "arceusdark",
-    },
-    {
-        image: arceusdragon,
-        name: "arceusdragon",
-    },
-    {
-        image: arceuselectric,
-        name: "arceuselectric",
-    },
-    {
-        image: arceusfairy,
-        name: "arceusfairy",
-    },
-    {
-        image: arceusfighting,
-        name: "arceusfighting",
-    },
-    {
-        image: arceusfire,
-        name: "arceusfire",
-    },
-    {
-        image: arceusflying,
-        name: "arceusflying",
-    },
-    {
-        image: arceusghost,
-        name: "arceusghost",
-    },
-    {
-        image: arceusgrass,
-        name: "arceusgrass",
-    },
-    {
-        image: arceusground,
-        name: "arceusground",
-    },
-    {
-        image: arceusice,
-        name: "arceusice",
-    },
-    {
-        image: arceuspoison,
-        name: "arceuspoison",
-    },
-    {
-        image: arceuspsychic,
-        name: "arceuspsychic",
-    },
-    {
-        image: arceusrock,
-        name: "arceusrock",
-    },
-    {
-        image: arceussteel,
-        name: "arceussteel",
-    },
-    {
-        image: arceuswater,
-        name: "arceuswater",
-    },
-    {
-        image: arceus,
-        name: "arceus",
+        link: "arcanine",
+        form: "default",
     },
     {
         image: archen,
         name: "archen",
+        link: "archen",
+        form: "default",
     },
     {
         image: archeops,
         name: "archeops",
+        link: "archeops",
+        form: "default",
     },
     {
         image: arctovish,
         name: "arctovish",
+        link: "arctovish",
+        form: "default",
     },
     {
         image: arctozolt,
         name: "arctozolt",
+        link: "arctozolt",
+        form: "default",
     },
     {
         image: ariados,
         name: "ariados",
+        link: "ariados",
+        form: "default",
     },
     {
         image: armaldo,
         name: "armaldo",
+        link: "armaldo",
+        form: "default",
     },
     {
         image: aromatisse,
         name: "aromatisse",
+        link: "aromatisse",
+        form: "default",
     },
     {
         image: aron,
         name: "aron",
+        link: "aron",
+        form: "default",
     },
     {
         image: arrokuda,
         name: "arrokuda",
-    },
-    {
-        image: articunogalar,
-        name: "articunogalar",
-    },
-    {
-        image: articuno,
-        name: "articuno",
-    },
-    {
-        image: audinomega,
-        name: "audino (Mega)",
+        link: "arrokuda",
+        form: "default",
     },
     {
         image: audino,
         name: "audino",
+        link: "audino",
+        form: "default",
     },
     {
         image: aurorus,
         name: "aurorus",
+        link: "aurorus",
+        form: "default",
     },
     {
         image: avalugg,
         name: "avalugg",
+        link: "avalugg",
+        form: "default",
     },
     {
         image: axew,
         name: "axew",
-    },
-    {
-        image: azelf,
-        name: "azelf",
+        link: "axew",
+        form: "default",
     },
     {
         image: azumarill,
         name: "azumarill",
+        link: "azumarill",
+        form: "default",
     },
     {
         image: azurill,
         name: "azurill",
+        link: "azurill",
+        form: "default",
     },
     {
         image: bagon,
         name: "bagon",
+        link: "bagon",
+        form: "default",
     },
     {
         image: baltoy,
         name: "baltoy",
-    },
-    {
-        image: banettemega,
-        name: "banette (Mega)",
+        link: "baltoy",
+        form: "default",
     },
     {
         image: banette,
         name: "banette",
+        link: "banette",
+        form: "default",
     },
     {
         image: barbaracle,
         name: "barbaracle",
+        link: "barbaracle",
+        form: "default",
     },
     {
         image: barboach,
         name: "barboach",
+        link: "barboach",
+        form: "default",
     },
     {
         image: barraskewda,
         name: "barraskewda",
+        link: "barraskewda",
+        form: "default",
     },
     {
         image: basculinbluestriped,
-        name: "basculinbluestriped",
+        name: "basculin",
+        link: "basculinbluestriped",
+        form: "blue striped",
     },
     {
         image: basculin,
         name: "basculin",
+        link: "basculin",
+        form: "default",
     },
     {
         image: bastiodon,
         name: "bastiodon",
+        link: "bastiodon",
+        form: "default",
     },
     {
         image: bayleef,
         name: "bayleef",
+        link: "bayleef",
+        form: "default",
     },
     {
         image: beartic,
         name: "beartic",
+        link: "beartic",
+        form: "default",
     },
     {
         image: beautifly,
         name: "beautifly",
-    },
-    {
-        image: beedrillmega,
-        name: "beedrill (Mega)",
+        link: "beautifly",
+        form: "default",
     },
     {
         image: beedrill,
         name: "beedrill",
+        link: "beedrill",
+        form: "default",
     },
     {
         image: beheeyem,
         name: "beheeyem",
+        link: "beheeyem",
+        form: "default",
     },
     {
         image: beldum,
         name: "beldum",
+        link: "beldum",
+        form: "default",
     },
     {
         image: bellossom,
         name: "bellossom",
+        link: "bellossom",
+        form: "default",
     },
     {
         image: bellsprout,
         name: "bellsprout",
+        link: "bellsprout",
+        form: "default",
     },
     {
         image: bergmite,
         name: "bergmite",
+        link: "bergmite",
+        form: "default",
     },
     {
         image: bewear,
         name: "bewear",
+        link: "bewear",
+        form: "default",
     },
     {
         image: bibarel,
         name: "bibarel",
+        link: "bibarel",
+        form: "default",
     },
     {
         image: bidoof,
         name: "bidoof",
+        link: "bidoof",
+        form: "default",
     },
     {
         image: binacle,
         name: "binacle",
+        link: "binacle",
+        form: "default",
     },
     {
         image: bisharp,
         name: "bisharp",
-    },
-    {
-        image: blacephalon,
-        name: "blacephalon",
-    },
-    {
-        image: blastoisegmax,
-        name: "blastoise (Dynamax)",
-    },
-    {
-        image: blastoisemega,
-        name: "blastoise (Mega)",
+        link: "bisharp",
+        form: "default",
     },
     {
         image: blastoise,
         name: "blastoise",
-    },
-    {
-        image: blazikenmega,
-        name: "blaziken (Mega)",
+        link: "blastoise",
+        form: "default",
     },
     {
         image: blaziken,
         name: "blaziken",
+        link: "blaziken",
+        form: "default",
     },
     {
         image: blipbug,
         name: "blipbug",
+        link: "blipbug",
+        form: "default",
     },
     {
         image: blissey,
         name: "blissey",
+        link: "blissey",
+        form: "default",
     },
     {
         image: blitzle,
         name: "blitzle",
+        link: "blitzle",
+        form: "default",
     },
     {
         image: boldore,
         name: "boldore",
+        link: "boldore",
+        form: "default",
     },
     {
         image: boltund,
         name: "boltund",
+        link: "boltund",
+        form: "default",
     },
     {
         image: bonsly,
         name: "bonsly",
+        link: "bonsly",
+        form: "default",
     },
     {
         image: bouffalant,
         name: "bouffalant",
+        link: "bouffalant",
+        form: "default",
     },
     {
         image: bounsweet,
         name: "bounsweet",
+        link: "bounsweet",
+        form: "default",
     },
     {
         image: braixen,
         name: "braixen",
+        link: "braixen",
+        form: "default",
     },
     {
         image: braviary,
         name: "braviary",
+        link: "braviary",
+        form: "default",
     },
     {
         image: breloom,
         name: "breloom",
+        link: "breloom",
+        form: "default",
     },
     {
         image: brionne,
         name: "brionne",
+        link: "brionne",
+        form: "default",
     },
     {
         image: bronzong,
         name: "bronzong",
+        link: "bronzong",
+        form: "default",
     },
     {
         image: bronzor,
         name: "bronzor",
+        link: "bronzor",
+        form: "default",
     },
     {
         image: bruxish,
         name: "bruxish",
+        link: "bruxish",
+        form: "default",
     },
     {
         image: budew,
         name: "budew",
+        link: "budew",
+        form: "default",
     },
     {
         image: buizel,
         name: "buizel",
+        link: "buizel",
+        form: "default",
     },
     {
         image: bulbasaur,
         name: "bulbasaur",
+        link: "bulbasaur",
+        form: "default",
     },
     {
         image: buneary,
         name: "buneary",
+        link: "buneary",
+        form: "default",
     },
     {
         image: bunnelby,
         name: "bunnelby",
+        link: "bunnelby",
+        form: "default",
     },
     {
         image: burmysandy,
-        name: "burmysandy",
+        name: "burmy",
+        link: "burmysandy",
+        form: "sandy",
     },
     {
         image: burmytrash,
-        name: "burmytrash",
+        name: "burmy",
+        link: "burmytrash",
+        form: "trash",
     },
     {
         image: burmy,
         name: "burmy",
-    },
-    {
-        image: butterfreegmax,
-        name: "butterfree (Dynamax)",
+        link: "burmy",
+        form: "default",
     },
     {
         image: butterfree,
         name: "butterfree",
-    },
-    {
-        image: buzzwole,
-        name: "buzzwole",
+        link: "butterfree",
+        form: "default",
     },
     {
         image: cacnea,
         name: "cacnea",
+        link: "cacnea",
+        form: "default",
     },
     {
         image: cacturne,
         name: "cacturne",
-    },
-    {
-        image: calyrexice,
-        name: "calyrexice",
-    },
-    {
-        image: calyrexshadow,
-        name: "calyrexshadow",
-    },
-    {
-        image: calyrex,
-        name: "calyrex",
-    },
-    {
-        image: cameruptmega,
-        name: "camerupt (Mega)",
+        link: "cacturne",
+        form: "default",
     },
     {
         image: camerupt,
         name: "camerupt",
+        link: "camerupt",
+        form: "default",
     },
     {
         image: carbink,
         name: "carbink",
+        link: "carbink",
+        form: "default",
     },
     {
         image: carkol,
         name: "carkol",
+        link: "carkol",
+        form: "default",
     },
     {
         image: carnivine,
         name: "carnivine",
+        link: "carnivine",
+        form: "default",
     },
     {
         image: carracosta,
         name: "carracosta",
+        link: "carracosta",
+        form: "default",
     },
     {
         image: carvanha,
         name: "carvanha",
+        link: "carvanha",
+        form: "default",
     },
     {
         image: cascoon,
         name: "cascoon",
+        link: "cascoon",
+        form: "default",
     },
     {
         image: castformrainy,
-        name: "castformrainy",
+        name: "castform",
+        link: "castformrainy",
+        form: "rainy",
     },
     {
         image: castformsnowy,
-        name: "castformsnowy",
+        name: "castform",
+        link: "castformsnowy",
+        form: "snowy",
     },
     {
         image: castformsunny,
-        name: "castformsunny",
+        name: "castform",
+        link: "castformsunny",
+        form: "sunny",
     },
     {
         image: castform,
         name: "castform",
+        link: "castform",
+        form: "default",
     },
     {
         image: caterpie,
         name: "caterpie",
-    },
-    {
-        image: celebi,
-        name: "celebi",
+        link: "caterpie",
+        form: "default",
     },
     {
         image: celesteela,
         name: "celesteela",
-    },
-    {
-        image: centiskorchgmax,
-        name: "centiskorch (Dynamax)",
+        link: "celesteela",
+        form: "default",
     },
     {
         image: centiskorch,
         name: "centiskorch",
+        link: "centiskorch",
+        form: "default",
     },
     {
         image: chandelure,
         name: "chandelure",
+        link: "chandelure",
+        form: "default",
     },
     {
         image: chansey,
         name: "chansey",
-    },
-    {
-        image: charizardgmax,
-        name: "charizard (Dynamax)",
-    },
-    {
-        image: charizardmegax,
-        name: "charizard (Mega)x",
-    },
-    {
-        image: charizardmegay,
-        name: "charizard (Mega)y",
+        link: "chansey",
+        form: "default",
     },
     {
         image: charizard,
         name: "charizard",
+        link: "charizard",
+        form: "default",
     },
     {
         image: charjabug,
         name: "charjabug",
+        link: "charjabug",
+        form: "default",
     },
     {
         image: charmander,
         name: "charmander",
+        link: "charmander",
+        form: "default",
     },
     {
         image: charmeleon,
         name: "charmeleon",
+        link: "charmeleon",
+        form: "default",
     },
     {
         image: chatot,
         name: "chatot",
+        link: "chatot",
+        form: "default",
     },
     {
         image: cherrimsunshine,
-        name: "cherrimsunshine",
+        name: "cherrim",
+        link: "cherrimsunshine",
+        form: "sunshine",
     },
     {
         image: cherrim,
         name: "cherrim",
+        link: "cherrim",
+        form: "default",
     },
     {
         image: cherubi,
         name: "cherubi",
+        link: "cherubi",
+        form: "default",
     },
     {
         image: chesnaught,
         name: "chesnaught",
+        link: "chesnaught",
+        form: "default",
     },
     {
         image: chespin,
         name: "chespin",
+        link: "chespin",
+        form: "default",
     },
     {
         image: chewtle,
         name: "chewtle",
+        link: "chewtle",
+        form: "default",
     },
     {
         image: chikorita,
         name: "chikorita",
+        link: "chikorita",
+        form: "default",
     },
     {
         image: chimchar,
         name: "chimchar",
+        link: "chimchar",
+        form: "default",
     },
     {
         image: chimecho,
         name: "chimecho",
+        link: "chimecho",
+        form: "default",
     },
     {
         image: chinchou,
         name: "chinchou",
+        link: "chinchou",
+        form: "default",
     },
     {
         image: chingling,
         name: "chingling",
+        link: "chingling",
+        form: "default",
     },
     {
         image: cinccino,
         name: "cinccino",
-    },
-    {
-        image: cinderacegmax,
-        name: "cinderace (Dynamax)",
+        link: "cinccino",
+        form: "default",
     },
     {
         image: cinderace,
         name: "cinderace",
+        link: "cinderace",
+        form: "default",
     },
     {
         image: clamperl,
         name: "clamperl",
+        link: "clamperl",
+        form: "default",
     },
     {
         image: clauncher,
         name: "clauncher",
+        link: "clauncher",
+        form: "default",
     },
     {
         image: clawitzer,
         name: "clawitzer",
+        link: "clawitzer",
+        form: "default",
     },
     {
         image: claydol,
         name: "claydol",
+        link: "claydol",
+        form: "default",
     },
     {
         image: clefable,
         name: "clefable",
+        link: "clefable",
+        form: "default",
     },
     {
         image: clefairy,
         name: "clefairy",
+        link: "clefairy",
+        form: "default",
     },
     {
         image: cleffa,
         name: "cleffa",
+        link: "cleffa",
+        form: "default",
     },
     {
         image: clobbopus,
         name: "clobbopus",
+        link: "clobbopus",
+        form: "default",
     },
     {
         image: cloyster,
         name: "cloyster",
-    },
-    {
-        image: coalossalgmax,
-        name: "coalossal (Dynamax)",
+        link: "cloyster",
+        form: "default",
     },
     {
         image: coalossal,
         name: "coalossal",
-    },
-    {
-        image: cobalion,
-        name: "cobalion",
+        link: "coalossal",
+        form: "default",
     },
     {
         image: cofagrigus,
         name: "cofagrigus",
+        link: "cofagrigus",
+        form: "default",
     },
     {
         image: combee,
         name: "combee",
+        link: "combee",
+        form: "default",
     },
     {
         image: combusken,
         name: "combusken",
+        link: "combusken",
+        form: "default",
     },
     {
         image: comfey,
         name: "comfey",
+        link: "comfey",
+        form: "default",
     },
     {
         image: conkeldurr,
         name: "conkeldurr",
-    },
-    {
-        image: copperajahgmax,
-        name: "copperajah (Dynamax)",
+        link: "conkeldurr",
+        form: "default",
     },
     {
         image: copperajah,
         name: "copperajah",
+        link: "copperajah",
+        form: "default",
     },
     {
         image: corphish,
         name: "corphish",
+        link: "corphish",
+        form: "default",
     },
     {
         image: corsolagalar,
-        name: "corsolagalar",
+        name: "corsola",
+        link: "corsolagalar",
+        form: "galar",
     },
     {
         image: corsola,
         name: "corsola",
-    },
-    {
-        image: corviknightgmax,
-        name: "corviknight (Dynamax)",
+        link: "corsola",
+        form: "default",
     },
     {
         image: corviknight,
         name: "corviknight",
+        link: "corviknight",
+        form: "default",
     },
     {
         image: corvisquire,
         name: "corvisquire",
-    },
-    {
-        image: cosmoem,
-        name: "cosmoem",
-    },
-    {
-        image: cosmog,
-        name: "cosmog",
+        link: "corvisquire",
+        form: "default",
     },
     {
         image: cottonee,
         name: "cottonee",
+        link: "cottonee",
+        form: "default",
     },
     {
         image: crabominable,
         name: "crabominable",
+        link: "crabominable",
+        form: "default",
     },
     {
         image: crabrawler,
         name: "crabrawler",
+        link: "crabrawler",
+        form: "default",
     },
     {
         image: cradily,
         name: "cradily",
-    },
-    {
-        image: cramorantgorging,
-        name: "cramorantgorging",
-    },
-    {
-        image: cramorantgulping,
-        name: "cramorantgulping",
+        link: "cradily",
+        form: "default",
     },
     {
         image: cramorant,
         name: "cramorant",
+        link: "cramorant",
+        form: "default",
     },
     {
         image: cranidos,
         name: "cranidos",
+        link: "cranidos",
+        form: "default",
     },
     {
         image: crawdaunt,
         name: "crawdaunt",
-    },
-    {
-        image: cresselia,
-        name: "cresselia",
+        link: "crawdaunt",
+        form: "default",
     },
     {
         image: croagunk,
         name: "croagunk",
+        link: "croagunk",
+        form: "default",
     },
     {
         image: crobat,
         name: "crobat",
+        link: "crobat",
+        form: "default",
     },
     {
         image: croconaw,
         name: "croconaw",
+        link: "croconaw",
+        form: "default",
     },
     {
         image: crustle,
         name: "crustle",
+        link: "crustle",
+        form: "default",
     },
     {
         image: cryogonal,
         name: "cryogonal",
+        link: "cryogonal",
+        form: "default",
     },
     {
         image: cubchoo,
         name: "cubchoo",
+        link: "cubchoo",
+        form: "default",
     },
     {
         image: cubone,
         name: "cubone",
+        link: "cubone",
+        form: "default",
     },
     {
         image: cufant,
         name: "cufant",
+        link: "cufant",
+        form: "default",
     },
     {
         image: cursola,
         name: "cursola",
+        link: "cursola",
+        form: "default",
     },
     {
         image: cutiefly,
         name: "cutiefly",
+        link: "cutiefly",
+        form: "default",
     },
     {
         image: cyndaquil,
         name: "cyndaquil",
-    },
-    {
-        image: darkrai,
-        name: "darkrai",
-    },
-    {
-        image: darmanitangalarzen,
-        name: "darmanitangalarzen",
+        link: "cyndaquil",
+        form: "default",
     },
     {
         image: darmanitangalar,
-        name: "darmanitangalar",
-    },
-    {
-        image: darmanitanzen,
-        name: "darmanitanzen",
+        name: "darmanitan",
+        link: "darmanitangalar",
+        form: "galar",
     },
     {
         image: darmanitan,
         name: "darmanitan",
+        link: "darmanitan",
+        form: "default",
     },
     {
         image: dartrix,
         name: "dartrix",
+        link: "dartrix",
+        form: "default",
     },
     {
         image: darumakagalar,
-        name: "darumakagalar",
+        name: "darumaka",
+        link: "darumakagalar",
+        form: "galar",
     },
     {
         image: darumaka,
         name: "darumaka",
+        link: "darumaka",
+        form: "default",
     },
     {
         image: decidueye,
         name: "decidueye",
+        link: "decidueye",
+        form: "default",
     },
     {
         image: dedenne,
         name: "dedenne",
+        link: "dedenne",
+        form: "default",
     },
     {
         image: deerlingautumn,
-        name: "deerlingautumn",
+        name: "deerling",
+        link: "deerlingautumn",
+        form: "autumn",
     },
     {
         image: deerlingsummer,
-        name: "deerlingsummer",
+        name: "deerling",
+        link: "deerlingsummer",
+        form: "summer",
     },
     {
         image: deerlingwinter,
-        name: "deerlingwinter",
+        name: "deerling",
+        link: "deerlingwinter",
+        form: "winter",
     },
     {
         image: deerling,
         name: "deerling",
+        link: "deerling",
+        form: "default",
     },
     {
         image: deino,
         name: "deino",
+        link: "deino",
+        form: "default",
     },
     {
         image: delcatty,
         name: "delcatty",
+        link: "delcatty",
+        form: "default",
     },
     {
         image: delibird,
         name: "delibird",
+        link: "delibird",
+        form: "default",
     },
     {
         image: delphox,
         name: "delphox",
-    },
-    {
-        image: deoxysattack,
-        name: "deoxysattack",
-    },
-    {
-        image: deoxysdefense,
-        name: "deoxysdefense",
-    },
-    {
-        image: deoxysspeed,
-        name: "deoxysspeed",
-    },
-    {
-        image: deoxys,
-        name: "deoxys",
+        link: "delphox",
+        form: "default",
     },
     {
         image: dewgong,
         name: "dewgong",
+        link: "dewgong",
+        form: "default",
     },
     {
         image: dewott,
         name: "dewott",
+        link: "dewott",
+        form: "default",
     },
     {
         image: dewpider,
         name: "dewpider",
+        link: "dewpider",
+        form: "default",
     },
     {
         image: dhelmise,
         name: "dhelmise",
-    },
-    {
-        image: dialga,
-        name: "dialga",
-    },
-    {
-        image: dianciemega,
-        name: "diancie (Mega)",
-    },
-    {
-        image: diancie,
-        name: "diancie",
+        link: "dhelmise",
+        form: "default",
     },
     {
         image: diggersby,
         name: "diggersby",
+        link: "diggersby",
+        form: "default",
     },
     {
         image: diglettalola,
-        name: "diglettalola",
+        name: "diglett",
+        link: "diglettalola",
+        form: "alola",
     },
     {
         image: diglett,
         name: "diglett",
+        link: "diglett",
+        form: "default",
     },
     {
         image: ditto,
         name: "ditto",
+        link: "ditto",
+        form: "default",
     },
     {
         image: dodrio,
         name: "dodrio",
+        link: "dodrio",
+        form: "default",
     },
     {
         image: doduo,
         name: "doduo",
+        link: "doduo",
+        form: "default",
     },
     {
         image: donphan,
         name: "donphan",
+        link: "donphan",
+        form: "default",
     },
     {
         image: dottler,
         name: "dottler",
+        link: "dottler",
+        form: "default",
     },
     {
         image: doublade,
         name: "doublade",
+        link: "doublade",
+        form: "default",
     },
     {
         image: dracovish,
         name: "dracovish",
+        link: "dracovish",
+        form: "default",
     },
     {
         image: dracozolt,
         name: "dracozolt",
+        link: "dracozolt",
+        form: "default",
     },
     {
         image: dragalge,
         name: "dragalge",
+        link: "dragalge",
+        form: "default",
     },
     {
         image: dragapult,
         name: "dragapult",
+        link: "dragapult",
+        form: "default",
     },
     {
         image: dragonair,
         name: "dragonair",
+        link: "dragonair",
+        form: "default",
     },
     {
         image: dragonite,
         name: "dragonite",
+        link: "dragonite",
+        form: "default",
     },
     {
         image: drakloak,
         name: "drakloak",
+        link: "drakloak",
+        form: "default",
     },
     {
         image: drampa,
         name: "drampa",
+        link: "drampa",
+        form: "default",
     },
     {
         image: drapion,
         name: "drapion",
+        link: "drapion",
+        form: "default",
     },
     {
         image: dratini,
         name: "dratini",
-    },
-    {
-        image: drednawgmax,
-        name: "drednaw (Dynamax)",
+        link: "dratini",
+        form: "default",
     },
     {
         image: drednaw,
         name: "drednaw",
+        link: "drednaw",
+        form: "default",
     },
     {
         image: dreepy,
         name: "dreepy",
+        link: "dreepy",
+        form: "default",
     },
     {
         image: drifblim,
         name: "drifblim",
+        link: "drifblim",
+        form: "default",
     },
     {
         image: drifloon,
         name: "drifloon",
+        link: "drifloon",
+        form: "default",
     },
     {
         image: drilbur,
         name: "drilbur",
+        link: "drilbur",
+        form: "default",
     },
     {
         image: drizzile,
         name: "drizzile",
+        link: "drizzile",
+        form: "default",
     },
     {
         image: drowzee,
         name: "drowzee",
+        link: "drowzee",
+        form: "default",
     },
     {
         image: druddigon,
         name: "druddigon",
+        link: "druddigon",
+        form: "default",
     },
     {
         image: dubwool,
         name: "dubwool",
+        link: "dubwool",
+        form: "default",
     },
     {
         image: ducklett,
         name: "ducklett",
+        link: "ducklett",
+        form: "default",
     },
     {
         image: dugtrioalola,
-        name: "dugtrioalola",
+        name: "dugtrio",
+        link: "dugtrioalola",
+        form: "alola",
     },
     {
         image: dugtrio,
         name: "dugtrio",
+        link: "dugtrio",
+        form: "default",
     },
     {
         image: dunsparce,
         name: "dunsparce",
+        link: "dunsparce",
+        form: "default",
     },
     {
         image: duosion,
         name: "duosion",
-    },
-    {
-        image: duraludongmax,
-        name: "duraludon (Dynamax)",
+        link: "duosion",
+        form: "default",
     },
     {
         image: duraludon,
         name: "duraludon",
+        link: "duraludon",
+        form: "default",
     },
     {
         image: durant,
         name: "durant",
+        link: "durant",
+        form: "default",
     },
     {
         image: dusclops,
         name: "dusclops",
+        link: "dusclops",
+        form: "default",
     },
     {
         image: dusknoir,
         name: "dusknoir",
+        link: "dusknoir",
+        form: "default",
     },
     {
         image: duskull,
         name: "duskull",
+        link: "duskull",
+        form: "default",
     },
     {
         image: dustox,
         name: "dustox",
+        link: "dustox",
+        form: "default",
     },
     {
         image: dwebble,
         name: "dwebble",
+        link: "dwebble",
+        form: "default",
     },
     {
         image: eelektrik,
         name: "eelektrik",
+        link: "eelektrik",
+        form: "default",
     },
     {
         image: eelektross,
         name: "eelektross",
-    },
-    {
-        image: eeveegmax,
-        name: "eevee (Dynamax)",
-    },
-    {
-        image: eeveestarter,
-        name: "eeveestarter",
+        link: "eelektross",
+        form: "default",
     },
     {
         image: eevee,
         name: "eevee",
-    },
-    {
-        image: eggmanaphy,
-        name: "eggmanaphy",
-    },
-    {
-        image: egg,
-        name: "egg",
-    },
-    {
-        image: eiscuenoice,
-        name: "eiscuenoice",
+        link: "eevee",
+        form: "default",
     },
     {
         image: eiscue,
         name: "eiscue",
+        link: "eiscue",
+        form: "default",
     },
     {
         image: ekans,
         name: "ekans",
+        link: "ekans",
+        form: "default",
     },
     {
         image: eldegoss,
         name: "eldegoss",
+        link: "eldegoss",
+        form: "default",
     },
     {
         image: electabuzz,
         name: "electabuzz",
+        link: "electabuzz",
+        form: "default",
     },
     {
         image: electivire,
         name: "electivire",
+        link: "electivire",
+        form: "default",
     },
     {
         image: electrike,
         name: "electrike",
+        link: "electrike",
+        form: "default",
     },
     {
         image: electrode,
         name: "electrode",
+        link: "electrode",
+        form: "default",
     },
     {
         image: elekid,
         name: "elekid",
+        link: "elekid",
+        form: "default",
     },
     {
         image: elgyem,
         name: "elgyem",
+        link: "elgyem",
+        form: "default",
     },
     {
         image: emboar,
         name: "emboar",
+        link: "emboar",
+        form: "default",
     },
     {
         image: emolga,
         name: "emolga",
+        link: "emolga",
+        form: "default",
     },
     {
         image: empoleon,
         name: "empoleon",
-    },
-    {
-        image: entei,
-        name: "entei",
+        link: "empoleon",
+        form: "default",
     },
     {
         image: escavalier,
         name: "escavalier",
+        link: "escavalier",
+        form: "default",
     },
     {
         image: espeon,
         name: "espeon",
+        link: "espeon",
+        form: "default",
     },
     {
         image: espurr,
         name: "espurr",
-    },
-    {
-        image: eternatuseternamax,
-        name: "eternatuseternamax",
-    },
-    {
-        image: eternatus,
-        name: "eternatus",
+        link: "espurr",
+        form: "default",
     },
     {
         image: excadrill,
         name: "excadrill",
+        link: "excadrill",
+        form: "default",
     },
     {
         image: exeggcute,
         name: "exeggcute",
+        link: "exeggcute",
+        form: "default",
     },
     {
         image: exeggutoralola,
-        name: "exeggutoralola",
+        name: "exeggutor",
+        link: "exeggutoralola",
+        form: "alola",
     },
     {
         image: exeggutor,
         name: "exeggutor",
+        link: "exeggutor",
+        form: "default",
     },
     {
         image: exploud,
         name: "exploud",
+        link: "exploud",
+        form: "default",
     },
     {
         image: falinks,
         name: "falinks",
+        link: "falinks",
+        form: "default",
     },
     {
         image: farfetchdgalar,
-        name: "farfetchdgalar",
+        name: "farfetchd",
+        link: "farfetchdgalar",
+        form: "galar",
     },
     {
         image: farfetchd,
         name: "farfetchd",
+        link: "farfetchd",
+        form: "default",
     },
     {
         image: fearow,
         name: "fearow",
+        link: "fearow",
+        form: "default",
     },
     {
         image: feebas,
         name: "feebas",
+        link: "feebas",
+        form: "default",
     },
     {
         image: fennekin,
         name: "fennekin",
+        link: "fennekin",
+        form: "default",
     },
     {
         image: feraligatr,
         name: "feraligatr",
+        link: "feraligatr",
+        form: "default",
     },
     {
         image: ferroseed,
         name: "ferroseed",
+        link: "ferroseed",
+        form: "default",
     },
     {
         image: ferrothorn,
         name: "ferrothorn",
+        link: "ferrothorn",
+        form: "default",
     },
     {
         image: finneon,
         name: "finneon",
+        link: "finneon",
+        form: "default",
     },
     {
         image: flaaffy,
         name: "flaaffy",
+        link: "flaaffy",
+        form: "default",
     },
     {
         image: flabebeblue,
-        name: "flabebeblue",
+        name: "flabebe",
+        link: "flabebeblue",
+        form: "blue",
     },
     {
         image: flabebeorange,
-        name: "flabebeorange",
+        name: "flabebe",
+        link: "flabebeorange",
+        form: "orange",
     },
     {
         image: flabebewhite,
-        name: "flabebewhite",
+        name: "flabebe",
+        link: "flabebewhite",
+        form: "white",
     },
     {
         image: flabebeyellow,
-        name: "flabebeyellow",
+        name: "flabebe",
+        link: "flabebeyellow",
+        form: "yellow",
     },
     {
         image: flabebe,
         name: "flabebe",
-    },
-    {
-        image: flapplegmax,
-        name: "flapple (Dynamax)",
+        link: "flabebe",
+        form: "default",
     },
     {
         image: flapple,
         name: "flapple",
+        link: "flapple",
+        form: "default",
     },
     {
         image: flareon,
         name: "flareon",
+        link: "flareon",
+        form: "default",
     },
     {
         image: fletchinder,
         name: "fletchinder",
+        link: "fletchinder",
+        form: "default",
     },
     {
         image: fletchling,
         name: "fletchling",
+        link: "fletchling",
+        form: "default",
     },
     {
         image: floatzel,
         name: "floatzel",
+        link: "floatzel",
+        form: "default",
     },
     {
         image: floetteblue,
-        name: "floetteblue",
-    },
-    {
-        image: floetteeternal,
-        name: "floetteeternal",
+        name: "floette",
+        link: "floetteblue",
+        form: "blue",
     },
     {
         image: floetteorange,
-        name: "floetteorange",
+        name: "floette",
+        link: "floetteorange",
+        form: "orange",
     },
     {
         image: floettewhite,
-        name: "floettewhite",
+        name: "floette",
+        link: "floettewhite",
+        form: "white",
     },
     {
         image: floetteyellow,
-        name: "floetteyellow",
+        name: "floette",
+        link: "floetteyellow",
+        form: "yellow",
     },
     {
         image: floette,
         name: "floette",
+        link: "floette",
+        form: "default",
     },
     {
         image: florgesblue,
-        name: "florgesblue",
+        name: "florges",
+        link: "florgesblue",
+        form: "blue",
     },
     {
         image: florgesorange,
-        name: "florgesorange",
+        name: "florges",
+        link: "florgesorange",
+        form: "orange",
     },
     {
         image: florgeswhite,
-        name: "florgeswhite",
+        name: "florges",
+        link: "florgeswhite",
+        form: "white",
     },
     {
         image: florgesyellow,
-        name: "florgesyellow",
+        name: "florges",
+        link: "florgesyellow",
+        form: "yellow",
     },
     {
         image: florges,
         name: "florges",
+        link: "florges",
+        form: "default",
     },
     {
         image: flygon,
         name: "flygon",
+        link: "flygon",
+        form: "default",
     },
     {
         image: fomantis,
         name: "fomantis",
+        link: "fomantis",
+        form: "default",
     },
     {
         image: foongus,
         name: "foongus",
+        link: "foongus",
+        form: "default",
     },
     {
         image: forretress,
         name: "forretress",
+        link: "forretress",
+        form: "default",
     },
     {
         image: fraxure,
         name: "fraxure",
+        link: "fraxure",
+        form: "default",
     },
     {
         image: frillishf,
-        name: "frillishf",
+        name: "frillish",
+        link: "frillishf",
+        form: "female",
     },
     {
         image: frillish,
         name: "frillish",
+        link: "frillish",
+        form: "default",
     },
     {
         image: froakie,
         name: "froakie",
+        link: "froakie",
+        form: "default",
     },
     {
         image: frogadier,
         name: "frogadier",
+        link: "frogadier",
+        form: "default",
     },
     {
         image: froslass,
         name: "froslass",
+        link: "froslass",
+        form: "default",
     },
     {
         image: frosmoth,
         name: "frosmoth",
+        link: "frosmoth",
+        form: "default",
     },
     {
         image: furfroudandy,
-        name: "furfroudandy",
+        name: "furfrou",
+        link: "furfroudandy",
+        form: "dandy",
     },
     {
         image: furfroudebutante,
-        name: "furfroudebutante",
+        name: "furfrou",
+        link: "furfroudebutante",
+        form: "debutante",
     },
     {
         image: furfroudiamond,
-        name: "furfroudiamond",
+        name: "furfrou",
+        link: "furfroudiamond",
+        form: "diamond",
     },
     {
         image: furfrouheart,
-        name: "furfrouheart",
+        name: "furfrou",
+        link: "furfrouheart",
+        form: "heart",
     },
     {
         image: furfroukabuki,
-        name: "furfroukabuki",
+        name: "furfrou",
+        link: "furfroukabuki",
+        form: "kabuki",
     },
     {
         image: furfroulareine,
-        name: "furfroulareine",
+        name: "furfrou",
+        link: "furfroulareine",
+        form: "la reine",
     },
     {
         image: furfroumatron,
-        name: "furfroumatron",
+        name: "furfrou",
+        link: "furfroumatron",
+        form: "matron",
     },
     {
         image: furfroupharaoh,
-        name: "furfroupharaoh",
+        name: "furfrou",
+        link: "furfroupharaoh",
+        form: "pharaoh",
     },
     {
         image: furfroustar,
-        name: "furfroustar",
+        name: "furfrou",
+        link: "furfroustar",
+        form: "star",
     },
     {
         image: furfrou,
         name: "furfrou",
+        link: "furfrou",
+        form: "default",
     },
     {
         image: furret,
         name: "furret",
+        link: "furret",
+        form: "default",
     },
     {
         image: gabite,
         name: "gabite",
-    },
-    {
-        image: gallademega,
-        name: "gallade (Mega)",
+        link: "gabite",
+        form: "default",
     },
     {
         image: gallade,
         name: "gallade",
+        link: "gallade",
+        form: "default",
     },
     {
         image: galvantula,
         name: "galvantula",
-    },
-    {
-        image: garbodorgmax,
-        name: "garbodor (Dynamax)",
+        link: "galvantula",
+        form: "default",
     },
     {
         image: garbodor,
         name: "garbodor",
-    },
-    {
-        image: garchompmega,
-        name: "garchomp (Mega)",
+        link: "garbodor",
+        form: "default",
     },
     {
         image: garchomp,
         name: "garchomp",
-    },
-    {
-        image: gardevoirmega,
-        name: "gardevoir (Mega)",
+        link: "garchomp",
+        form: "default",
     },
     {
         image: gardevoir,
         name: "gardevoir",
+        link: "gardevoir",
+        form: "default",
     },
     {
         image: gastly,
         name: "gastly",
+        link: "gastly",
+        form: "default",
     },
     {
         image: gastrodoneast,
-        name: "gastrodoneast",
+        name: "gastrodon",
+        link: "gastrodoneast",
+        form: "east",
     },
     {
         image: gastrodon,
         name: "gastrodon",
-    },
-    {
-        image: genesectnodrive,
-        name: "genesectnodrive",
-    },
-    {
-        image: genesectburn,
-        name: "genesectburn",
-    },
-    {
-        image: genesectchill,
-        name: "genesectchill",
-    },
-    {
-        image: genesectdouse,
-        name: "genesectdouse",
-    },
-    {
-        image: genesectshock,
-        name: "genesectshock",
-    },
-    {
-        image: genesect,
-        name: "genesect",
-    },
-    {
-        image: gengargmax,
-        name: "gengar (Dynamax)",
-    },
-    {
-        image: gengarmega,
-        name: "gengar (Mega)",
+        link: "gastrodon",
+        form: "default",
     },
     {
         image: gengar,
         name: "gengar",
+        link: "gengar",
+        form: "default",
     },
     {
         image: geodudealola,
-        name: "geodudealola",
+        name: "geodude",
+        link: "geodudealola",
+        form: "alola",
     },
     {
         image: geodude,
         name: "geodude",
+        link: "geodude",
+        form: "default",
     },
     {
         image: gible,
         name: "gible",
+        link: "gible",
+        form: "default",
     },
     {
         image: gigalith,
         name: "gigalith",
+        link: "gigalith",
+        form: "default",
     },
     {
         image: girafarig,
         name: "girafarig",
-    },
-    {
-        image: giratinaorigin,
-        name: "giratinaorigin",
-    },
-    {
-        image: giratina,
-        name: "giratina",
+        link: "girafarig",
+        form: "default",
     },
     {
         image: glaceon,
         name: "glaceon",
-    },
-    {
-        image: glaliemega,
-        name: "glalie (Mega)",
+        link: "glaceon",
+        form: "default",
     },
     {
         image: glalie,
         name: "glalie",
+        link: "glalie",
+        form: "default",
     },
     {
         image: glameow,
         name: "glameow",
-    },
-    {
-        image: glastrier,
-        name: "glastrier",
+        link: "glameow",
+        form: "default",
     },
     {
         image: gligar,
         name: "gligar",
+        link: "gligar",
+        form: "default",
     },
     {
         image: gliscor,
         name: "gliscor",
+        link: "gliscor",
+        form: "default",
     },
     {
         image: gloom,
         name: "gloom",
+        link: "gloom",
+        form: "default",
     },
     {
         image: gogoat,
         name: "gogoat",
+        link: "gogoat",
+        form: "default",
     },
     {
         image: golbat,
         name: "golbat",
+        link: "golbat",
+        form: "default",
     },
     {
         image: goldeen,
         name: "goldeen",
+        link: "goldeen",
+        form: "default",
     },
     {
         image: golduck,
         name: "golduck",
+        link: "golduck",
+        form: "default",
     },
     {
         image: golemalola,
-        name: "golemalola",
+        name: "golem",
+        link: "golemalola",
+        form: "alola",
     },
     {
         image: golem,
         name: "golem",
+        link: "golem",
+        form: "default",
     },
     {
         image: golett,
         name: "golett",
+        link: "golett",
+        form: "default",
     },
     {
         image: golisopod,
         name: "golisopod",
+        link: "golisopod",
+        form: "default",
     },
     {
         image: golurk,
         name: "golurk",
+        link: "golurk",
+        form: "default",
     },
     {
         image: goodra,
         name: "goodra",
+        link: "goodra",
+        form: "default",
     },
     {
         image: goomy,
         name: "goomy",
+        link: "goomy",
+        form: "default",
     },
     {
         image: gorebyss,
         name: "gorebyss",
+        link: "gorebyss",
+        form: "default",
     },
     {
         image: gossifleur,
         name: "gossifleur",
+        link: "gossifleur",
+        form: "default",
     },
     {
         image: gothita,
         name: "gothita",
+        link: "gothita",
+        form: "default",
     },
     {
         image: gothitelle,
         name: "gothitelle",
+        link: "gothitelle",
+        form: "default",
     },
     {
         image: gothorita,
         name: "gothorita",
+        link: "gothorita",
+        form: "default",
     },
     {
         image: gourgeistlarge,
-        name: "gourgeistlarge",
+        name: "gourgeist",
+        link: "gourgeistlarge",
+        form: "large",
     },
     {
         image: gourgeistsmall,
-        name: "gourgeistsmall",
+        name: "gourgeist",
+        link: "gourgeistsmall",
+        form: "small",
     },
     {
         image: gourgeistsuper,
-        name: "gourgeistsuper",
+        name: "gourgeist",
+        link: "gourgeistsuper",
+        form: "super",
     },
     {
         image: gourgeist,
         name: "gourgeist",
+        link: "gourgeist",
+        form: "default",
     },
     {
         image: granbull,
         name: "granbull",
+        link: "granbull",
+        form: "default",
     },
     {
         image: grapploct,
         name: "grapploct",
+        link: "grapploct",
+        form: "default",
     },
     {
         image: graveleralola,
-        name: "graveleralola",
+        name: "graveler",
+        link: "graveleralola",
+        form: "alola",
     },
     {
         image: graveler,
         name: "graveler",
+        link: "graveler",
+        form: "default",
     },
     {
         image: greedent,
         name: "greedent",
-    },
-    {
-        image: greninjaash,
-        name: "greninjaash",
+        link: "greedent",
+        form: "default",
     },
     {
         image: greninja,
         name: "greninja",
+        link: "greninja",
+        form: "default",
     },
     {
         image: grimeralola,
-        name: "grimeralola",
+        name: "grimer",
+        link: "grimeralola",
+        form: "alola",
     },
     {
         image: grimer,
         name: "grimer",
-    },
-    {
-        image: grimmsnarlgmax,
-        name: "grimmsnarl (Dynamax)",
+        link: "grimer",
+        form: "default",
     },
     {
         image: grimmsnarl,
         name: "grimmsnarl",
+        link: "grimmsnarl",
+        form: "default",
     },
     {
         image: grookey,
         name: "grookey",
+        link: "grookey",
+        form: "default",
     },
     {
         image: grotle,
         name: "grotle",
-    },
-    {
-        image: groudonprimal,
-        name: "groudonprimal",
-    },
-    {
-        image: groudon,
-        name: "groudon",
+        link: "grotle",
+        form: "default",
     },
     {
         image: grovyle,
         name: "grovyle",
+        link: "grovyle",
+        form: "default",
     },
     {
         image: growlithe,
         name: "growlithe",
+        link: "growlithe",
+        form: "default",
     },
     {
         image: grubbin,
         name: "grubbin",
+        link: "grubbin",
+        form: "default",
     },
     {
         image: grumpig,
         name: "grumpig",
+        link: "grumpig",
+        form: "default",
     },
     {
         image: gulpin,
         name: "gulpin",
+        link: "gulpin",
+        form: "default",
     },
     {
         image: gumshoos,
         name: "gumshoos",
+        link: "gumshoos",
+        form: "default",
     },
     {
         image: gurdurr,
         name: "gurdurr",
-    },
-    {
-        image: guzzlord,
-        name: "guzzlord",
-    },
-    {
-        image: gyaradosmega,
-        name: "gyarados (Mega)",
+        link: "gurdurr",
+        form: "default",
     },
     {
         image: gyarados,
         name: "gyarados",
+        link: "gyarados",
+        form: "default",
     },
     {
         image: hakamoo,
         name: "hakamoo",
+        link: "hakamoo",
+        form: "default",
     },
     {
         image: happiny,
         name: "happiny",
+        link: "happiny",
+        form: "default",
     },
     {
         image: hariyama,
         name: "hariyama",
+        link: "hariyama",
+        form: "default",
     },
     {
         image: hatenna,
         name: "hatenna",
-    },
-    {
-        image: hatterenegmax,
-        name: "hatterene (Dynamax)",
+        link: "hatenna",
+        form: "default",
     },
     {
         image: hatterene,
         name: "hatterene",
+        link: "hatterene",
+        form: "default",
     },
     {
         image: hattrem,
         name: "hattrem",
+        link: "hattrem",
+        form: "default",
     },
     {
         image: haunter,
         name: "haunter",
+        link: "haunter",
+        form: "default",
     },
     {
         image: hawlucha,
         name: "hawlucha",
+        link: "hawlucha",
+        form: "default",
     },
     {
         image: haxorus,
         name: "haxorus",
+        link: "haxorus",
+        form: "default",
     },
     {
         image: heatmor,
         name: "heatmor",
-    },
-    {
-        image: heatran,
-        name: "heatran",
+        link: "heatmor",
+        form: "default",
     },
     {
         image: heliolisk,
         name: "heliolisk",
+        link: "heliolisk",
+        form: "default",
     },
     {
         image: helioptile,
         name: "helioptile",
-    },
-    {
-        image: heracrossmega,
-        name: "heracross (Mega)",
+        link: "helioptile",
+        form: "default",
     },
     {
         image: heracross,
         name: "heracross",
+        link: "heracross",
+        form: "default",
     },
     {
         image: herdier,
         name: "herdier",
+        link: "herdier",
+        form: "default",
     },
     {
         image: hippopotasf,
-        name: "hippopotasf",
+        name: "hippopotas",
+        link: "hippopotasf",
+        form: "female",
     },
     {
         image: hippopotas,
         name: "hippopotas",
+        link: "hippopotas",
+        form: "default",
     },
     {
         image: hippowdonf,
-        name: "hippowdonf",
+        name: "hippowdon",
+        link: "hippowdonf",
+        form: "female",
     },
     {
         image: hippowdon,
         name: "hippowdon",
+        link: "hippowdon",
+        form: "default",
     },
     {
         image: hitmonchan,
         name: "hitmonchan",
+        link: "hitmonchan",
+        form: "default",
     },
     {
         image: hitmonlee,
         name: "hitmonlee",
+        link: "hitmonlee",
+        form: "default",
     },
     {
         image: hitmontop,
         name: "hitmontop",
-    },
-    {
-        image: hooh,
-        name: "hooh",
+        link: "hitmontop",
+        form: "default",
     },
     {
         image: honchkrow,
         name: "honchkrow",
+        link: "honchkrow",
+        form: "default",
     },
     {
         image: honedge,
         name: "honedge",
-    },
-    {
-        image: hoopaunbound,
-        name: "hoopaunbound",
-    },
-    {
-        image: hoopa,
-        name: "hoopa",
+        link: "honedge",
+        form: "default",
     },
     {
         image: hoothoot,
-        name: "hoothoot",
+        name: "hoot-hoot",
+        link: "hoothoot",
+        form: "default",
     },
     {
         image: hoppip,
         name: "hoppip",
+        link: "hoppip",
+        form: "default",
     },
     {
         image: horsea,
         name: "horsea",
-    },
-    {
-        image: houndoommega,
-        name: "houndoom (Mega)",
+        link: "horsea",
+        form: "default",
     },
     {
         image: houndoom,
         name: "houndoom",
+        link: "houndoom",
+        form: "default",
     },
     {
         image: houndour,
         name: "houndour",
+        link: "houndour",
+        form: "default",
     },
     {
         image: huntail,
         name: "huntail",
+        link: "huntail",
+        form: "default",
     },
     {
         image: hydreigon,
         name: "hydreigon",
+        link: "hydreigon",
+        form: "default",
     },
     {
         image: hypno,
         name: "hypno",
+        link: "hypno",
+        form: "default",
     },
     {
         image: igglybuff,
         name: "igglybuff",
+        link: "igglybuff",
+        form: "default",
     },
     {
         image: illumise,
         name: "illumise",
+        link: "illumise",
+        form: "default",
     },
     {
         image: impidimp,
         name: "impidimp",
+        link: "impidimp",
+        form: "default",
     },
     {
         image: incineroar,
         name: "incineroar",
+        link: "incineroar",
+        form: "default",
     },
     {
         image: indeedeef,
-        name: "indeedeef",
+        name: "indeedee",
+        link: "indeedeef",
+        form: "female",
     },
     {
         image: indeedee,
         name: "indeedee",
+        link: "indeedee",
+        form: "default",
     },
     {
         image: infernape,
         name: "infernape",
+        link: "infernape",
+        form: "default",
     },
     {
         image: inkay,
         name: "inkay",
-    },
-    {
-        image: inteleongmax,
-        name: "inteleon (Dynamax)",
+        link: "inkay",
+        form: "default",
     },
     {
         image: inteleon,
         name: "inteleon",
+        link: "inteleon",
+        form: "default",
     },
     {
         image: ivysaur,
         name: "ivysaur",
+        link: "ivysaur",
+        form: "default",
     },
     {
         image: jangmoo,
         name: "jangmoo",
+        link: "jangmoo",
+        form: "default",
     },
     {
         image: jellicentf,
-        name: "jellicentf",
+        name: "jellicent",
+        link: "jellicentf",
+        form: "female",
     },
     {
         image: jellicent,
         name: "jellicent",
+        link: "jellicent",
+        form: "default",
     },
     {
         image: jigglypuff,
         name: "jigglypuff",
-    },
-    {
-        image: jirachi,
-        name: "jirachi",
+        link: "jigglypuff",
+        form: "default",
     },
     {
         image: jolteon,
         name: "jolteon",
+        link: "jolteon",
+        form: "default",
     },
     {
         image: joltik,
         name: "joltik",
+        link: "joltik",
+        form: "default",
     },
     {
         image: jumpluff,
         name: "jumpluff",
+        link: "jumpluff",
+        form: "default",
     },
     {
         image: jynx,
         name: "jynx",
+        link: "jynx",
+        form: "default",
     },
     {
         image: kabuto,
         name: "kabuto",
+        link: "kabuto",
+        form: "default",
     },
     {
         image: kabutops,
         name: "kabutops",
+        link: "kabutops",
+        form: "default",
     },
     {
         image: kadabra,
         name: "kadabra",
+        link: "kadabra",
+        form: "default",
     },
     {
         image: kakuna,
         name: "kakuna",
-    },
-    {
-        image: kangaskhanmega,
-        name: "kangaskhan (Mega)",
+        link: "kakuna",
+        form: "default",
     },
     {
         image: kangaskhan,
         name: "kangaskhan",
+        link: "kangaskhan",
+        form: "default",
     },
     {
         image: karrablast,
         name: "karrablast",
-    },
-    {
-        image: kartana,
-        name: "kartana",
+        link: "karrablast",
+        form: "default",
     },
     {
         image: kecleon,
         name: "kecleon",
-    },
-    {
-        image: keldeoresolute,
-        name: "keldeoresolute",
-    },
-    {
-        image: keldeo,
-        name: "keldeo",
+        link: "kecleon",
+        form: "default",
     },
     {
         image: kingdra,
         name: "kingdra",
-    },
-    {
-        image: kinglergmax,
-        name: "kingler (Dynamax)",
+        link: "kingdra",
+        form: "default",
     },
     {
         image: kingler,
         name: "kingler",
+        link: "kingler",
+        form: "default",
     },
     {
         image: kirlia,
         name: "kirlia",
+        link: "kirlia",
+        form: "default",
     },
     {
         image: klang,
         name: "klang",
+        link: "klang",
+        form: "default",
     },
     {
         image: klefki,
         name: "klefki",
+        link: "klefki",
+        form: "default",
     },
     {
         image: klink,
         name: "klink",
+        link: "klink",
+        form: "default",
     },
     {
         image: klinklang,
         name: "klinklang",
+        link: "klinklang",
+        form: "default",
     },
     {
         image: koffing,
         name: "koffing",
+        link: "koffing",
+        form: "default",
     },
     {
         image: komala,
         name: "komala",
+        link: "komala",
+        form: "default",
     },
     {
         image: kommoo,
         name: "kommoo",
+        link: "kommoo",
+        form: "default",
     },
     {
         image: krabby,
         name: "krabby",
+        link: "krabby",
+        form: "default",
     },
     {
         image: kricketot,
         name: "kricketot",
+        link: "kricketot",
+        form: "default",
     },
     {
         image: kricketune,
         name: "kricketune",
+        link: "kricketune",
+        form: "default",
     },
     {
         image: krokorok,
         name: "krokorok",
+        link: "krokorok",
+        form: "default",
     },
     {
         image: krookodile,
         name: "krookodile",
-    },
-    {
-        image: kubfu,
-        name: "kubfu",
-    },
-    {
-        image: kyogreprimal,
-        name: "kyogreprimal",
-    },
-    {
-        image: kyogre,
-        name: "kyogre",
-    },
-    {
-        image: kyuremblack,
-        name: "kyuremblack",
-    },
-    {
-        image: kyuremwhite,
-        name: "kyuremwhite",
-    },
-    {
-        image: kyurem,
-        name: "kyurem",
+        link: "krookodile",
+        form: "default",
     },
     {
         image: lairon,
         name: "lairon",
+        link: "lairon",
+        form: "default",
     },
     {
         image: lampent,
         name: "lampent",
-    },
-    {
-        image: landorustherian,
-        name: "landorustherian",
-    },
-    {
-        image: landorus,
-        name: "landorus",
+        link: "lampent",
+        form: "default",
     },
     {
         image: lanturn,
         name: "lanturn",
-    },
-    {
-        image: laprasgmax,
-        name: "lapras (Dynamax)",
+        link: "lanturn",
+        form: "default",
     },
     {
         image: lapras,
         name: "lapras",
+        link: "lapras",
+        form: "default",
     },
     {
         image: larvesta,
         name: "larvesta",
+        link: "larvesta",
+        form: "default",
     },
     {
         image: larvitar,
         name: "larvitar",
-    },
-    {
-        image: latiasmega,
-        name: "latias (Mega)",
-    },
-    {
-        image: latias,
-        name: "latias",
-    },
-    {
-        image: latiosmega,
-        name: "latios (Mega)",
-    },
-    {
-        image: latios,
-        name: "latios",
+        link: "larvitar",
+        form: "default",
     },
     {
         image: leafeon,
         name: "leafeon",
+        link: "leafeon",
+        form: "default",
     },
     {
         image: leavanny,
         name: "leavanny",
+        link: "leavanny",
+        form: "default",
     },
     {
         image: ledian,
         name: "ledian",
+        link: "ledian",
+        form: "default",
     },
     {
         image: ledyba,
         name: "ledyba",
+        link: "ledyba",
+        form: "default",
     },
     {
         image: lickilicky,
         name: "lickilicky",
+        link: "lickilicky",
+        form: "default",
     },
     {
         image: lickitung,
         name: "lickitung",
+        link: "lickitung",
+        form: "default",
     },
     {
         image: liepard,
         name: "liepard",
+        link: "liepard",
+        form: "default",
     },
     {
         image: lileep,
         name: "lileep",
+        link: "lileep",
+        form: "default",
     },
     {
         image: lilligant,
         name: "lilligant",
+        link: "lilligant",
+        form: "default",
     },
     {
         image: lillipup,
         name: "lillipup",
+        link: "lillipup",
+        form: "default",
     },
     {
         image: linoonegalar,
-        name: "linoonegalar",
+        name: "linoone",
+        link: "linoonegalar",
+        form: "galar",
     },
     {
         image: linoone,
         name: "linoone",
+        link: "linoone",
+        form: "default",
     },
     {
         image: litleo,
         name: "litleo",
+        link: "litleo",
+        form: "default",
     },
     {
         image: litten,
         name: "litten",
+        link: "litten",
+        form: "default",
     },
     {
         image: litwick,
         name: "litwick",
+        link: "litwick",
+        form: "default",
     },
     {
         image: lombre,
         name: "lombre",
-    },
-    {
-        image: lopunnymega,
-        name: "lopunny (Mega)",
+        link: "lombre",
+        form: "default",
     },
     {
         image: lopunny,
         name: "lopunny",
+        link: "lopunny",
+        form: "default",
     },
     {
         image: lotad,
         name: "lotad",
+        link: "lotad",
+        form: "default",
     },
     {
         image: loudred,
         name: "loudred",
-    },
-    {
-        image: lucariomega,
-        name: "lucario (Mega)",
+        link: "loudred",
+        form: "default",
     },
     {
         image: lucario,
         name: "lucario",
+        link: "lucario",
+        form: "default",
     },
     {
         image: ludicolo,
         name: "ludicolo",
-    },
-    {
-        image: lugia,
-        name: "lugia",
+        link: "ludicolo",
+        form: "default",
     },
     {
         image: lumineon,
         name: "lumineon",
-    },
-    {
-        image: lunala,
-        name: "lunala",
+        link: "lumineon",
+        form: "default",
     },
     {
         image: lunatone,
         name: "lunatone",
+        link: "lunatone",
+        form: "default",
     },
     {
         image: lurantis,
         name: "lurantis",
+        link: "lurantis",
+        form: "default",
     },
     {
         image: luvdisc,
         name: "luvdisc",
+        link: "luvdisc",
+        form: "default",
     },
     {
         image: luxio,
         name: "luxio",
+        link: "luxio",
+        form: "default",
     },
     {
         image: luxray,
         name: "luxray",
+        link: "luxray",
+        form: "default",
     },
     {
         image: lycanrocdusk,
-        name: "lycanrocdusk",
+        name: "lycanroc",
+        link: "lycanrocdusk",
+        form: "dusk",
     },
     {
         image: lycanrocmidnight,
-        name: "lycanrocmidnight",
+        name: "lycanroc",
+        link: "lycanrocmidnight",
+        form: "midnight",
     },
     {
         image: lycanroc,
         name: "lycanroc",
-    },
-    {
-        image: machampgmax,
-        name: "machamp (Dynamax)",
+        link: "lycanroc",
+        form: "default",
     },
     {
         image: machamp,
         name: "machamp",
+        link: "machamp",
+        form: "default",
     },
     {
         image: machoke,
         name: "machoke",
+        link: "machoke",
+        form: "default",
     },
     {
         image: machop,
         name: "machop",
+        link: "machop",
+        form: "default",
     },
     {
         image: magby,
         name: "magby",
+        link: "magby",
+        form: "default",
     },
     {
         image: magcargo,
         name: "magcargo",
-    },
-    {
-        image: magearnaoriginal,
-        name: "magearnaoriginal",
-    },
-    {
-        image: magearna,
-        name: "magearna",
+        link: "magcargo",
+        form: "default",
     },
     {
         image: magikarp,
         name: "magikarp",
+        link: "magikarp",
+        form: "default",
     },
     {
         image: magmar,
         name: "magmar",
+        link: "magmar",
+        form: "default",
     },
     {
         image: magmortar,
         name: "magmortar",
+        link: "magmortar",
+        form: "default",
     },
     {
         image: magnemite,
         name: "magnemite",
+        link: "magnemite",
+        form: "default",
     },
     {
         image: magneton,
         name: "magneton",
+        link: "magneton",
+        form: "default",
     },
     {
         image: magnezone,
         name: "magnezone",
+        link: "magnezone",
+        form: "default",
     },
     {
         image: makuhita,
         name: "makuhita",
+        link: "makuhita",
+        form: "default",
     },
     {
         image: malamar,
         name: "malamar",
+        link: "malamar",
+        form: "default",
     },
     {
         image: mamoswine,
         name: "mamoswine",
-    },
-    {
-        image: manaphy,
-        name: "manaphy",
+        link: "mamoswine",
+        form: "default",
     },
     {
         image: mandibuzz,
         name: "mandibuzz",
-    },
-    {
-        image: manectricmega,
-        name: "manectric (Mega)",
+        link: "mandibuzz",
+        form: "default",
     },
     {
         image: manectric,
         name: "manectric",
+        link: "manectric",
+        form: "default",
     },
     {
         image: mankey,
         name: "mankey",
+        link: "mankey",
+        form: "default",
     },
     {
         image: mantine,
         name: "mantine",
+        link: "mantine",
+        form: "default",
     },
     {
         image: mantyke,
         name: "mantyke",
+        link: "mantyke",
+        form: "default",
     },
     {
         image: maractus,
         name: "maractus",
+        link: "maractus",
+        form: "default",
     },
     {
         image: mareanie,
         name: "mareanie",
+        link: "mareanie",
+        form: "default",
     },
     {
         image: mareep,
         name: "mareep",
+        link: "mareep",
+        form: "default",
     },
     {
         image: marill,
         name: "marill",
+        link: "marill",
+        form: "default",
     },
     {
         image: marowakalola,
-        name: "marowakalola",
+        name: "marowak",
+        link: "marowakalola",
+        form: "alola",
     },
     {
         image: marowak,
         name: "marowak",
-    },
-    {
-        image: marshadow,
-        name: "marshadow",
+        link: "marowak",
+        form: "default",
     },
     {
         image: marshtomp,
         name: "marshtomp",
+        link: "marshtomp",
+        form: "default",
     },
     {
         image: masquerain,
         name: "masquerain",
-    },
-    {
-        image: mawilemega,
-        name: "mawile (Mega)",
+        link: "masquerain",
+        form: "default",
     },
     {
         image: mawile,
         name: "mawile",
-    },
-    {
-        image: medichammega,
-        name: "medicham (Mega)",
+        link: "mawile",
+        form: "default",
     },
     {
         image: medicham,
         name: "medicham",
+        link: "medicham",
+        form: "default",
     },
     {
         image: meditite,
         name: "meditite",
+        link: "meditite",
+        form: "default",
     },
     {
         image: meganium,
-        name: " (Mega)nium",
-    },
-    {
-        image: melmetalgmax,
-        name: "melmetal (Dynamax)",
-    },
-    {
-        image: melmetal,
-        name: "melmetal",
-    },
-    {
-        image: meloettapirouette,
-        name: "meloettapirouette",
-    },
-    {
-        image: meloetta,
-        name: "meloetta",
-    },
-    {
-        image: meltan,
-        name: "meltan",
+        name: "meganium",
+        link: "meganium",
+        form: "default",
     },
     {
         image: meowsticf,
-        name: "meowsticf",
+        name: "meowstic",
+        link: "meowsticf",
+        form: "female",
     },
     {
         image: meowstic,
         name: "meowstic",
+        link: "meowstic",
+        form: "default",
     },
     {
         image: meowthalola,
-        name: "meowthalola",
+        name: "meowth",
+        link: "meowthalola",
+        form: "alola",
     },
     {
         image: meowthgalar,
-        name: "meowthgalar",
-    },
-    {
-        image: meowthgmax,
-        name: "meowth (Dynamax)",
+        name: "meowth",
+        link: "meowthgalar",
+        form: "galar",
     },
     {
         image: meowth,
         name: "meowth",
-    },
-    {
-        image: mesprit,
-        name: "mesprit",
-    },
-    {
-        image: metagrossmega,
-        name: "metagross (Mega)",
+        link: "meowth",
+        form: "default",
     },
     {
         image: metagross,
         name: "metagross",
+        link: "metagross",
+        form: "default",
     },
     {
         image: metang,
         name: "metang",
+        link: "metang",
+        form: "default",
     },
     {
         image: metapod,
         name: "metapod",
-    },
-    {
-        image: mew,
-        name: "mew",
-    },
-    {
-        image: mewtwomegax,
-        name: "mewtwo (Mega)x",
-    },
-    {
-        image: mewtwomegay,
-        name: "mewtwo (Mega)y",
-    },
-    {
-        image: mewtwo,
-        name: "mewtwo",
+        link: "metapod",
+        form: "default",
     },
     {
         image: mienfoo,
         name: "mienfoo",
+        link: "mienfoo",
+        form: "default",
     },
     {
         image: mienshao,
         name: "mienshao",
+        link: "mienshao",
+        form: "default",
     },
     {
         image: mightyena,
         name: "mightyena",
+        link: "mightyena",
+        form: "default",
     },
     {
         image: milcery,
         name: "milcery",
+        link: "milcery",
+        form: "default",
     },
     {
         image: milotic,
         name: "milotic",
+        link: "milotic",
+        form: "default",
     },
     {
         image: miltank,
         name: "miltank",
+        link: "miltank",
+        form: "default",
     },
     {
         image: mimejr,
-        name: "mimejr",
-    },
-    {
-        image: mimikyubusted,
-        name: "mimikyubusted",
+        name: "mime jr.",
+        link: "mimejr",
+        form: "default",
     },
     {
         image: mimikyu,
         name: "mimikyu",
+        link: "mimikyu",
+        form: "default",
     },
     {
         image: minccino,
         name: "minccino",
+        link: "minccino",
+        form: "default",
     },
     {
         image: miniorblue,
-        name: "miniorblue",
+        name: "minior",
+        link: "miniorblue",
+        form: "blue",
     },
     {
         image: miniorgreen,
-        name: "miniorgreen",
+        name: "minior",
+        link: "miniorgreen",
+        form: "green",
     },
     {
         image: miniorindigo,
-        name: "miniorindigo",
+        name: "minior",
+        link: "miniorindigo",
+        form: "indigo",
     },
     {
         image: miniororange,
-        name: "miniororange",
+        name: "minior",
+        link: "miniororange",
+        form: "orange",
     },
     {
         image: miniorred,
-        name: "miniorred",
+        name: "minior",
+        link: "miniorred",
+        form: "red",
     },
     {
         image: miniorviolet,
-        name: "miniorviolet",
+        name: "minior",
+        link: "miniorviolet",
+        form: "violet",
     },
     {
         image: minioryellow,
-        name: "minioryellow",
+        name: "minior",
+        link: "minioryellow",
+        form: "yellow",
     },
     {
         image: minior,
         name: "minior",
+        link: "minior",
+        form: "default",
     },
     {
         image: minun,
         name: "minun",
+        link: "minun",
+        form: "default",
     },
     {
         image: misdreavus,
         name: "misdreavus",
+        link: "misdreavus",
+        form: "default",
     },
     {
         image: mismagius,
         name: "mismagius",
-    },
-    {
-        image: moltresgalar,
-        name: "moltresgalar",
-    },
-    {
-        image: moltres,
-        name: "moltres",
+        link: "mismagius",
+        form: "default",
     },
     {
         image: monferno,
         name: "monferno",
+        link: "monferno",
+        form: "default",
     },
     {
         image: morelull,
         name: "morelull",
+        link: "morelull",
+        form: "default",
     },
     {
         image: morgrem,
         name: "morgrem",
-    },
-    {
-        image: morpekohangry,
-        name: "morpekohangry",
+        link: "morgrem",
+        form: "default",
     },
     {
         image: morpeko,
         name: "morpeko",
+        link: "morpeko",
+        form: "default",
     },
     {
         image: mothim,
         name: "mothim",
+        link: "mothim",
+        form: "default",
     },
     {
         image: mrmimegalar,
-        name: "mrmi (Mega)lar",
+        name: "mr. mime",
+        link: "mrmimegalar",
+        form: "galar",
     },
     {
         image: mrmime,
-        name: "mrmime",
+        name: "mr. mime",
+        link: "mrmime",
+        form: "default",
     },
     {
         image: mrrime,
-        name: "mrrime",
+        name: "mr. rime",
+        link: "mrrime",
+        form: "default",
     },
     {
         image: mudbray,
         name: "mudbray",
+        link: "mudbray",
+        form: "default",
     },
     {
         image: mudkip,
         name: "mudkip",
+        link: "mudkip",
+        form: "default",
     },
     {
         image: mudsdale,
         name: "mudsdale",
+        link: "mudsdale",
+        form: "default",
     },
     {
         image: mukalola,
-        name: "mukalola",
+        name: "muk",
+        link: "mukalola",
+        form: "alola",
     },
     {
         image: muk,
         name: "muk",
+        link: "muk",
+        form: "default",
     },
     {
         image: munchlax,
         name: "munchlax",
+        link: "munchlax",
+        form: "default",
     },
     {
         image: munna,
         name: "munna",
+        link: "munna",
+        form: "default",
     },
     {
         image: murkrow,
         name: "murkrow",
+        link: "murkrow",
+        form: "default",
     },
     {
         image: musharna,
         name: "musharna",
-    },
-    {
-        image: naganadel,
-        name: "naganadel",
+        link: "musharna",
+        form: "default",
     },
     {
         image: natu,
         name: "natu",
-    },
-    {
-        image: necrozmadawnwings,
-        name: "necrozmadawnwings",
-    },
-    {
-        image: necrozmaduskmane,
-        name: "necrozmaduskmane",
-    },
-    {
-        image: necrozmaultra,
-        name: "necrozmaultra",
-    },
-    {
-        image: necrozma,
-        name: "necrozma",
+        link: "natu",
+        form: "default",
     },
     {
         image: nickit,
         name: "nickit",
+        link: "nickit",
+        form: "default",
     },
     {
         image: nidoking,
         name: "nidoking",
+        link: "nidoking",
+        form: "default",
     },
     {
         image: nidoqueen,
         name: "nidoqueen",
+        link: "nidoqueen",
+        form: "default",
     },
     {
         image: nidoranf,
-        name: "nidoranf",
+        name: "nidoran female",
+        link: "nidoranf",
+        form: "default",
     },
     {
         image: nidoranm,
-        name: "nidoranm",
+        name: "nidoran male",
+        link: "nidoranm",
+        form: "default",
     },
     {
         image: nidorina,
         name: "nidorina",
+        link: "nidorina",
+        form: "default",
     },
     {
         image: nidorino,
         name: "nidorino",
-    },
-    {
-        image: nihilego,
-        name: "nihilego",
+        link: "nidorino",
+        form: "default",
     },
     {
         image: nincada,
         name: "nincada",
+        link: "nincada",
+        form: "default",
     },
     {
         image: ninetalesalola,
-        name: "ninetalesalola",
+        name: "ninetales",
+        link: "ninetalesalola",
+        form: "alola",
     },
     {
         image: ninetales,
         name: "ninetales",
+        link: "ninetales",
+        form: "default",
     },
     {
         image: ninjask,
         name: "ninjask",
+        link: "ninjask",
+        form: "default",
     },
     {
         image: noctowl,
         name: "noctowl",
+        link: "noctowl",
+        form: "default",
     },
     {
         image: noibat,
         name: "noibat",
+        link: "noibat",
+        form: "default",
     },
     {
         image: noivern,
         name: "noivern",
+        link: "noivern",
+        form: "default",
     },
     {
         image: nosepass,
         name: "nosepass",
+        link: "nosepass",
+        form: "default",
     },
     {
         image: numel,
         name: "numel",
+        link: "numel",
+        form: "default",
     },
     {
         image: nuzleaf,
         name: "nuzleaf",
+        link: "nuzleaf",
+        form: "default",
     },
     {
         image: obstagoon,
         name: "obstagoon",
+        link: "obstagoon",
+        form: "default",
     },
     {
         image: octillery,
         name: "octillery",
+        link: "octillery",
+        form: "default",
     },
     {
         image: oddish,
         name: "oddish",
+        link: "oddish",
+        form: "default",
     },
     {
         image: omanyte,
         name: "omanyte",
+        link: "omanyte",
+        form: "default",
     },
     {
         image: omastar,
         name: "omastar",
+        link: "omastar",
+        form: "default",
     },
     {
         image: onix,
         name: "onix",
+        link: "onix",
+        form: "default",
     },
     {
         image: oranguru,
         name: "oranguru",
-    },
-    {
-        image: orbeetlegmax,
-        name: "orbeetle (Dynamax)",
+        link: "oranguru",
+        form: "default",
     },
     {
         image: orbeetle,
         name: "orbeetle",
+        link: "orbeetle",
+        form: "default",
     },
     {
         image: oricoriopau,
-        name: "oricoriopau",
+        name: "oricorio",
+        link: "oricoriopau",
+        form: "pau",
     },
     {
         image: oricoriopompom,
-        name: "oricoriopompom",
+        name: "oricorio",
+        link: "oricoriopompom",
+        form: "pom pom",
     },
     {
         image: oricoriosensu,
-        name: "oricoriosensu",
+        name: "oricorio",
+        link: "oricoriosensu",
+        form: "sensu",
     },
     {
         image: oricorio,
         name: "oricorio",
+        link: "oricorio",
+        form: "default",
     },
     {
         image: oshawott,
         name: "oshawott",
+        link: "oshawott",
+        form: "default",
     },
     {
         image: pachirisu,
         name: "pachirisu",
-    },
-    {
-        image: palkia,
-        name: "palkia",
+        link: "pachirisu",
+        form: "default",
     },
     {
         image: palossand,
         name: "palossand",
+        link: "palossand",
+        form: "default",
     },
     {
         image: palpitoad,
         name: "palpitoad",
+        link: "palpitoad",
+        form: "default",
     },
     {
         image: pancham,
         name: "pancham",
+        link: "pancham",
+        form: "default",
     },
     {
         image: pangoro,
         name: "pangoro",
+        link: "pangoro",
+        form: "default",
     },
     {
         image: panpour,
         name: "panpour",
+        link: "panpour",
+        form: "default",
     },
     {
         image: pansage,
         name: "pansage",
+        link: "pansage",
+        form: "default",
     },
     {
         image: pansear,
         name: "pansear",
+        link: "pansear",
+        form: "default",
     },
     {
         image: paras,
         name: "paras",
+        link: "paras",
+        form: "default",
     },
     {
         image: parasect,
         name: "parasect",
+        link: "parasect",
+        form: "default",
     },
     {
         image: passimian,
         name: "passimian",
+        link: "passimian",
+        form: "default",
     },
     {
         image: patrat,
         name: "patrat",
+        link: "patrat",
+        form: "default",
     },
     {
         image: pawniard,
         name: "pawniard",
+        link: "pawniard",
+        form: "default",
     },
     {
         image: pelipper,
         name: "pelipper",
+        link: "pelipper",
+        form: "default",
     },
     {
         image: perrserker,
         name: "perrserker",
+        link: "perrserker",
+        form: "default",
     },
     {
         image: persianalola,
-        name: "persianalola",
+        name: "persian",
+        link: "persianalola",
+        form: "alola",
     },
     {
         image: persian,
         name: "persian",
+        link: "persian",
+        form: "default",
     },
     {
         image: petilil,
         name: "petilil",
+        link: "petilil",
+        form: "default",
     },
     {
         image: phanpy,
         name: "phanpy",
+        link: "phanpy",
+        form: "default",
     },
     {
         image: phantump,
         name: "phantump",
-    },
-    {
-        image: pheromosa,
-        name: "pheromosa",
-    },
-    {
-        image: phione,
-        name: "phione",
+        link: "phantump",
+        form: "default",
     },
     {
         image: pichuspikyeared,
-        name: "pichuspikyeared",
+        name: "pichu",
+        link: "pichuspikyeared",
+        form: "spiky eared",
     },
     {
         image: pichu,
         name: "pichu",
-    },
-    {
-        image: pidgeotmega,
-        name: "pidgeot (Mega)",
+        link: "pichu",
+        form: "default",
     },
     {
         image: pidgeot,
         name: "pidgeot",
+        link: "pidgeot",
+        form: "default",
     },
     {
         image: pidgeotto,
         name: "pidgeotto",
+        link: "pidgeotto",
+        form: "default",
     },
     {
         image: pidgey,
         name: "pidgey",
+        link: "pidgey",
+        form: "default",
     },
     {
         image: pidove,
         name: "pidove",
+        link: "pidove",
+        form: "default",
     },
     {
         image: pignite,
         name: "pignite",
+        link: "pignite",
+        form: "default",
     },
     {
         image: pikachualolacapfemale,
-        name: "pikachualolacap (Female)",
+        name: "pikachu",
+        link: "pikachualolacapfemale",
+        form: "alola cap female",
     },
     {
         image: pikachualolacap,
-        name: "pikachualolacap",
+        name: "pikachu",
+        link: "pikachualolacap",
+        form: "alola cap",
     },
     {
         image: pikachubelle,
-        name: "pikachubelle",
-    },
-    {
-        image: pikachucosplay,
-        name: "pikachucosplay",
+        name: "pikachu",
+        link: "pikachubelle",
+        form: "belle",
     },
     {
         image: pikachuf,
-        name: "pikachuf",
-    },
-    {
-        image: pikachugmax,
-        name: "pikachu (Dynamax)",
+        name: "pikachu",
+        link: "pikachuf",
+        form: "female",
     },
     {
         image: pikachuhoenncapfemale,
-        name: "pikachuhoenncap (Female)",
+        name: "pikachu",
+        link: "pikachuhoenncapfemale",
+        form: "hoenn cap female",
     },
     {
         image: pikachuhoenncap,
-        name: "pikachuhoenncap",
+        name: "pikachu",
+        link: "pikachuhoenncap",
+        form: "hoenn cap",
     },
     {
         image: pikachukaloscapfemale,
-        name: "pikachukaloscap (Female)",
+        name: "pikachu",
+        link: "pikachukaloscapfemale",
+        form: "kalos cap female",
     },
     {
         image: pikachukaloscap,
-        name: "pikachukaloscap",
+        name: "pikachu",
+        link: "pikachukaloscap",
+        form: "kalos cap",
     },
     {
         image: pikachulibre,
-        name: "pikachulibre",
+        name: "pikachu",
+        link: "pikachulibre",
+        form: "libre",
     },
     {
         image: pikachuoriginalcapfemale,
-        name: "pikachuoriginalcap (Female)",
+        name: "pikachu",
+        link: "pikachuoriginalcapfemale",
+        form: "original cap female",
     },
     {
         image: pikachuoriginalcap,
-        name: "pikachuoriginalcap",
+        name: "pikachu",
+        link: "pikachuoriginalcap",
+        form: "original cap",
     },
     {
         image: pikachupartnercapfemale,
-        name: "pikachupartnercap (Female)",
+        name: "pikachu",
+        link: "pikachupartnercapfemale",
+        form: "partner cap female",
     },
     {
         image: pikachupartnercap,
-        name: "pikachupartnercap",
+        name: "pikachu",
+        link: "pikachupartnercap",
+        form: "partner cap",
     },
     {
         image: pikachuphd,
-        name: "pikachuphd",
+        name: "pikachu",
+        link: "pikachuphd",
+        form: "phd",
     },
     {
         image: pikachupopstar,
-        name: "pikachupopstar",
+        name: "pikachu",
+        link: "pikachupopstar",
+        form: "pop star",
     },
     {
         image: pikachurockstar,
-        name: "pikachurockstar",
+        name: "pikachu",
+        link: "pikachurockstar",
+        form: "rock star",
     },
     {
         image: pikachusinnohcapfemale,
-        name: "pikachusinnohcap (Female)",
+        name: "pikachu",
+        link: "pikachusinnohcapfemale",
+        form: "sinnoh cap female",
     },
     {
         image: pikachusinnohcap,
-        name: "pikachusinnohcap",
-    },
-    {
-        image: pikachustarterfemale,
-        name: "pikachustarter (Female)",
-    },
-    {
-        image: pikachustarter,
-        name: "pikachustarter",
+        name: "pikachu",
+        link: "pikachusinnohcap",
+        form: "sinnoh cap",
     },
     {
         image: pikachuunovacapfemale,
-        name: "pikachuunovacap (Female)",
+        name: "pikachu",
+        link: "pikachuunovacapfemale",
+        form: "unova cap female",
     },
     {
         image: pikachuunovacap,
-        name: "pikachuunovacap",
+        name: "pikachu",
+        link: "pikachuunovacap",
+        form: "unova cap",
     },
     {
         image: pikachuworldcapfemale,
-        name: "pikachuworldcap (Female)",
+        name: "pikachu",
+        link: "pikachuworldcapfemale",
+        form: "world cap female",
     },
     {
         image: pikachuworldcap,
-        name: "pikachuworldcap",
+        name: "pikachu",
+        link: "pikachuworldcap",
+        form: "world cap",
     },
     {
         image: pikachu,
         name: "pikachu",
+        link: "pikachu",
+        form: "default",
     },
     {
         image: pikipek,
         name: "pikipek",
+        link: "pikipek",
+        form: "default",
     },
     {
         image: piloswine,
         name: "piloswine",
+        link: "piloswine",
+        form: "default",
     },
     {
         image: pincurchin,
         name: "pincurchin",
+        link: "pincurchin",
+        form: "default",
     },
     {
         image: pineco,
         name: "pineco",
-    },
-    {
-        image: pinsirmega,
-        name: "pinsir (Mega)",
+        link: "pineco",
+        form: "default",
     },
     {
         image: pinsir,
         name: "pinsir",
+        link: "pinsir",
+        form: "default",
     },
     {
         image: piplup,
         name: "piplup",
+        link: "piplup",
+        form: "default",
     },
     {
         image: plusle,
         name: "plusle",
-    },
-    {
-        image: poipole,
-        name: "poipole",
+        link: "plusle",
+        form: "default",
     },
     {
         image: politoed,
         name: "politoed",
+        link: "politoed",
+        form: "default",
     },
     {
         image: poliwag,
         name: "poliwag",
+        link: "poliwag",
+        form: "default",
     },
     {
         image: poliwhirl,
         name: "poliwhirl",
+        link: "poliwhirl",
+        form: "default",
     },
     {
         image: poliwrath,
         name: "poliwrath",
+        link: "poliwrath",
+        form: "default",
     },
     {
         image: polteageist,
         name: "polteageist",
+        link: "polteageist",
+        form: "default",
     },
     {
         image: ponytagalar,
-        name: "ponytagalar",
+        name: "ponyta",
+        link: "ponytagalar",
+        form: "galar",
     },
     {
         image: ponyta,
         name: "ponyta",
+        link: "ponyta",
+        form: "default",
     },
     {
         image: poochyena,
         name: "poochyena",
+        link: "poochyena",
+        form: "default",
     },
     {
         image: popplio,
         name: "popplio",
+        link: "popplio",
+        form: "default",
     },
     {
         image: porygonz,
         name: "porygonz",
+        link: "porygonz",
+        form: "default",
     },
     {
         image: porygon,
         name: "porygon",
+        link: "porygon",
+        form: "default",
     },
     {
         image: porygon2,
         name: "porygon2",
+        link: "porygon2",
+        form: "default",
     },
     {
         image: primarina,
         name: "primarina",
+        link: "primarina",
+        form: "default",
     },
     {
         image: primeape,
         name: "primeape",
+        link: "primeape",
+        form: "default",
     },
     {
         image: prinplup,
         name: "prinplup",
+        link: "prinplup",
+        form: "default",
     },
     {
         image: probopass,
         name: "probopass",
+        link: "probopass",
+        form: "default",
     },
     {
         image: psyduck,
         name: "psyduck",
+        link: "psyduck",
+        form: "default",
     },
     {
         image: pumpkaboolarge,
-        name: "pumpkaboolarge",
+        name: "pumpkaboo",
+        link: "pumpkaboolarge",
+        form: "large",
     },
     {
         image: pumpkaboosmall,
-        name: "pumpkaboosmall",
+        name: "pumpkaboo",
+        link: "pumpkaboosmall",
+        form: "small",
     },
     {
         image: pumpkaboosuper,
-        name: "pumpkaboosuper",
+        name: "pumpkaboo",
+        link: "pumpkaboosuper",
+        form: "super",
     },
     {
         image: pumpkaboo,
         name: "pumpkaboo",
+        link: "pumpkaboo",
+        form: "default",
     },
     {
         image: pupitar,
         name: "pupitar",
+        link: "pupitar",
+        form: "default",
     },
     {
         image: purrloin,
         name: "purrloin",
+        link: "purrloin",
+        form: "default",
     },
     {
         image: purugly,
         name: "purugly",
+        link: "purugly",
+        form: "default",
     },
     {
         image: pyroarf,
-        name: "pyroarf",
+        name: "pyroar",
+        link: "pyroarf",
+        form: "female",
     },
     {
         image: pyroar,
         name: "pyroar",
+        link: "pyroar",
+        form: "default",
     },
     {
         image: pyukumuku,
         name: "pyukumuku",
+        link: "pyukumuku",
+        form: "default",
     },
     {
         image: quagsire,
         name: "quagsire",
+        link: "quagsire",
+        form: "default",
     },
     {
         image: quilava,
         name: "quilava",
+        link: "quilava",
+        form: "default",
     },
     {
         image: quilladin,
         name: "quilladin",
+        link: "quilladin",
+        form: "default",
     },
     {
         image: qwilfish,
         name: "qwilfish",
+        link: "qwilfish",
+        form: "default",
     },
     {
         image: raboot,
         name: "raboot",
+        link: "raboot",
+        form: "default",
     },
     {
         image: raichualola,
-        name: "raichualola",
+        name: "raichu",
+        link: "raichualola",
+        form: "alola",
     },
     {
         image: raichu,
         name: "raichu",
-    },
-    {
-        image: raikou,
-        name: "raikou",
+        link: "raichu",
+        form: "default",
     },
     {
         image: ralts,
         name: "ralts",
+        link: "ralts",
+        form: "default",
     },
     {
         image: rampardos,
         name: "rampardos",
+        link: "rampardos",
+        form: "default",
     },
     {
         image: rapidashgalar,
-        name: "rapidashgalar",
+        name: "rapidash",
+        link: "rapidashgalar",
+        form: "galar",
     },
     {
         image: rapidash,
         name: "rapidash",
+        link: "rapidash",
+        form: "default",
     },
     {
         image: raticatealola,
-        name: "raticatealola",
+        name: "raticate",
+        link: "raticatealola",
+        form: "alola",
     },
     {
         image: raticate,
         name: "raticate",
+        link: "raticate",
+        form: "default",
     },
     {
         image: rattataalola,
-        name: "rattataalola",
+        name: "rattata",
+        link: "rattataalola",
+        form: "alola",
     },
     {
         image: rattata,
         name: "rattata",
-    },
-    {
-        image: rayquazamega,
-        name: "rayquaza (Mega)",
-    },
-    {
-        image: rayquaza,
-        name: "rayquaza",
-    },
-    {
-        image: regice,
-        name: "regice",
-    },
-    {
-        image: regidrago,
-        name: "regidrago",
-    },
-    {
-        image: regieleki,
-        name: "regieleki",
-    },
-    {
-        image: regigigas,
-        name: "regigigas",
-    },
-    {
-        image: regirock,
-        name: "regirock",
-    },
-    {
-        image: registeel,
-        name: "registeel",
+        link: "rattata",
+        form: "default",
     },
     {
         image: relicanth,
         name: "relicanth",
+        link: "relicanth",
+        form: "default",
     },
     {
         image: remoraid,
         name: "remoraid",
-    },
-    {
-        image: reshiram,
-        name: "reshiram",
+        link: "remoraid",
+        form: "default",
     },
     {
         image: reuniclus,
         name: "reuniclus",
+        link: "reuniclus",
+        form: "default",
     },
     {
         image: rhydon,
         name: "rhydon",
+        link: "rhydon",
+        form: "default",
     },
     {
         image: rhyhorn,
         name: "rhyhorn",
+        link: "rhyhorn",
+        form: "default",
     },
     {
         image: rhyperior,
         name: "rhyperior",
+        link: "rhyperior",
+        form: "default",
     },
     {
         image: ribombee,
         name: "ribombee",
-    },
-    {
-        image: rillaboomgmax,
-        name: "rillaboom (Dynamax)",
+        link: "ribombee",
+        form: "default",
     },
     {
         image: rillaboom,
         name: "rillaboom",
+        link: "rillaboom",
+        form: "default",
     },
     {
         image: riolu,
         name: "riolu",
+        link: "riolu",
+        form: "default",
     },
     {
         image: rockruff,
         name: "rockruff",
+        link: "rockruff",
+        form: "default",
     },
     {
         image: roggenrola,
         name: "roggenrola",
+        link: "roggenrola",
+        form: "default",
     },
     {
         image: rolycoly,
         name: "rolycoly",
+        link: "rolycoly",
+        form: "default",
     },
     {
         image: rookidee,
         name: "rookidee",
+        link: "rookidee",
+        form: "default",
     },
     {
         image: roselia,
         name: "roselia",
+        link: "roselia",
+        form: "default",
     },
     {
         image: roserade,
         name: "roserade",
+        link: "roserade",
+        form: "default",
     },
     {
         image: rotomfan,
-        name: "rotomfan",
+        name: "rotom",
+        link: "rotomfan",
+        form: "fan",
     },
     {
         image: rotomfrost,
-        name: "rotomfrost",
+        name: "rotom",
+        link: "rotomfrost",
+        form: "frost",
     },
     {
         image: rotomheat,
-        name: "rotomheat",
+        name: "rotom",
+        link: "rotomheat",
+        form: "heat",
     },
     {
         image: rotommow,
-        name: "rotommow",
+        name: "rotom",
+        link: "rotommow",
+        form: "mow",
     },
     {
         image: rotomwash,
-        name: "rotomwash",
+        name: "rotom",
+        link: "rotomwash",
+        form: "wash",
     },
     {
         image: rotom,
         name: "rotom",
+        link: "rotom",
+        form: "default",
     },
     {
         image: rowlet,
         name: "rowlet",
+        link: "rowlet",
+        form: "default",
     },
     {
         image: rufflet,
         name: "rufflet",
+        link: "rufflet",
+        form: "default",
     },
     {
         image: runerigus,
         name: "runerigus",
-    },
-    {
-        image: sableyemega,
-        name: "sableye (Mega)",
+        link: "runerigus",
+        form: "default",
     },
     {
         image: sableye,
         name: "sableye",
-    },
-    {
-        image: salamencemega,
-        name: "salamence (Mega)",
+        link: "sableye",
+        form: "default",
     },
     {
         image: salamence,
         name: "salamence",
+        link: "salamence",
+        form: "default",
     },
     {
         image: salandit,
         name: "salandit",
+        link: "salandit",
+        form: "default",
     },
     {
         image: salazzle,
         name: "salazzle",
+        link: "salazzle",
+        form: "default",
     },
     {
         image: samurott,
         name: "samurott",
-    },
-    {
-        image: sandacondagmax,
-        name: "sandaconda (Dynamax)",
+        link: "samurott",
+        form: "default",
     },
     {
         image: sandaconda,
         name: "sandaconda",
+        link: "sandaconda",
+        form: "default",
     },
     {
         image: sandile,
         name: "sandile",
+        link: "sandile",
+        form: "default",
     },
     {
         image: sandshrewalola,
-        name: "sandshrewalola",
+        name: "sandshrew",
+        link: "sandshrewalola",
+        form: "alola",
     },
     {
         image: sandshrew,
         name: "sandshrew",
+        link: "sandshrew",
+        form: "default",
     },
     {
         image: sandslashalola,
-        name: "sandslashalola",
+        name: "sandslash",
+        link: "sandslashalola",
+        form: "alola",
     },
     {
         image: sandslash,
         name: "sandslash",
+        link: "sandslash",
+        form: "default",
     },
     {
         image: sandygast,
         name: "sandygast",
+        link: "sandygast",
+        form: "default",
     },
     {
         image: sawk,
         name: "sawk",
+        link: "sawk",
+        form: "default",
     },
     {
         image: sawsbuckautumn,
-        name: "sawsbuckautumn",
+        name: "sawsbuck",
+        link: "sawsbuckautumn",
+        form: "autumn",
     },
     {
         image: sawsbucksummer,
-        name: "sawsbucksummer",
+        name: "sawsbuck",
+        link: "sawsbucksummer",
+        form: "summer",
     },
     {
         image: sawsbuckwinter,
-        name: "sawsbuckwinter",
+        name: "sawsbuck",
+        link: "sawsbuckwinter",
+        form: "winter",
     },
     {
         image: sawsbuck,
         name: "sawsbuck",
+        link: "sawsbuck",
+        form: "default",
     },
     {
         image: scatterbug,
         name: "scatterbug",
-    },
-    {
-        image: sceptilemega,
-        name: "sceptile (Mega)",
+        link: "scatterbug",
+        form: "default",
     },
     {
         image: sceptile,
         name: "sceptile",
-    },
-    {
-        image: scizormega,
-        name: "scizor (Mega)",
+        link: "sceptile",
+        form: "default",
     },
     {
         image: scizor,
         name: "scizor",
+        link: "scizor",
+        form: "default",
     },
     {
         image: scolipede,
         name: "scolipede",
+        link: "scolipede",
+        form: "default",
     },
     {
         image: scorbunny,
         name: "scorbunny",
+        link: "scorbunny",
+        form: "default",
     },
     {
         image: scrafty,
         name: "scrafty",
+        link: "scrafty",
+        form: "default",
     },
     {
         image: scraggy,
         name: "scraggy",
+        link: "scraggy",
+        form: "default",
     },
     {
         image: scyther,
         name: "scyther",
+        link: "scyther",
+        form: "default",
     },
     {
         image: seadra,
         name: "seadra",
+        link: "seadra",
+        form: "default",
     },
     {
         image: seaking,
         name: "seaking",
+        link: "seaking",
+        form: "default",
     },
     {
         image: sealeo,
         name: "sealeo",
+        link: "sealeo",
+        form: "default",
     },
     {
         image: seedot,
         name: "seedot",
+        link: "seedot",
+        form: "default",
     },
     {
         image: seel,
         name: "seel",
+        link: "seel",
+        form: "default",
     },
     {
         image: seismitoad,
         name: "seismitoad",
+        link: "seismitoad",
+        form: "default",
     },
     {
         image: sentret,
         name: "sentret",
+        link: "sentret",
+        form: "default",
     },
     {
         image: serperior,
         name: "serperior",
+        link: "serperior",
+        form: "default",
     },
     {
         image: servine,
         name: "servine",
+        link: "servine",
+        form: "default",
     },
     {
         image: seviper,
         name: "seviper",
+        link: "seviper",
+        form: "default",
     },
     {
         image: sewaddle,
         name: "sewaddle",
-    },
-    {
-        image: sharpedomega,
-        name: "sharpedo (Mega)",
+        link: "sewaddle",
+        form: "default",
     },
     {
         image: sharpedo,
         name: "sharpedo",
-    },
-    {
-        image: shayminsky,
-        name: "shayminsky",
-    },
-    {
-        image: shaymin,
-        name: "shaymin",
+        link: "sharpedo",
+        form: "default",
     },
     {
         image: shedinja,
         name: "shedinja",
+        link: "shedinja",
+        form: "default",
     },
     {
         image: shelgon,
         name: "shelgon",
+        link: "shelgon",
+        form: "default",
     },
     {
         image: shellder,
         name: "shellder",
+        link: "shellder",
+        form: "default",
     },
     {
         image: shelloseast,
-        name: "shelloseast",
+        name: "shellos",
+        link: "shelloseast",
+        form: "east",
     },
     {
         image: shellos,
         name: "shellos",
+        link: "shellos",
+        form: "default",
     },
     {
         image: shelmet,
         name: "shelmet",
+        link: "shelmet",
+        form: "default",
     },
     {
         image: shieldon,
         name: "shieldon",
+        link: "shieldon",
+        form: "default",
     },
     {
         image: shiftry,
         name: "shiftry",
+        link: "shiftry",
+        form: "default",
     },
     {
         image: shiinotic,
         name: "shiinotic",
+        link: "shiinotic",
+        form: "default",
     },
     {
         image: shinx,
         name: "shinx",
+        link: "shinx",
+        form: "default",
     },
     {
         image: shroomish,
         name: "shroomish",
+        link: "shroomish",
+        form: "default",
     },
     {
         image: shuckle,
         name: "shuckle",
+        link: "shuckle",
+        form: "default",
     },
     {
         image: shuppet,
         name: "shuppet",
+        link: "shuppet",
+        form: "default",
     },
     {
         image: sigilyph,
         name: "sigilyph",
+        link: "sigilyph",
+        form: "default",
     },
     {
         image: silcoon,
         name: "silcoon",
+        link: "silcoon",
+        form: "default",
     },
     {
         image: silicobra,
         name: "silicobra",
-    },
-    {
-        image: silvallybug,
-        name: "silvallybug",
-    },
-    {
-        image: silvallydark,
-        name: "silvallydark",
-    },
-    {
-        image: silvallydragon,
-        name: "silvallydragon",
-    },
-    {
-        image: silvallyelectric,
-        name: "silvallyelectric",
-    },
-    {
-        image: silvallyfairy,
-        name: "silvallyfairy",
-    },
-    {
-        image: silvallyfighting,
-        name: "silvallyfighting",
-    },
-    {
-        image: silvallyfire,
-        name: "silvallyfire",
-    },
-    {
-        image: silvallyflying,
-        name: "silvallyflying",
-    },
-    {
-        image: silvallyghost,
-        name: "silvallyghost",
-    },
-    {
-        image: silvallygrass,
-        name: "silvallygrass",
-    },
-    {
-        image: silvallyground,
-        name: "silvallyground",
-    },
-    {
-        image: silvallyice,
-        name: "silvallyice",
-    },
-    {
-        image: silvallypoison,
-        name: "silvallypoison",
-    },
-    {
-        image: silvallypsychic,
-        name: "silvallypsychic",
-    },
-    {
-        image: silvallyrock,
-        name: "silvallyrock",
-    },
-    {
-        image: silvallysteel,
-        name: "silvallysteel",
-    },
-    {
-        image: silvallywater,
-        name: "silvallywater",
-    },
-    {
-        image: silvally,
-        name: "silvally",
+        link: "silicobra",
+        form: "default",
     },
     {
         image: simipour,
         name: "simipour",
+        link: "simipour",
+        form: "default",
     },
     {
         image: simisage,
         name: "simisage",
+        link: "simisage",
+        form: "default",
     },
     {
         image: simisear,
         name: "simisear",
+        link: "simisear",
+        form: "default",
     },
     {
         image: sinistea,
         name: "sinistea",
+        link: "sinistea",
+        form: "default",
     },
     {
         image: sirfetchd,
         name: "sirfetchd",
+        link: "sirfetchd",
+        form: "default",
     },
     {
         image: sizzlipede,
         name: "sizzlipede",
+        link: "sizzlipede",
+        form: "default",
     },
     {
         image: skarmory,
         name: "skarmory",
+        link: "skarmory",
+        form: "default",
     },
     {
         image: skiddo,
         name: "skiddo",
+        link: "skiddo",
+        form: "default",
     },
     {
         image: skiploom,
         name: "skiploom",
+        link: "skiploom",
+        form: "default",
     },
     {
         image: skitty,
         name: "skitty",
+        link: "skitty",
+        form: "default",
     },
     {
         image: skorupi,
         name: "skorupi",
+        link: "skorupi",
+        form: "default",
     },
     {
         image: skrelp,
         name: "skrelp",
+        link: "skrelp",
+        form: "default",
     },
     {
         image: skuntank,
         name: "skuntank",
+        link: "skuntank",
+        form: "default",
     },
     {
         image: skwovet,
         name: "skwovet",
+        link: "skwovet",
+        form: "default",
     },
     {
         image: slaking,
         name: "slaking",
+        link: "slaking",
+        form: "default",
     },
     {
         image: slakoth,
         name: "slakoth",
+        link: "slakoth",
+        form: "default",
     },
     {
         image: sliggoo,
         name: "sliggoo",
+        link: "sliggoo",
+        form: "default",
     },
     {
         image: slowbrogalar,
-        name: "slowbrogalar",
-    },
-    {
-        image: slowbromega,
-        name: "slowbro (Mega)",
+        name: "slowbro",
+        link: "slowbrogalar",
+        form: "galar",
     },
     {
         image: slowbro,
         name: "slowbro",
+        link: "slowbro",
+        form: "default",
     },
     {
         image: slowkinggalar,
-        name: "slowkinggalar",
+        name: "slowking",
+        link: "slowkinggalar",
+        form: "galar",
     },
     {
         image: slowking,
         name: "slowking",
+        link: "slowking",
+        form: "default",
     },
     {
         image: slowpokegalar,
-        name: "slowpokegalar",
+        name: "slowpoke",
+        link: "slowpokegalar",
+        form: "galar",
     },
     {
         image: slowpoke,
         name: "slowpoke",
+        link: "slowpoke",
+        form: "default",
     },
     {
         image: slugma,
         name: "slugma",
+        link: "slugma",
+        form: "default",
     },
     {
         image: slurpuff,
         name: "slurpuff",
+        link: "slurpuff",
+        form: "default",
     },
     {
         image: smeargle,
         name: "smeargle",
+        link: "smeargle",
+        form: "default",
     },
     {
         image: smoochum,
         name: "smoochum",
+        link: "smoochum",
+        form: "default",
     },
     {
         image: sneasel,
         name: "sneasel",
+        link: "sneasel",
+        form: "default",
     },
     {
         image: snivy,
         name: "snivy",
+        link: "snivy",
+        form: "default",
     },
     {
         image: snom,
         name: "snom",
-    },
-    {
-        image: snorlaxgmax,
-        name: "snorlax (Dynamax)",
+        link: "snom",
+        form: "default",
     },
     {
         image: snorlax,
         name: "snorlax",
+        link: "snorlax",
+        form: "default",
     },
     {
         image: snorunt,
         name: "snorunt",
+        link: "snorunt",
+        form: "default",
     },
     {
         image: snover,
         name: "snover",
+        link: "snover",
+        form: "default",
     },
     {
         image: snubbull,
         name: "snubbull",
+        link: "snubbull",
+        form: "default",
     },
     {
         image: sobble,
         name: "sobble",
-    },
-    {
-        image: solgaleo,
-        name: "solgaleo",
+        link: "sobble",
+        form: "default",
     },
     {
         image: solosis,
         name: "solosis",
+        link: "solosis",
+        form: "default",
     },
     {
         image: solrock,
         name: "solrock",
+        link: "solrock",
+        form: "default",
     },
     {
         image: spearow,
         name: "spearow",
-    },
-    {
-        image: spectrier,
-        name: "spectrier",
+        link: "spearow",
+        form: "default",
     },
     {
         image: spewpa,
         name: "spewpa",
+        link: "spewpa",
+        form: "default",
     },
     {
         image: spheal,
         name: "spheal",
+        link: "spheal",
+        form: "default",
     },
     {
         image: spinarak,
         name: "spinarak",
+        link: "spinarak",
+        form: "default",
     },
     {
         image: spindablank,
-        name: "spindablank",
+        name: "spinda",
+        link: "spindablank",
+        form: "blank",
     },
     {
         image: spindafilled,
-        name: "spindafilled",
+        name: "spinda",
+        link: "spindafilled",
+        form: "filled",
     },
     {
         image: spinda,
         name: "spinda",
+        link: "spinda",
+        form: "default",
     },
     {
         image: spiritomb,
         name: "spiritomb",
+        link: "spiritomb",
+        form: "default",
     },
     {
         image: spoink,
         name: "spoink",
+        link: "spoink",
+        form: "default",
     },
     {
         image: spritzee,
         name: "spritzee",
+        link: "spritzee",
+        form: "default",
     },
     {
         image: squirtle,
         name: "squirtle",
-    },
-    {
-        image: stakataka,
-        name: "stakataka",
+        link: "squirtle",
+        form: "default",
     },
     {
         image: stantler,
         name: "stantler",
+        link: "stantler",
+        form: "default",
     },
     {
         image: staraptor,
         name: "staraptor",
+        link: "staraptor",
+        form: "default",
     },
     {
         image: staravia,
         name: "staravia",
+        link: "staravia",
+        form: "default",
     },
     {
         image: starly,
         name: "starly",
+        link: "starly",
+        form: "default",
     },
     {
         image: starmie,
         name: "starmie",
+        link: "starmie",
+        form: "default",
     },
     {
         image: staryu,
         name: "staryu",
-    },
-    {
-        image: steelixmega,
-        name: "steelix (Mega)",
+        link: "staryu",
+        form: "default",
     },
     {
         image: steelix,
         name: "steelix",
+        link: "steelix",
+        form: "default",
     },
     {
         image: steenee,
         name: "steenee",
+        link: "steenee",
+        form: "default",
     },
     {
         image: stonjourner,
         name: "stonjourner",
+        link: "stonjourner",
+        form: "default",
     },
     {
         image: stoutland,
         name: "stoutland",
+        link: "stoutland",
+        form: "default",
     },
     {
         image: stufful,
         name: "stufful",
+        link: "stufful",
+        form: "default",
     },
     {
         image: stunfiskgalar,
-        name: "stunfiskgalar",
+        name: "stunfisk",
+        link: "stunfiskgalar",
+        form: "galar",
     },
     {
         image: stunfisk,
         name: "stunfisk",
+        link: "stunfisk",
+        form: "default",
     },
     {
         image: stunky,
         name: "stunky",
+        link: "stunky",
+        form: "default",
     },
     {
         image: sudowoodo,
         name: "sudowoodo",
-    },
-    {
-        image: suicune,
-        name: "suicune",
+        link: "sudowoodo",
+        form: "default",
     },
     {
         image: sunflora,
         name: "sunflora",
+        link: "sunflora",
+        form: "default",
     },
     {
         image: sunkern,
         name: "sunkern",
+        link: "sunkern",
+        form: "default",
     },
     {
         image: surskit,
         name: "surskit",
+        link: "surskit",
+        form: "default",
     },
     {
         image: swablu,
         name: "swablu",
+        link: "swablu",
+        form: "default",
     },
     {
         image: swadloon,
         name: "swadloon",
+        link: "swadloon",
+        form: "default",
     },
     {
         image: swalot,
         name: "swalot",
-    },
-    {
-        image: swampertmega,
-        name: "swampert (Mega)",
+        link: "swalot",
+        form: "default",
     },
     {
         image: swampert,
         name: "swampert",
+        link: "swampert",
+        form: "default",
     },
     {
         image: swanna,
         name: "swanna",
+        link: "swanna",
+        form: "default",
     },
     {
         image: swellow,
         name: "swellow",
+        link: "swellow",
+        form: "default",
     },
     {
         image: swinub,
         name: "swinub",
+        link: "swinub",
+        form: "default",
     },
     {
         image: swirlix,
         name: "swirlix",
+        link: "swirlix",
+        form: "default",
     },
     {
         image: swoobat,
         name: "swoobat",
+        link: "swoobat",
+        form: "default",
     },
     {
         image: sylveon,
         name: "sylveon",
+        link: "sylveon",
+        form: "default",
     },
     {
         image: taillow,
         name: "taillow",
+        link: "taillow",
+        form: "default",
     },
     {
         image: talonflame,
         name: "talonflame",
+        link: "talonflame",
+        form: "default",
     },
     {
         image: tangela,
         name: "tangela",
+        link: "tangela",
+        form: "default",
     },
     {
         image: tangrowth,
         name: "tangrowth",
-    },
-    {
-        image: tapubulu,
-        name: "tapubulu",
-    },
-    {
-        image: tapufini,
-        name: "tapufini",
-    },
-    {
-        image: tapukoko,
-        name: "tapukoko",
-    },
-    {
-        image: tapulele,
-        name: "tapulele",
+        link: "tangrowth",
+        form: "default",
     },
     {
         image: tauros,
         name: "tauros",
+        link: "tauros",
+        form: "default",
     },
     {
         image: teddiursa,
         name: "teddiursa",
+        link: "teddiursa",
+        form: "default",
     },
     {
         image: tentacool,
         name: "tentacool",
+        link: "tentacool",
+        form: "default",
     },
     {
         image: tentacruel,
         name: "tentacruel",
+        link: "tentacruel",
+        form: "default",
     },
     {
         image: tepig,
         name: "tepig",
-    },
-    {
-        image: terrakion,
-        name: "terrakion",
+        link: "tepig",
+        form: "default",
     },
     {
         image: thievul,
         name: "thievul",
+        link: "thievul",
+        form: "default",
     },
     {
         image: throh,
         name: "throh",
-    },
-    {
-        image: thundurustherian,
-        name: "thundurustherian",
-    },
-    {
-        image: thundurus,
-        name: "thundurus",
+        link: "throh",
+        form: "default",
     },
     {
         image: thwackey,
         name: "thwackey",
+        link: "thwackey",
+        form: "default",
     },
     {
         image: timburr,
         name: "timburr",
+        link: "timburr",
+        form: "default",
     },
     {
         image: tirtouga,
         name: "tirtouga",
+        link: "tirtouga",
+        form: "default",
     },
     {
         image: togedemaru,
         name: "togedemaru",
+        link: "togedemaru",
+        form: "default",
     },
     {
         image: togekiss,
         name: "togekiss",
+        link: "togekiss",
+        form: "default",
     },
     {
         image: togepi,
         name: "togepi",
+        link: "togepi",
+        form: "default",
     },
     {
         image: togetic,
         name: "togetic",
+        link: "togetic",
+        form: "default",
     },
     {
         image: torchic,
         name: "torchic",
+        link: "torchic",
+        form: "default",
     },
     {
         image: torkoal,
         name: "torkoal",
-    },
-    {
-        image: tornadustherian,
-        name: "tornadustherian",
-    },
-    {
-        image: tornadus,
-        name: "tornadus",
+        link: "torkoal",
+        form: "default",
     },
     {
         image: torracat,
         name: "torracat",
+        link: "torracat",
+        form: "default",
     },
     {
         image: torterra,
         name: "torterra",
+        link: "torterra",
+        form: "default",
     },
     {
         image: totodile,
         name: "totodile",
+        link: "totodile",
+        form: "default",
     },
     {
         image: toucannon,
         name: "toucannon",
+        link: "toucannon",
+        form: "default",
     },
     {
         image: toxapex,
         name: "toxapex",
+        link: "toxapex",
+        form: "default",
     },
     {
         image: toxel,
         name: "toxel",
+        link: "toxel",
+        form: "default",
     },
     {
         image: toxicroak,
         name: "toxicroak",
-    },
-    {
-        image: toxtricitygmax,
-        name: "toxtricity (Dynamax)",
-    },
-    {
-        image: toxtricitylowkeygmax,
-        name: "toxtricitylowkey (Dynamax)",
+        link: "toxicroak",
+        form: "default",
     },
     {
         image: toxtricitylowkey,
-        name: "toxtricitylowkey",
+        name: "toxtricity",
+        link: "toxtricitylowkey",
+        form: "low key",
     },
     {
         image: toxtricity,
         name: "toxtricity",
+        link: "toxtricity",
+        form: "default",
     },
     {
         image: tranquill,
         name: "tranquill",
+        link: "tranquill",
+        form: "default",
     },
     {
         image: trapinch,
         name: "trapinch",
+        link: "trapinch",
+        form: "default",
     },
     {
         image: treecko,
         name: "treecko",
+        link: "treecko",
+        form: "default",
     },
     {
         image: trevenant,
         name: "trevenant",
+        link: "trevenant",
+        form: "default",
     },
     {
         image: tropius,
         name: "tropius",
+        link: "tropius",
+        form: "default",
     },
     {
         image: trubbish,
         name: "trubbish",
+        link: "trubbish",
+        form: "default",
     },
     {
         image: trumbeak,
         name: "trumbeak",
+        link: "trumbeak",
+        form: "default",
     },
     {
         image: tsareena,
         name: "tsareena",
+        link: "tsareena",
+        form: "default",
     },
     {
         image: turtonator,
         name: "turtonator",
+        link: "turtonator",
+        form: "default",
     },
     {
         image: turtwig,
         name: "turtwig",
+        link: "turtwig",
+        form: "default",
     },
     {
         image: tympole,
         name: "tympole",
+        link: "tympole",
+        form: "default",
     },
     {
         image: tynamo,
         name: "tynamo",
+        link: "tynamo",
+        form: "default",
     },
     {
         image: typenull,
         name: "typenull",
+        link: "typenull",
+        form: "default",
     },
     {
         image: typhlosion,
         name: "typhlosion",
-    },
-    {
-        image: tyranitarmega,
-        name: "tyranitar (Mega)",
+        link: "typhlosion",
+        form: "default",
     },
     {
         image: tyranitar,
         name: "tyranitar",
+        link: "tyranitar",
+        form: "default",
     },
     {
         image: tyrantrum,
         name: "tyrantrum",
+        link: "tyrantrum",
+        form: "default",
     },
     {
         image: tyrogue,
         name: "tyrogue",
+        link: "tyrogue",
+        form: "default",
     },
     {
         image: tyrunt,
         name: "tyrunt",
+        link: "tyrunt",
+        form: "default",
     },
     {
         image: umbreon,
         name: "umbreon",
+        link: "umbreon",
+        form: "default",
     },
     {
         image: unfezantf,
-        name: "unfezantf",
+        name: "unfezant",
+        link: "unfezantf",
+        form: "female",
     },
     {
         image: unfezant,
         name: "unfezant",
-    },
-    {
-        image: unknownpokemon,
-        name: "unknownpokemon",
-    },
-    {
-        image: unknownpokemon2,
-        name: "unknownpokemon2",
+        link: "unfezant",
+        form: "default",
     },
     {
         image: unownb,
-        name: "unownb",
+        name: "unown",
+        link: "unownb",
+        form: "b",
     },
     {
         image: unownc,
-        name: "unownc",
+        name: "unown",
+        link: "unownc",
+        form: "c",
     },
     {
         image: unownd,
-        name: "unownd",
+        name: "unown",
+        link: "unownd",
+        form: "d",
     },
     {
         image: unowne,
-        name: "unowne",
+        name: "unown",
+        link: "unowne",
+        form: "e",
     },
     {
         image: unownexclamation,
-        name: "unownexclamation",
+        name: "unown",
+        link: "unownexclamation",
+        form: "exclamation",
     },
     {
         image: unownf,
-        name: "unownf",
+        name: "unown",
+        link: "unownf",
+        form: "f",
     },
     {
         image: unowng,
-        name: "unowng",
+        name: "unown",
+        link: "unowng",
+        form: "g",
     },
     {
         image: unownh,
-        name: "unownh",
+        name: "unown",
+        link: "unownh",
+        form: "h",
     },
     {
         image: unowni,
-        name: "unowni",
+        name: "unown",
+        link: "unowni",
+        form: "i",
     },
     {
         image: unownj,
-        name: "unownj",
+        name: "unown",
+        link: "unownj",
+        form: "j",
     },
     {
         image: unownk,
-        name: "unownk",
+        name: "unown",
+        link: "unownk",
+        form: "k",
     },
     {
         image: unownl,
-        name: "unownl",
+        name: "unown",
+        link: "unownl",
+        form: "l",
     },
     {
         image: unownm,
-        name: "unownm",
+        name: "unown",
+        link: "unownm",
+        form: "m",
     },
     {
         image: unownn,
-        name: "unownn",
+        name: "unown",
+        link: "unownn",
+        form: "n",
     },
     {
         image: unowno,
-        name: "unowno",
+        name: "unown",
+        link: "unowno",
+        form: "o",
     },
     {
         image: unownp,
-        name: "unownp",
+        name: "unown",
+        link: "unownp",
+        form: "p",
     },
     {
         image: unownq,
-        name: "unownq",
+        name: "unown",
+        link: "unownq",
+        form: "q",
     },
     {
         image: unownquestion,
-        name: "unownquestion",
+        name: "unown",
+        link: "unownquestion",
+        form: "question",
     },
     {
         image: unownr,
-        name: "unownr",
+        name: "unown",
+        link: "unownr",
+        form: "r",
     },
     {
         image: unowns,
-        name: "unowns",
+        name: "unown",
+        link: "unowns",
+        form: "s",
     },
     {
         image: unownt,
-        name: "unownt",
+        name: "unown",
+        link: "unownt",
+        form: "t",
     },
     {
         image: unownu,
-        name: "unownu",
+        name: "unown",
+        link: "unownu",
+        form: "u",
     },
     {
         image: unownv,
-        name: "unownv",
+        name: "unown",
+        link: "unownv",
+        form: "v",
     },
     {
         image: unownw,
-        name: "unownw",
+        name: "unown",
+        link: "unownw",
+        form: "w",
     },
     {
         image: unownx,
-        name: "unownx",
+        name: "unown",
+        link: "unownx",
+        form: "x",
     },
     {
         image: unowny,
-        name: "unowny",
+        name: "unown",
+        link: "unowny",
+        form: "y",
     },
     {
         image: unownz,
-        name: "unownz",
+        name: "unown",
+        link: "unownz",
+        form: "z",
     },
     {
         image: unown,
         name: "unown",
+        link: "unown",
+        form: "default",
     },
     {
         image: ursaring,
         name: "ursaring",
-    },
-    {
-        image: urshifugmax,
-        name: "urshifu (Dynamax)",
-    },
-    {
-        image: urshifurapidstrikegmax,
-        name: "urshifurapidstrike (Dynamax)",
-    },
-    {
-        image: urshifu,
-        name: "urshifu",
-    },
-    {
-        image: uxie,
-        name: "uxie",
+        link: "ursaring",
+        form: "default",
     },
     {
         image: vanillish,
         name: "vanillish",
+        link: "vanillish",
+        form: "default",
     },
     {
         image: vanillite,
         name: "vanillite",
+        link: "vanillite",
+        form: "default",
     },
     {
         image: vanilluxe,
         name: "vanilluxe",
+        link: "vanilluxe",
+        form: "default",
     },
     {
         image: vaporeon,
         name: "vaporeon",
+        link: "vaporeon",
+        form: "default",
     },
     {
         image: venipede,
         name: "venipede",
+        link: "venipede",
+        form: "default",
     },
     {
         image: venomoth,
         name: "venomoth",
+        link: "venomoth",
+        form: "default",
     },
     {
         image: venonat,
         name: "venonat",
-    },
-    {
-        image: venusaurgmax,
-        name: "venusaur (Dynamax)",
-    },
-    {
-        image: venusaurmega,
-        name: "venusaur (Mega)",
+        link: "venonat",
+        form: "default",
     },
     {
         image: venusaur,
         name: "venusaur",
+        link: "venusaur",
+        form: "default",
     },
     {
         image: vespiquen,
         name: "vespiquen",
+        link: "vespiquen",
+        form: "default",
     },
     {
         image: vibrava,
         name: "vibrava",
-    },
-    {
-        image: victini,
-        name: "victini",
+        link: "vibrava",
+        form: "default",
     },
     {
         image: victreebel,
         name: "victreebel",
+        link: "victreebel",
+        form: "default",
     },
     {
         image: vigoroth,
         name: "vigoroth",
+        link: "vigoroth",
+        form: "default",
     },
     {
         image: vikavolt,
         name: "vikavolt",
+        link: "vikavolt",
+        form: "default",
     },
     {
         image: vileplume,
         name: "vileplume",
+        link: "vileplume",
+        form: "default",
     },
     {
         image: virizion,
         name: "virizion",
+        link: "virizion",
+        form: "default",
     },
     {
         image: vivillonarchipelago,
-        name: "vivillonarchipelago",
+        name: "vivillon",
+        link: "vivillonarchipelago",
+        form: "archipelago",
     },
     {
         image: vivilloncontinental,
-        name: "vivilloncontinental",
+        name: "vivillon",
+        link: "vivilloncontinental",
+        form: "continental",
     },
     {
         image: vivillonelegant,
-        name: "vivillonelegant",
+        name: "vivillon",
+        link: "vivillonelegant",
+        form: "elegant",
     },
     {
         image: vivillonfancy,
-        name: "vivillonfancy",
+        name: "vivillon",
+        link: "vivillonfancy",
+        form: "fancy",
     },
     {
         image: vivillongarden,
-        name: "vivillongarden",
+        name: "vivillon",
+        link: "vivillongarden",
+        form: "garden",
     },
     {
         image: vivillonhighplains,
-        name: "vivillonhighplains",
+        name: "vivillon",
+        link: "vivillonhighplains",
+        form: "high-plains",
     },
     {
         image: vivillonicysnow,
-        name: "vivillonicysnow",
+        name: "vivillon",
+        link: "vivillonicysnow",
+        form: "icy-snow",
     },
     {
         image: vivillonjungle,
-        name: "vivillonjungle",
+        name: "vivillon",
+        link: "vivillonjungle",
+        form: "jungle",
     },
     {
         image: vivillonmarine,
-        name: "vivillonmarine",
+        name: "vivillon",
+        link: "vivillonmarine",
+        form: "marine",
     },
     {
         image: vivillonmodern,
-        name: "vivillonmodern",
+        name: "vivillon",
+        link: "vivillonmodern",
+        form: "modern",
     },
     {
         image: vivillonmonsoon,
-        name: "vivillonmonsoon",
+        name: "vivillon",
+        link: "vivillonmonsoon",
+        form: "monsoon",
     },
     {
         image: vivillonocean,
-        name: "vivillonocean",
+        name: "vivillon",
+        link: "vivillonocean",
+        form: "ocean",
     },
     {
         image: vivillonpokeball,
-        name: "vivillonpokeball",
+        name: "vivillon",
+        link: "vivillonpokeball",
+        form: "pokeball",
     },
     {
         image: vivillonpolar,
-        name: "vivillonpolar",
+        name: "vivillon",
+        link: "vivillonpolar",
+        form: "polar",
     },
     {
         image: vivillonriver,
-        name: "vivillonriver",
+        name: "vivillon",
+        link: "vivillonriver",
+        form: "river",
     },
     {
         image: vivillonsandstorm,
-        name: "vivillonsandstorm",
+        name: "vivillon",
+        link: "vivillonsandstorm",
+        form: "sandstorm",
     },
     {
         image: vivillonsavanna,
-        name: "vivillonsavanna",
+        name: "vivillon",
+        link: "vivillonsavanna",
+        form: "savanna",
     },
     {
         image: vivillonsun,
-        name: "vivillonsun",
+        name: "vivillon",
+        link: "vivillonsun",
+        form: "sun",
     },
     {
         image: vivillontundra,
-        name: "vivillontundra",
+        name: "vivillon",
+        link: "vivillontundra",
+        form: "tundra",
     },
     {
         image: vivillon,
         name: "vivillon",
+        link: "vivillon",
+        form: "default",
     },
     {
         image: volbeat,
         name: "volbeat",
-    },
-    {
-        image: volcanion,
-        name: "volcanion",
+        link: "volbeat",
+        form: "default",
     },
     {
         image: volcarona,
         name: "volcarona",
+        link: "volcarona",
+        form: "default",
     },
     {
         image: voltorb,
         name: "voltorb",
+        link: "voltorb",
+        form: "default",
     },
     {
         image: vullaby,
         name: "vullaby",
+        link: "vullaby",
+        form: "default",
     },
     {
         image: vulpixalola,
-        name: "vulpixalola",
+        name: "vulpix",
+        link: "vulpixalola",
+        form: "alola",
     },
     {
         image: vulpix,
         name: "vulpix",
+        link: "vulpix",
+        form: "default",
     },
     {
         image: wailmer,
         name: "wailmer",
+        link: "wailmer",
+        form: "default",
     },
     {
         image: wailord,
         name: "wailord",
+        link: "wailord",
+        form: "default",
     },
     {
         image: walrein,
         name: "walrein",
+        link: "walrein",
+        form: "default",
     },
     {
         image: wartortle,
         name: "wartortle",
+        link: "wartortle",
+        form: "default",
     },
     {
         image: watchog,
         name: "watchog",
+        link: "watchog",
+        form: "default",
     },
     {
         image: weavile,
         name: "weavile",
+        link: "weavile",
+        form: "default",
     },
     {
         image: weedle,
         name: "weedle",
+        link: "weedle",
+        form: "default",
     },
     {
         image: weepinbell,
         name: "weepinbell",
+        link: "weepinbell",
+        form: "default",
     },
     {
         image: weezinggalar,
-        name: "weezinggalar",
+        name: "weezing",
+        link: "weezinggalar",
+        form: "galar",
     },
     {
         image: weezing,
         name: "weezing",
+        link: "weezing",
+        form: "default",
     },
     {
         image: whimsicott,
         name: "whimsicott",
+        link: "whimsicott",
+        form: "default",
     },
     {
         image: whirlipede,
         name: "whirlipede",
+        link: "whirlipede",
+        form: "default",
     },
     {
         image: whiscash,
         name: "whiscash",
+        link: "whiscash",
+        form: "default",
     },
     {
         image: whismur,
         name: "whismur",
+        link: "whismur",
+        form: "default",
     },
     {
         image: wigglytuff,
         name: "wigglytuff",
+        link: "wigglytuff",
+        form: "default",
     },
     {
         image: wimpod,
         name: "wimpod",
+        link: "wimpod",
+        form: "default",
     },
     {
         image: wingull,
         name: "wingull",
-    },
-    {
-        image: wishiwashischool,
-        name: "wishiwashischool",
+        link: "wingull",
+        form: "default",
     },
     {
         image: wishiwashi,
         name: "wishiwashi",
+        link: "wishiwashi",
+        form: "default",
     },
     {
         image: wobbuffet,
         name: "wobbuffet",
+        link: "wobbuffet",
+        form: "default",
     },
     {
         image: woobat,
         name: "woobat",
+        link: "woobat",
+        form: "default",
     },
     {
         image: wooloo,
         name: "wooloo",
+        link: "wooloo",
+        form: "default",
     },
     {
         image: wooper,
         name: "wooper",
+        link: "wooper",
+        form: "default",
     },
     {
         image: wormadamsandy,
-        name: "wormadamsandy",
+        name: "wormadam",
+        link: "wormadamsandy",
+        form: "sandy",
     },
     {
         image: wormadamtrash,
-        name: "wormadamtrash",
+        name: "wormadam",
+        link: "wormadamtrash",
+        form: "trash",
     },
     {
         image: wormadam,
         name: "wormadam",
+        link: "wormadam",
+        form: "default",
     },
     {
         image: wurmple,
         name: "wurmple",
+        link: "wurmple",
+        form: "default",
     },
     {
         image: wynaut,
         name: "wynaut",
+        link: "wynaut",
+        form: "default",
     },
     {
         image: xatu,
         name: "xatu",
-    },
-    {
-        image: xerneasactive,
-        name: "xerneasactive",
-    },
-    {
-        image: xerneas,
-        name: "xerneas",
-    },
-    {
-        image: xurkitree,
-        name: "xurkitree",
+        link: "xatu",
+        form: "default",
     },
     {
         image: yamaskgalar,
-        name: "yamaskgalar",
+        name: "yamask",
+        link: "yamaskgalar",
+        form: "galar",
     },
     {
         image: yamask,
         name: "yamask",
+        link: "yamask",
+        form: "default",
     },
     {
         image: yamper,
         name: "yamper",
+        link: "yamper",
+        form: "default",
     },
     {
         image: yanma,
         name: "yanma",
+        link: "yanma",
+        form: "default",
     },
     {
         image: yanmega,
-        name: "yan (Mega)",
+        name: "yanmega",
+        link: "yanmega",
+        form: "default",
     },
     {
         image: yungoos,
         name: "yungoos",
-    },
-    {
-        image: yveltal,
-        name: "yveltal",
-    },
-    {
-        image: zaciancrowned,
-        name: "zaciancrowned",
-    },
-    {
-        image: zacian,
-        name: "zacian",
-    },
-    {
-        image: zamazentacrowned,
-        name: "zamazentacrowned",
-    },
-    {
-        image: zamazenta,
-        name: "zamazenta",
+        link: "yungoos",
+        form: "default",
     },
     {
         image: zangoose,
         name: "zangoose",
-    },
-    {
-        image: zapdosgalar,
-        name: "zapdosgalar",
-    },
-    {
-        image: zapdos,
-        name: "zapdos",
-    },
-    {
-        image: zarudedada,
-        name: "zarudedada",
-    },
-    {
-        image: zarude,
-        name: "zarude",
+        link: "zangoose",
+        form: "default",
     },
     {
         image: zebstrika,
         name: "zebstrika",
-    },
-    {
-        image: zekrom,
-        name: "zekrom",
-    },
-    {
-        image: zeraora,
-        name: "zeraora",
+        link: "zebstrika",
+        form: "default",
     },
     {
         image: zigzagoongalar,
-        name: "zigzagoongalar",
+        name: "zigzagoon",
+        link: "zigzagoongalar",
+        form: "galar",
     },
     {
         image: zigzagoon,
         name: "zigzagoon",
+        link: "zigzagoon",
+        form: "default",
     },
     {
         image: zoroark,
         name: "zoroark",
+        link: "zoroark",
+        form: "default",
     },
     {
         image: zorua,
         name: "zorua",
+        link: "zorua",
+        form: "default",
     },
     {
         image: zubat,
         name: "zubat",
+        link: "zubat",
+        form: "default",
     },
     {
         image: zweilous,
         name: "zweilous",
-    },
-    {
-        image: zygarde10,
-        name: "zygarde10",
-    },
-    {
-        image: zygardecomplete,
-        name: "zygardecomplete",
-    },
-    {
-        image: zygarde,
-        name: "zygarde",
+        link: "zweilous",
+        form: "default",
     },
 ]

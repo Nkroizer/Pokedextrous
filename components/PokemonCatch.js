@@ -52,10 +52,12 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
 export default class PokemonCatch extends Component {
     constructor(props) {
         super(props);
-        const shinyCalc = Math.floor(Math.random() * 2);
+        const isShiny = Math.floor(Math.random() * 15);
+        const shinyCalc = isShiny == 1;
         const tmpRandomNumber = shinyCalc ? Math.floor(Math.random() * allShinyImages.length) : Math.floor(Math.random() * allImages.length);
         const tmpPokemonImages = shinyCalc ? allShinyImages : allImages;
         const tmpName = capitalizeFirstLetter(tmpPokemonImages[tmpRandomNumber].name);
+        const tmpForm = capitalizeFirstLetter(tmpPokemonImages[tmpRandomNumber].form);
 
         this.state = {
             pokeballFlag: false,
@@ -65,40 +67,48 @@ export default class PokemonCatch extends Component {
             hidePokemon: false,
             messageBoxText: "",
             name: tmpName,
+            form: tmpForm,
         };
     }
     async displayCatchMessage() {
         this.setState({ pokeballFlag: true });
-        await delay(300);
+        await delay(1000);
         this.setState({ hidePokemon: true });
+        await delay(1000);
         this.setState({ messageBoxText: "" });
-        await delay(300);
         for (var i = 0; i < 3; i++) {
             this.setState({ messageBoxText: this.state.messageBoxText + "." });
             await delay(300);
         }
         this.setState({ messageBoxText: "Gotcha! " });
-        await delay(300);
         this.setState({ messageBoxText: this.state.messageBoxText + this.state.name });
-        await delay(300);
         this.setState({ messageBoxText: this.state.messageBoxText + " Was Cuaght!" });
         await delay(1000);
+        var newpokemonObj = {};
+        newpokemonObj.newPokemonName = this.state.name;
+        newpokemonObj.newPokemonId = this.state.randomNumber;
+        newpokemonObj.newPokemonImage = this.state.pokemonImages[this.state.randomNumber].image
         this.props.navigation.navigate('PokemonGame', {
             navigation: this.props.navigation,
-            newPokemonName: this.state.name,
-            newPokemonId: this.state.randomNumber,
+            newPokemon: newpokemonObj,
         });
-    }
-    async componentWillMount() {
+    };
+
+    async UNSAFE_componentWillMount() {
         await delay(300);
         this.setState({ messageBoxText: "A " });
-        await delay(300);
         this.setState({ messageBoxText: this.state.messageBoxText + "Wild " });
-        await delay(300);
         this.setState({ messageBoxText: this.state.messageBoxText + this.state.name });
-        await delay(300);
+        if (this.state.form && this.state.form != 'Default') {
+            this.setState({ messageBoxText: this.state.messageBoxText + " (" + this.state.form + ")" });
+        }
+        if (this.state.isShiny) {
+            this.setState({ messageBoxText: this.state.messageBoxText + "٭" });
+        }
         this.setState({ messageBoxText: this.state.messageBoxText + " Appeared!" });
-    }
+        await delay(300);
+    };
+
     render() {
         const windowWidth = Dimensions.get('window').width;
         return (

@@ -9,15 +9,8 @@ import AwardScreen from './components/AwardMain';
 import CollectionScreen from './components/CollectionMain';
 import RegionPokedex from './components/RegionPokedex';
 import PokemonDetails from './components/PokemonDetails';
-import PokemonCatch from './components/PokemonCatch'
-
-const ReactNative = require('react-native');
-try {
-  ReactNative.I18nManager.allowRTL(false);
-} catch (e) {
-  console.log(e);
-}
-
+import PokemonCatch from './components/PokemonCatch';
+import MiniGamePokedex from './components/MiniGamePokedex';
 
 function HomeScreen({ navigation }) {
   return (
@@ -98,6 +91,13 @@ export default function App() {
           component={PokemonCatch}
           options={{
             title: 'Pokemon Catch Mini Game',
+            ...MyTransition,
+          }} />
+        <Stack.Screen
+          name="MiniGamePokedex"
+          component={MiniGamePokedex}
+          options={{
+            title: 'Mini Game Pokedex',
             ...MyTransition,
           }} />
         <Stack.Screen name="PokemonAwards" component={AwardScreen} />

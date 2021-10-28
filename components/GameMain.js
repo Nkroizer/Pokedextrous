@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { Text, View, FlatList, Image, TouchableOpacity } from 'react-native';
+import { Text, View, FlatList, Image, TouchableOpacity, ScrollView } from 'react-native';
 import { Spring, animated } from '@react-spring/native';
 import { GameBoardSpries } from './GameBoardSprites';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-
-const AnimatedView = animated(View);
+const emptyPokemonList = require('../savedData/emptyPokemonList.json');
 
 const storeData = async (value) => {
     try {
@@ -25,22 +24,66 @@ const getData = async () => {
     }
 }
 
-const Item = ({ Name }) => (
-    <View>
-        <Text>{Name}</Text>
-    </View>
-);
+const getPokemonListData = async () => {
+    try {
+        const jsonValue = await AsyncStorage.getItem('@globalPokemonList')
+        return jsonValue != null ? JSON.parse(jsonValue) : null;
+    } catch (e) {
+        // error reading value
+    }
+}
 
-const renderItem = ({ item }) => (
-    <Item title={item.name} />
-);
+const storePokemonListData = async (value) => {
+    try {
+        const jsonValue = JSON.stringify(value)
+        await AsyncStorage.setItem('@globalPokemonList', jsonValue)
+    } catch (e) {
+        // saving error
+    }
+}
+
+const initializeNewGlobalPokemonList = () => {
+    var globalPokemonList = {
+        pokemonList: [],
+        numberOfCuaght: 0
+    };
+    globalPokemonList.pokemonList = emptyPokemonList;
+    storePokemonListData(globalPokemonList);
+}
+
+const getStarted = async () => {
+    var globalPokemonList = {
+        pokemonList: [],
+        numberOfCuaght: 0
+    };
+    globalPokemonList = await getPokemonListData();
+    if (!globalPokemonList) {
+        initializeNewGlobalPokemonList();
+    }
+
+    return globalPokemonList;
+}
+
+function renderItem(data) {
+    return (
+        <View>
+            <Image source={data.item.image}
+                style={{
+                    resizeMode: "contain",
+                    height: 45,
+                    width: 45
+                }} />
+        </View>
+    )
+};
 
 const GameBoard = {
     overflow: 'scroll'
 }
 
 const GameTable = {
-    marginTop: 20,
+    borderColor: 'black',
+    borderWidth: 3,
     marginBottom: 20
 }
 
@@ -62,22 +105,29 @@ const GameCellImage = {
 }
 
 const GamePad = {
-    margin: 10
+    margin: 10,
+    display: 'flex',
+    flexDirection: "row",
+    justifyContent: 'space-between',
 }
 
 const GamePadRow = {
     display: 'flex',
     flexDirection: "row",
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    direction: 'ltr'
 }
 
-const textBoxWWrapper = {
+const textBoxWrapper = {
     borderColor: 'black',
     borderWidth: 3,
     height: 50,
     borderRadius: 5,
-    margin: 3,
+    margin: 12,
+    marginTop: -80,
+    marginBottom: 28,
+    backgroundColor: 'white',
 }
 
 const textBoxStyles = {
@@ -91,6 +141,27 @@ const textBoxStyles = {
     fontFamily: 'monospace'
 }
 
+const pokemonListBoxWrapper = {
+    borderColor: 'black',
+    padding: 10,
+    borderWidth: 3,
+    minHeight: 150,
+    width: '50%',
+    borderRadius: 5,
+    margin: 3,
+    backgroundColor: 'red'
+}
+
+const pokemonListBox = {
+    borderColor: 'black',
+    padding: 10,
+    borderWidth: 3,
+    minHeight: 120,
+    width: '100%',
+    borderRadius: 5,
+    backgroundColor: 'white'
+}
+
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 export default class GameScreen extends Component {
@@ -102,6 +173,7 @@ export default class GameScreen extends Component {
             messageFlag: false,
             pokemonListData: {},
             showPokemonList: false,
+            forceRefresh: true,
             messageBoxText: "",
             boardRefresh: [
                 [
@@ -314,40 +386,60 @@ export default class GameScreen extends Component {
                 ]
             ],
         };
-    }
+    };
+
     async loadPokemonList() {
         var tmpPokemonListData = await getData();
 
         if (!tmpPokemonListData) {
-            tmpPokemonListData = { pokemoCuaght: [] }
+            tmpPokemonListData = { pokemoCuaght: [] };
         }
 
-        if (this.props.newPokemon) {
-            tmpPokemonListData.pokemoCuaght.push({ name: props.newPokemonName, id: propsnewPokemonId })
+        var tmpHolder = tmpPokemonListData;
+
+        if (this.props.route.params.newPokemon) {
+            tmpPokemonListData = { pokemoCuaght: [] };
+            tmpPokemonListData.pokemoCuaght.push({
+                name: this.props.route.params.newPokemon.newPokemonName,
+                id: this.props.route.params.newPokemon.newPokemonId,
+                image: this.props.route.params.newPokemon.newPokemonImage,
+            });
+
+            if (tmpHolder && tmpHolder.pokemoCuaght) {
+                tmpHolder.pokemoCuaght.forEach(pokemon => {
+                    tmpPokemonListData.pokemoCuaght.push(pokemon)
+                });
+            }
         }
+
+        this.props.route.params.newPokemon = null;
 
         if (tmpPokemonListData) {
             storeData(tmpPokemonListData);
-            this.setState({ pokemonListData: tmpPokemonListData, showPokemonList: true });
+            this.setState({ pokemonListData: tmpPokemonListData });
+            this.setState({ showPokemonList: true });
         }
-    }
+        this.setState({ forceRefresh: false });
+    };
+
+    async clearPokemonList() {
+        storeData(null);
+        this.setState({ pokemonListData: {} });
+    };
+
     async showAlert() {
         await delay(100);
         this.setState({ messageBoxText: "A " });
-        await delay(100);
         this.setState({ messageBoxText: this.state.messageBoxText + "Wild " });
-        await delay(100);
         this.setState({ messageBoxText: this.state.messageBoxText + "Pokemon " });
-        await delay(100);
         this.setState({ messageBoxText: this.state.messageBoxText + "Has " });
-        await delay(100);
         this.setState({ messageBoxText: this.state.messageBoxText + "Appeared!" });
         await delay(1000);
         this.props.navigation.navigate('PokemonCatch', {
             navigation: this.props.navigation
         });
         this.setState({ messageFlag: false });
-    }
+    };
 
     async movePlayer(upPosition, rightPosition) {
         const currentX = this.state.playerPosition.x;
@@ -413,372 +505,400 @@ export default class GameScreen extends Component {
             this.showAlert();
         }
     };
+
     pokemonAppear() {
         return Math.floor(Math.random() * 2);
-    }
+    };
+
+    async openPokedex() {
+        const tmpList = await getStarted();
+        this.props.navigation.navigate('MiniGamePokedex', {
+            pokemonList: tmpList
+        });
+    };
+
     render() {
-        this.loadPokemonList();
+        if (this.props.route.params.newPokemon || this.state.forceRefresh) {
+            this.loadPokemonList();
+        }
         return (
-            <View style={GameBoard}>
-                <View style={GameTable}>
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][0].displayImage} alt="Logo" />
+            <ScrollView
+                scrollEnabled={true}>
+                <View style={GameBoard}>
+                    <View style={GameTable}>
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[0][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][1].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[1][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][2].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[2][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][3].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[3][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][4].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[4][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][5].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[5][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][6].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[6][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[0][7].displayImage} alt="Logo" />
+                        <View style={GameRow}>
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][0].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][1].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][2].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][3].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][4].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][5].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][6].displayImage} alt="Logo" />
+                            </View>
+
+                            <View style={GameCell}>
+                                <Image style={GameCellImage} source={this.state.boardRefresh[7][7].displayImage} alt="Logo" />
+                            </View>
                         </View>
                     </View>
 
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][0].displayImage} alt="Logo" />
+                    {this.state.messageFlag &&
+                        <View style={textBoxWrapper}>
+                            <Text style={textBoxStyles}>
+                                {this.state.messageBoxText}
+                            </Text>
                         </View>
+                    }
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][1].displayImage} alt="Logo" />
-                        </View>
+                    <View style={GamePad}>
+                        <TouchableOpacity style={pokemonListBoxWrapper}
+                            onPress={() => {
+                                this.openPokedex()
+                            }}>
+                            <View style={pokemonListBox}>
+                                {this.state.showPokemonList &&
+                                    <FlatList
+                                        numColumns={3}
+                                        data={this.state.pokemonListData.pokemoCuaght}
+                                        renderItem={item => renderItem(item)}
+                                        keyExtractor={item => item.id.toString()}
+                                    />
+                                }
+                            </View>
+                        </TouchableOpacity>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][2].displayImage} alt="Logo" />
-                        </View>
+                        <View>
+                            <View style={GamePadRow}>
+                                <TouchableOpacity
+                                    onPress={() => {
+                                        this.movePlayer(-1, 0)
+                                    }}>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][3].displayImage} alt="Logo" />
-                        </View>
+                                    <Image source={GameBoardSpries.upArrow}
+                                        style={{
+                                            resizeMode: "contain",
+                                            height: 50,
+                                            width: 50
+                                        }} />
+                                </TouchableOpacity>
+                            </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][4].displayImage} alt="Logo" />
-                        </View>
+                            <View style={GamePadRow}>
+                                <TouchableOpacity
+                                    onPress={() => {
+                                        this.movePlayer(0, -1)
+                                    }}>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][5].displayImage} alt="Logo" />
-                        </View>
+                                    <Image source={GameBoardSpries.leftArrow}
+                                        style={{
+                                            resizeMode: "contain",
+                                            height: 50,
+                                            width: 50
+                                        }} />
+                                </TouchableOpacity>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][6].displayImage} alt="Logo" />
-                        </View>
+                                <TouchableOpacity
+                                    onPress={() => {
+                                        this.clearPokemonList();
+                                    }}>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[1][7].displayImage} alt="Logo" />
-                        </View>
-                    </View>
+                                    <Image source={GameBoardSpries.padCenter}
+                                        style={{
+                                            resizeMode: "contain",
+                                            height: 50,
+                                            width: 50,
+                                        }} />
+                                </TouchableOpacity>
 
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][0].displayImage} alt="Logo" />
-                        </View>
+                                <TouchableOpacity
+                                    onPress={() => {
+                                        this.movePlayer(0, 1)
+                                    }}>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][1].displayImage} alt="Logo" />
-                        </View>
+                                    <Image source={GameBoardSpries.rightArrow}
+                                        style={{
+                                            resizeMode: "contain",
+                                            height: 50,
+                                            width: 50
+                                        }} />
+                                </TouchableOpacity>
+                            </View>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][2].displayImage} alt="Logo" />
-                        </View>
+                            <View style={GamePadRow}>
+                                <TouchableOpacity
+                                    onPress={() => {
+                                        this.movePlayer(1, 0)
+                                    }}>
 
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][3].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][4].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][5].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][6].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[2][7].displayImage} alt="Logo" />
-                        </View>
-                    </View>
-
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][0].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][1].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][2].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][3].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][4].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][5].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][6].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[3][7].displayImage} alt="Logo" />
-                        </View>
-                    </View>
-
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][0].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][1].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][2].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][3].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][4].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][5].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][6].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[4][7].displayImage} alt="Logo" />
-                        </View>
-                    </View>
-
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][0].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][1].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][2].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][3].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][4].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][5].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][6].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[5][7].displayImage} alt="Logo" />
-                        </View>
-                    </View>
-
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][0].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][1].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][2].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][3].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][4].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][5].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][6].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[6][7].displayImage} alt="Logo" />
-                        </View>
-                    </View>
-
-                    <View style={GameRow}>
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][0].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][1].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][2].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][3].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][4].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][5].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][6].displayImage} alt="Logo" />
-                        </View>
-
-                        <View style={GameCell}>
-                            <Image style={GameCellImage} source={this.state.boardRefresh[7][7].displayImage} alt="Logo" />
+                                    <Image source={GameBoardSpries.downArrow}
+                                        style={{
+                                            resizeMode: "contain",
+                                            height: 50,
+                                            width: 50
+                                        }} />
+                                </TouchableOpacity>
+                            </View>
                         </View>
                     </View>
                 </View>
-
-                {this.state.messageFlag &&
-                    <View style={textBoxWWrapper}>
-                        <Text style={textBoxStyles}>
-                            {this.state.messageBoxText}
-                        </Text>
-                    </View>
-                }
-
-                <View style={GamePad}>
-                    <View style={GamePadRow}>
-                        <TouchableOpacity
-                            onPress={() => {
-                                this.movePlayer(-1, 0)
-                            }}>
-
-                            <Image source={GameBoardSpries.upArrow}
-                                style={{
-                                    resizeMode: "contain",
-                                    height: 50,
-                                    width: 50
-                                }} />
-                        </TouchableOpacity>
-                    </View>
-
-                    <View style={GamePadRow}>
-                        <TouchableOpacity
-                            onPress={() => {
-                                this.movePlayer(0, -1)
-                            }}>
-
-                            <Image source={GameBoardSpries.leftArrow}
-                                style={{
-                                    resizeMode: "contain",
-                                    height: 50,
-                                    width: 50
-                                }} />
-                        </TouchableOpacity>
-
-                        <Image source={GameBoardSpries.padCenter}
-                            style={{
-                                resizeMode: "contain",
-                                height: 50,
-                                width: 50,
-                            }} />
-
-                        <TouchableOpacity
-                            onPress={() => {
-                                this.movePlayer(0, 1)
-                            }}>
-
-                            <Image source={GameBoardSpries.rightArrow}
-                                style={{
-                                    resizeMode: "contain",
-                                    height: 50,
-                                    width: 50
-                                }} />
-                        </TouchableOpacity>
-                    </View>
-
-                    <View style={GamePadRow}>
-                        <TouchableOpacity
-                            onPress={() => {
-                                this.movePlayer(1, 0)
-                            }}>
-
-                            <Image source={GameBoardSpries.downArrow}
-                                style={{
-                                    resizeMode: "contain",
-                                    height: 50,
-                                    width: 50
-                                }} />
-                        </TouchableOpacity>
-                    </View>
-                </View>
-
-                {this.state.showPokemonList &&
-                    <View style={textBoxWWrapper}>
-                        <FlatList
-                            data={this.state.pokemonListData}
-                            renderItem={renderItem}
-                            keyExtractor={item => item.id}
-                        />
-                    </View>
-                }
-            </View>
+            </ScrollView>
         );
     }
 }
