@@ -64,6 +64,19 @@ const getStarted = async () => {
     return globalPokemonList;
 }
 
+const updateGlobalPokemonList = async (pokemon) => {
+    const globalPokemonList = await getPokemonListData();
+    const found = globalPokemonList.pokemonList.findIndex(element => element.name.toLower() == pokemon.name);
+    globalPokemonList.isStarted = true;
+    globalPokemonList.pokemonList[found].avialableForms.forEach(form => {
+        if (form.formName == pokemon.form) {
+            form.cuaght = true;
+        }
+    });
+    globalPokemonList.numberOfCuaght++;
+    storePokemonListData(globalPokemonList);
+}
+
 function renderItem(data) {
     return (
         <View>
@@ -400,9 +413,8 @@ export default class GameScreen extends Component {
         if (this.props.route.params.newPokemon) {
             tmpPokemonListData = { pokemoCuaght: [] };
             tmpPokemonListData.pokemoCuaght.push({
-                name: this.props.route.params.newPokemon.newPokemonName,
-                id: this.props.route.params.newPokemon.newPokemonId,
-                image: this.props.route.params.newPokemon.newPokemonImage,
+                name: this.props.route.params.newPokemon.name,
+                image: this.props.route.params.newPokemon.image,
             });
 
             if (tmpHolder && tmpHolder.pokemoCuaght) {
@@ -411,6 +423,8 @@ export default class GameScreen extends Component {
                 });
             }
         }
+
+        updateGlobalPokemonList(this.props.route.params.newPokemon);
 
         this.props.route.params.newPokemon = null;
 

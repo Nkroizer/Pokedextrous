@@ -55,19 +55,15 @@ export default class PokemonCatch extends Component {
         const isShiny = Math.floor(Math.random() * 15);
         const shinyCalc = isShiny == 1;
         const tmpRandomNumber = shinyCalc ? Math.floor(Math.random() * allShinyImages.length) : Math.floor(Math.random() * allImages.length);
-        const tmpPokemonImages = shinyCalc ? allShinyImages : allImages;
-        const tmpName = capitalizeFirstLetter(tmpPokemonImages[tmpRandomNumber].name);
-        const tmpForm = capitalizeFirstLetter(tmpPokemonImages[tmpRandomNumber].form);
+        const tmpPokemonObj = shinyCalc ? allShinyImages[tmpRandomNumber] : allImages[tmpRandomNumber];
 
         this.state = {
             pokeballFlag: false,
             randomNumber: tmpRandomNumber,
             isShiny: shinyCalc,
-            pokemonImages: tmpPokemonImages,
             hidePokemon: false,
             messageBoxText: "",
-            name: tmpName,
-            form: tmpForm,
+            pokemonObj: tmpPokemonObj,
         };
     }
     async displayCatchMessage() {
@@ -81,16 +77,12 @@ export default class PokemonCatch extends Component {
             await delay(300);
         }
         this.setState({ messageBoxText: "Gotcha! " });
-        this.setState({ messageBoxText: this.state.messageBoxText + this.state.name });
+        this.setState({ messageBoxText: this.state.messageBoxText + capitalizeFirstLetter(this.state.pokemonObj.name) });
         this.setState({ messageBoxText: this.state.messageBoxText + " Was Cuaght!" });
         await delay(1000);
-        var newpokemonObj = {};
-        newpokemonObj.newPokemonName = this.state.name;
-        newpokemonObj.newPokemonId = this.state.randomNumber;
-        newpokemonObj.newPokemonImage = this.state.pokemonImages[this.state.randomNumber].image
         this.props.navigation.navigate('PokemonGame', {
             navigation: this.props.navigation,
-            newPokemon: newpokemonObj,
+            newPokemon: this.state.pokemonObj,
         });
     };
 
@@ -98,9 +90,9 @@ export default class PokemonCatch extends Component {
         await delay(300);
         this.setState({ messageBoxText: "A " });
         this.setState({ messageBoxText: this.state.messageBoxText + "Wild " });
-        this.setState({ messageBoxText: this.state.messageBoxText + this.state.name });
-        if (this.state.form && this.state.form != 'Default') {
-            this.setState({ messageBoxText: this.state.messageBoxText + " (" + this.state.form + ")" });
+        this.setState({ messageBoxText: this.state.messageBoxText + capitalizeFirstLetter(this.state.name) });
+        if (this.state.pokemonObj.form && this.state.pokemonObj.form != 'default') {
+            this.setState({ messageBoxText: this.state.messageBoxText + " (" + capitalizeFirstLetter(this.state.form) + ")" });
         }
         if (this.state.isShiny) {
             this.setState({ messageBoxText: this.state.messageBoxText + "٭" });
@@ -120,7 +112,7 @@ export default class PokemonCatch extends Component {
                 >
                     {props => (
                         <AnimatedView style={{ ...styles, ...props }}>
-                            <Image source={this.state.pokemonImages[this.state.randomNumber].image}
+                            <Image source={this.state.pokemonObj.image}
                                 style={{
                                     resizeMode: "contain",
                                     height: 100,
