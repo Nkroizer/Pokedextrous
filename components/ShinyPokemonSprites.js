@@ -171,7 +171,6 @@ import castformsnowy from "../assets/img/pokemon/shiny/castform-snowy.png"
 import castformsunny from "../assets/img/pokemon/shiny/castform-sunny.png"
 import castform from "../assets/img/pokemon/shiny/castform.png"
 import caterpie from "../assets/img/pokemon/shiny/caterpie.png"
-import celesteela from "../assets/img/pokemon/shiny/celesteela.png"
 import centiskorch from "../assets/img/pokemon/shiny/centiskorch.png"
 import chandelure from "../assets/img/pokemon/shiny/chandelure.png"
 import chansey from "../assets/img/pokemon/shiny/chansey.png"
@@ -934,7 +933,6 @@ import turtonator from "../assets/img/pokemon/shiny/turtonator.png"
 import turtwig from "../assets/img/pokemon/shiny/turtwig.png"
 import tympole from "../assets/img/pokemon/shiny/tympole.png"
 import tynamo from "../assets/img/pokemon/shiny/tynamo.png"
-import typenull from "../assets/img/pokemon/shiny/type-null.png"
 import typhlosion from "../assets/img/pokemon/shiny/typhlosion.png"
 import tyranitar from "../assets/img/pokemon/shiny/tyranitar.png"
 import tyrantrum from "../assets/img/pokemon/shiny/tyrantrum.png"
@@ -986,7 +984,6 @@ import victreebel from "../assets/img/pokemon/shiny/victreebel.png"
 import vigoroth from "../assets/img/pokemon/shiny/vigoroth.png"
 import vikavolt from "../assets/img/pokemon/shiny/vikavolt.png"
 import vileplume from "../assets/img/pokemon/shiny/vileplume.png"
-import virizion from "../assets/img/pokemon/shiny/virizion.png"
 import vivillonarchipelago from "../assets/img/pokemon/shiny/vivillon-archipelago.png"
 import vivilloncontinental from "../assets/img/pokemon/shiny/vivillon-continental.png"
 import vivillonelegant from "../assets/img/pokemon/shiny/vivillon-elegant.png"
@@ -1056,7 +1053,7 @@ import zorua from "../assets/img/pokemon/shiny/zorua.png"
 import zubat from "../assets/img/pokemon/shiny/zubat.png"
 import zweilous from "../assets/img/pokemon/shiny/zweilous.png"
 
-export const allImages = [
+export const allShinyImages = [
     {
         image: abomasnow,
         name: "abomasnow",
@@ -2093,12 +2090,6 @@ export const allImages = [
         image: caterpie,
         name: "caterpie",
         link: "caterpie",
-        form: "default",
-    },
-    {
-        image: celesteela,
-        name: "celesteela",
-        link: "celesteela",
         form: "default",
     },
     {
@@ -4756,13 +4747,13 @@ export const allImages = [
     {
         image: nidoranf,
         name: "nidoran female",
-        link: "nidoranf",
+        link: "nidoran-f",
         form: "default",
     },
     {
         image: nidoranm,
         name: "nidoran male",
-        link: "nidoranm",
+        link: "nidoran-m",
         form: "default",
     },
     {
@@ -6674,12 +6665,6 @@ export const allImages = [
         form: "default",
     },
     {
-        image: typenull,
-        name: "typenull",
-        link: "typenull",
-        form: "default",
-    },
-    {
         image: typhlosion,
         name: "typhlosion",
         link: "typhlosion",
@@ -6983,12 +6968,6 @@ export const allImages = [
         image: vileplume,
         name: "vileplume",
         link: "vileplume",
-        form: "default",
-    },
-    {
-        image: virizion,
-        name: "virizion",
-        link: "virizion",
         form: "default",
     },
     {

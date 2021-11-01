@@ -154,8 +154,11 @@ import zapdos from "../assets/img/pokemon/shiny/zapdos.png"
 import victini from "../assets/img/pokemon/shiny/victini.png"
 import urshifu from "../assets/img/pokemon/shiny/urshifu.png"
 import uxie from "../assets/img/pokemon/shiny/uxie.png"
+import virizion from "../assets/img/pokemon/shiny/virizion.png"
+import typenull from "../assets/img/pokemon/shiny/type-null.png"
+import celesteela from "../assets/img/pokemon/shiny/celesteela.png"
 
-export const RegularLegendaryPokemonSprites = [
+export const ShinyLegendaryPokemonSprites = [
     {
         image: arceusbug,
         name: "arceus",
@@ -1093,6 +1096,24 @@ export const RegularLegendaryPokemonSprites = [
         image: uxie,
         name: "uxie",
         link: "uxie",
+        form: "default",
+    },
+    {
+        image: virizion,
+        name: "virizion",
+        link: "virizion",
+        form: "default",
+    },
+    {
+        image: typenull,
+        name: "typenull",
+        link: "typenull",
+        form: "default",
+    },
+    {
+        image: celesteela,
+        name: "celesteela",
+        link: "celesteela",
         form: "default",
     },
 ]

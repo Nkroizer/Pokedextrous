@@ -33,7 +33,7 @@ import urshifugmax from "../assets/img/pokemon/urshifu-gmax.png"
 import urshifurapidstrikegmax from "../assets/img/pokemon/urshifu-rapid-strike-gmax.png"
 import venusaurgmax from "../assets/img/pokemon/venusaur-gmax.png"
 
-export const RegularGMaxPokemonSprites = [
+export const ShinyGMaxPokemonSprites = [
     {
         image: alcremiegmax,
         name: "alcremie",

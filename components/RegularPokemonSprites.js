@@ -171,7 +171,6 @@ import castformsnowy from "../assets/img/pokemon/castform-snowy.png"
 import castformsunny from "../assets/img/pokemon/castform-sunny.png"
 import castform from "../assets/img/pokemon/castform.png"
 import caterpie from "../assets/img/pokemon/caterpie.png"
-import celesteela from "../assets/img/pokemon/celesteela.png"
 import centiskorch from "../assets/img/pokemon/centiskorch.png"
 import chandelure from "../assets/img/pokemon/chandelure.png"
 import chansey from "../assets/img/pokemon/chansey.png"
@@ -934,7 +933,6 @@ import turtonator from "../assets/img/pokemon/turtonator.png"
 import turtwig from "../assets/img/pokemon/turtwig.png"
 import tympole from "../assets/img/pokemon/tympole.png"
 import tynamo from "../assets/img/pokemon/tynamo.png"
-import typenull from "../assets/img/pokemon/type-null.png"
 import typhlosion from "../assets/img/pokemon/typhlosion.png"
 import tyranitar from "../assets/img/pokemon/tyranitar.png"
 import tyrantrum from "../assets/img/pokemon/tyrantrum.png"
@@ -986,7 +984,6 @@ import victreebel from "../assets/img/pokemon/victreebel.png"
 import vigoroth from "../assets/img/pokemon/vigoroth.png"
 import vikavolt from "../assets/img/pokemon/vikavolt.png"
 import vileplume from "../assets/img/pokemon/vileplume.png"
-import virizion from "../assets/img/pokemon/virizion.png"
 import vivillonarchipelago from "../assets/img/pokemon/vivillon-archipelago.png"
 import vivilloncontinental from "../assets/img/pokemon/vivillon-continental.png"
 import vivillonelegant from "../assets/img/pokemon/vivillon-elegant.png"
@@ -2093,12 +2090,6 @@ export const allImages = [
         image: caterpie,
         name: "caterpie",
         link: "caterpie",
-        form: "default",
-    },
-    {
-        image: celesteela,
-        name: "celesteela",
-        link: "celesteela",
         form: "default",
     },
     {
@@ -4756,13 +4747,13 @@ export const allImages = [
     {
         image: nidoranf,
         name: "nidoran female",
-        link: "nidoranf",
+        link: "nidoran-f",
         form: "default",
     },
     {
         image: nidoranm,
         name: "nidoran male",
-        link: "nidoranm",
+        link: "nidoran-m",
         form: "default",
     },
     {
@@ -6674,12 +6665,6 @@ export const allImages = [
         form: "default",
     },
     {
-        image: typenull,
-        name: "typenull",
-        link: "typenull",
-        form: "default",
-    },
-    {
         image: typhlosion,
         name: "typhlosion",
         link: "typhlosion",
@@ -6983,12 +6968,6 @@ export const allImages = [
         image: vileplume,
         name: "vileplume",
         link: "vileplume",
-        form: "default",
-    },
-    {
-        image: virizion,
-        name: "virizion",
-        link: "virizion",
         form: "default",
     },
     {

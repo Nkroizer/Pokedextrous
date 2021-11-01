@@ -384,6 +384,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sandshrew"
+      },
+      {
+        "formName": "alola",
+        "cuaght": false,
+        "defaultSprite": "sandshrewalola"
       }
     ]
   },
@@ -398,6 +403,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sandslash"
+      },
+      {
+        "formName": "alola",
+        "cuaght": false,
+        "defaultSprite": "sandslashalola"
       }
     ]
   },
@@ -3154,6 +3164,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "scizor"
+      },
+      {
+        "formName": "mega",
+        "cuaght": false,
+        "defaultSprite": "scizormega"
       }
     ]
   },
@@ -3747,6 +3762,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sceptile"
+      },
+      {
+        "formName": "mega",
+        "cuaght": false,
+        "defaultSprite": "sceptilemega"
       }
     ]
   },
@@ -4424,6 +4444,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sableye"
+      },
+      {
+        "formName": "mega",
+        "cuaght": false,
+        "defaultSprite": "sableyemega"
       }
     ]
   },
@@ -4662,6 +4687,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sharpedo"
+      },
+      {
+        "formName": "mega",
+        "cuaght": false,
+        "defaultSprite": "sharpedomega"
       }
     ]
   },
@@ -5428,6 +5458,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "salamence"
+      },
+      {
+        "formName": "mega",
+        "cuaght": false,
+        "defaultSprite": "salamencemega"
       }
     ]
   },
@@ -6124,6 +6159,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "shellos"
+      },
+      {
+        "formName": "east",
+        "cuaght": false,
+        "defaultSprite": "shelloseast"
       }
     ]
   },
@@ -7104,6 +7144,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "shaymin"
+      },
+      {
+        "formName": "sky",
+        "cuaght": false,
+        "defaultSprite": "shayminsky"
       }
     ]
   },
@@ -8430,6 +8475,21 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sawsbuck"
+      },
+      {
+        "formName": "winter",
+        "cuaght": false,
+        "defaultSprite": "sawsbuckwinter"
+      },
+      {
+        "formName": "summer",
+        "cuaght": false,
+        "defaultSprite": "sawsbucksummer"
+      },
+      {
+        "formName": "autumn",
+        "cuaght": false,
+        "defaultSprite": "sawsbuckautumn"
       }
     ]
   },
@@ -12247,6 +12307,11 @@
         "formName": "default",
         "cuaght": false,
         "defaultSprite": "sandaconda"
+      },
+      {
+        "formName": "gmax",
+        "cuaght": false,
+        "defaultSprite": "sandacondagmax"
       }
     ]
   },

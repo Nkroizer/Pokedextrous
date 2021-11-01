@@ -16,7 +16,7 @@ const MiniGamePokedexCube = {
 }
 
 function renderItem(data) {
-    const defaultSprite = allImages.findIndex(element => element.link.toLower() == data.item.defaultSprite);
+    const defaultSprite = allImages.findIndex(element => element && element.link && element.link.toLower() == data.item.defaultSprite);
     return (
         <View style={MiniGamePokedexCube}>
                 <Image source={data.item.isStarted ? defaultSprite : unknownPokemon}

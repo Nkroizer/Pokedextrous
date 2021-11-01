@@ -440,27 +440,3 @@ import rayquazamega
 import rillaboomgmax
 
 import swampertmega
-
-import sableyemega
-
-import salamencemega
-
-import sandacondagmax
-
-import sandshrewalola
-
-import sandslashalola
-
-import sawsbuckautumn
-import sawsbucksummer
-import sawsbuckwinter
-
-import sceptilemega
-
-import scizormega
-
-import sharpedomega
-
-import shayminsky
-
-import shelloseast
